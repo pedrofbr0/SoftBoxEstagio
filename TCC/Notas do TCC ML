@@ -1,0 +1,45 @@
+TCC - Machine Learning e Smartgrid
+
+https://smartech.gatech.edu/bitstream/handle/1853/58729/ZHANG-DISSERTATION-2017.pdf?sequence=1&isAllowed=y
+
+https://pure.tue.nl/ws/files/77436888/20171009_Mocanu.pdf
+
+machine learning eh o seguinte
+
+vc tem um monte de entrada
+
+um monte de caracteristica de um trem
+
+com varias entradas
+
+vc gera uma funcao hipotese
+
+
+q relaciona essas caracteristicas com a saida
+
+vc precisa disso
+
+
+entao vc tem q pensar no seu problema
+
+pra cada barramento
+
+se n da pra colocar como verdadeiro ou falso
+
+vc precisa definir um grau de vulnerabildiade
+
+ou algo assim
+
+Reis, o que da pra fazer em programação é automatizar o processo de cálculo de áreas vulneráveis. O que daria pra fazer com machine learning é estimar a chance de uma nova barra ser uma área vulnerável baseada em alguma informação das outras(fator de potência, distância de outras barras vulneráveis, etc)
+
+
+o parametro eh chance de ser vulneravel
+
+Acho que o mais simples seria transformar em supervised multi-classification
+
+Aí você classifica a vulnerabilidade em 0(não vulneravel), 1(vulneravel) e 2 (muito vulneravel)
+
+
+19/04/2018
+
+- é possível utilizar de um método supervisionado (supervised learning) para classificar como "vulnerável" ou "não-vulnerável" dado sistema elétrico. Comparar com os métodos já existentes.

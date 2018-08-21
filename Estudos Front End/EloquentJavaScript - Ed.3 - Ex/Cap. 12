@@ -1,0 +1,75 @@
+Cap. 12
+
+
+Arrays
+
+// Modify these definitions...
+
+topScope.array = (...args) => args;
+
+topScope.length = (args) => args.length;
+
+topScope.element = (array, n) => array[n];
+
+run(`
+do(define(sum, fun(array,
+     do(define(i, 0),
+        define(sum, 0),
+        while(<(i, length(array)),
+          do(define(sum, +(sum, element(array, i))),
+             define(i, +(i, 1)))),
+        sum))),
+   print(sum(array(1, 2, 3))))
+`);
+// → 6
+
+
+Comments
+
+// This is the old skipSpace. Modify it...
+function skipSpace(string) {
+  let comment = string.match(/^(\s|#.*)*/);
+  return string.slice(comment[0].length);
+}
+
+
+console.log(parse("# hello\nx"));
+// → {type: "word", name: "x"}
+
+console.log(parse("a # one\n   # two\n()"));
+// → {type: "apply",
+//    operator: {type: "word", name: "a"},
+//    args: []}
+
+
+
+Fixing Scope
+
+specialForms.set = (args, scope) => {
+  if(args.length != 2 || args[0].type != "word") {
+    throw new SyntaxError("Incorrect use of set");
+  }
+  let name = args[0].name;
+  let value = evaluate(args[1], scope);
+  
+  while (scope) {
+    if (Object.prototype.hasOwnProperty.call(scope, name)) {
+      scope[name] = value;
+      return value;
+    }
+    scope = Object.getPrototypeOf(scope);
+    
+  }
+  throw new ReferenceError("biding not defined");
+    
+};
+
+run(`
+do(define(x, 4),
+   define(setx, fun(val, set(x, val))),
+   setx(50),
+   print(x))
+`);
+// → 50
+run(`set(quux, true)`);
+// → Some kind of ReferenceError

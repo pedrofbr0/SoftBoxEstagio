@@ -1,0 +1,64 @@
+Cap. 2
+
+Looping a triangle
+
+let hash = "#";
+for(let i = 0; i < 7; i++) {
+  console.log(hash);
+  hash+="#";
+}
+
+
+
+FizzBuzz a
+
+for(let i = 1; i <= 100; i++) {
+  if(i % 3 == 0) {
+    console.log("Fizz");
+  } else if (i % 5 == 0 && !(i % 3 == 0)) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
+
+
+FizzBuzz b
+
+for(let i = 1; i <= 100; i++) {
+  if(i % 3 == 0 && !(i % 5 == 0)) {
+    console.log("Fizz");
+  } else if (i % 5 == 0 && !(i % 3 == 0)) {
+    console.log("Buzz");
+  } else if (i % 5 == 0 && i % 3 == 0) {
+    console.log("FizzBuzz");
+  } else {
+    console.log(i);
+  }
+}
+
+
+Chess board
+
+let str = "";
+let size = 8;
+
+for(let i = 0; i < size; i++) {
+  for(let j = 0; j < size; j++) {
+   	if(i % 2 == 0) {
+      if(j % 2 == 0) {
+      str += " ";
+      } else {
+      str += "#";
+      }
+    } else {
+      if(j % 2 == 0) {
+      str += "#";
+      } else {
+      str += " ";
+      }
+    }
+  }
+  console.log(str);
+  str = "";
+}

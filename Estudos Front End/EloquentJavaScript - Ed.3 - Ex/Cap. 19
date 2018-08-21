@@ -1,0 +1,128 @@
+Cap. 19
+
+Keyboard Bidings
+
+<div></div>
+<script>
+  class PixelEditor {
+    constructor(state, config) {
+      let {tools, controls, dispatch} = config;
+      this.state = state;
+
+      this.canvas = new PictureCanvas(state.picture, pos => {
+        let tool = tools[this.state.tool];
+        let onMove = tool(pos, this.state, dispatch);
+        if (onMove) {
+          return pos => onMove(pos, this.state, dispatch);
+        }
+      });
+      this.controls = controls.map(
+        Control => new Control(state, config));
+      this.dom = elt("div", {
+        tabIndex: 0,
+        onkeydown: event => this.keyDown(event, config)
+      }, this.canvas.dom, elt("br"),
+         ...this.controls.reduce(
+           (a, c) => a.concat(" ", c.dom), []));
+    }
+    keyDown(event, config) {
+      if (event.key == "z" && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        config.dispatch({undo: true});
+      } else if (!event.ctrlKey && !event.metaKey && !event.altKey) {
+        for (let tool of Object.keys(config.tools)) {
+          if (tool[0] == event.key) {
+            event.preventDefault();
+            config.dispatch({tool});
+            return;
+          }
+        }
+      }
+    }
+    setState(state) {
+      this.state = state;
+      this.canvas.setState(state.picture);
+      for (let ctrl of this.controls) ctrl.setState(state);
+    }
+  }
+
+  document.querySelector("div")
+    .appendChild(startPixelEditor({}));
+</script>
+
+
+Eficient Drawning
+
+<div></div>
+<script>
+  // Change this method
+  PictureCanvas.prototype.setState = function(picture) {
+    if (this.picture == picture) return;
+    this.picture = picture;
+    drawPicture(this.picture, this.dom, scale);
+  };
+
+  // You may want to use or change this as well
+  function drawPicture(picture, canvas, scale, last) {
+    if (last == null || last.width != picture.width || 
+        last.height != picture.height) {
+      canvas.width = picture.width * scale;
+      canvas.height = picture.height * scale;
+      last = null;
+    }
+
+    let cx = canvas.getContext("2d");
+    for (let i = 0; i < picture.height; i++) {
+      for (let j = 0; j < picture.width; j++) {
+        let color = picture.pixel(j,i);
+        if(last == null || last.pixel(j, i) != color) {
+          cx.fillStyle = color;
+          cx.fillRect(j * scale, i * scale, scale, scale);
+        }
+      }
+    }
+  }
+
+  document.querySelector("div")
+    .appendChild(startPixelEditor({}));
+</script>
+
+
+Circles 
+
+<div></div>
+<script>
+  function circle(start, state, dispatch) {
+    function drawCircle(pos) {      
+      let xStart = Math.min(start.x, pos.x);
+      let yStart = Math.min(start.y, pos.y);
+      let xEnd = Math.max(start.x, pos.x);
+      let yEnd = Math.max(start.y, pos.y);
+      let r = Math.sqrt(Math.pow(xEnd - xStart, 2) 
+                        + Math.pow(yEnd- yStart, 2));
+      r = Math.ceil(r);
+      let drawn = [];
+      for(let y = 0; y <= state.picture.height; y++) {
+        for(let x = 0; x <= state.picture.width; x++) {
+          let dist = Math.sqrt(Math.pow(xStart - x,2)+ Math.pow(yStart - y,2));
+          if(dist <= r) {
+            drawn.push({x, y, color: state.color});
+          }
+        }
+      }
+       dispatch({picture: state.picture.draw(drawn)});
+  }
+  drawCircle(start);
+  return drawCircle;
+}
+
+  let dom = startPixelEditor({
+    tools: Object.assign({}, baseTools, {circle})
+  });
+  document.querySelector("div").appendChild(dom);
+</script>
+
+
+
+
+

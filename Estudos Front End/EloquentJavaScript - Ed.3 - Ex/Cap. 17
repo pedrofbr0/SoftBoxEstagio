@@ -1,0 +1,186 @@
+Cap. 17
+
+
+Shapes
+
+<canvas width="600" height="200"></canvas>
+<script>
+  let cx = document.querySelector("canvas").getContext("2d");
+  
+  function drawTrapezoid(x, y) {
+    if(x < 40 || y < 40) x = y = 40;
+    cx.beginPath();
+    cx.moveTo(x, y);
+    cx.lineTo(x + 50, y);
+    cx.lineTo(x + 70, y + 40);
+    cx.lineTo(x + -20, y + 40);
+    cx.lineTo(x, y);
+    cx.stroke();
+  }
+  
+  drawTrapezoid(10, 10)
+  
+  function drawDiamond(x, y) {
+    cx.translate(x+30, y+30);
+    cx.rotate(Math.PI/4);
+    cx.fillStyle = "red";
+    cx.fillRect(-30, -30, 60, 60);
+    cx.resetTransform();
+  }
+  
+  drawDiamond(150, 30);
+  
+  function drawLines(n, x, y) {
+    cx.beginPath();
+    cx.moveTo(x, y);
+    for(let i = 0; i < n; i++) {
+      if(i % 2 == 0) {
+        cx.lineTo(x + 80, y + i * 8 + 4);
+      } else {
+        cx.lineTo(x, y + i * 8 + 8);
+      }
+    }
+    cx.stroke();
+  }
+  
+  drawLines(12, 240, 30);
+  
+  function drawSpiral(x, y, r) {
+    let xCenter = x+r, yCenter = y+r;
+    cx.beginPath();
+    cx.moveTo(xCenter, yCenter);
+    for (let i = 0; i < 300; i++) {
+      let angle = -24.5 + i * Math.PI / 30;
+      let dist = r * i / 300;
+      cx.lineTo(xCenter + Math.cos(angle) * dist,
+                yCenter + Math.sin(angle) * dist);
+    }
+    cx.stroke();
+  }
+  
+  drawSpiral(340, 20, 50);
+  
+  function drawStar(x, y, r) {
+    let xCenter = x + r; yCenter = y + r;
+    cx.beginPath();
+    cx.moveTo(xCenter + r, yCenter);
+    for (let i = 0; i < 8; i++) {
+      let angle = (i+1) * Math.PI / 4;
+      cx.quadraticCurveTo(xCenter, yCenter, xCenter + Math.cos(angle) * r,
+        				  yCenter + Math.sin(angle) * r);
+    }
+    cx.fillStyle = "gold";
+    cx.fill();
+  }
+  
+  drawStar(450, 30, 50);       
+                          
+</script
+
+
+The Pie Chart
+
+<canvas width="600" height="300"></canvas>
+<script>
+  let cx = document.querySelector("canvas").getContext("2d");
+  let total = results
+    .reduce((sum, {count}) => sum + count, 0);
+  let currentAngle = -0.5 * Math.PI;
+  let centerX = 300, centerY = 150;
+
+  // Add code to draw the slice labels in this loop.
+  for (let result of results) {
+    let sliceAngle = (result.count / total) * 2 * Math.PI;
+    cx.beginPath();
+    cx.arc(centerX, centerY, 100,
+           currentAngle, currentAngle + sliceAngle);
+    currentAngle += sliceAngle;
+    cx.lineTo(centerX, centerY);
+    cx.fillStyle = result.color;
+    cx.fill();
+  }
+  
+  total = results.reduce(function(sum, choice) {
+    return sum + choice.count;
+  }, 0);
+
+  results.forEach(function(result) {
+    let sliceAngle = (result.count / total) * 2 * Math.PI;
+    cx.beginPath();
+    cx.arc(centerX, centerY, 100,
+           currentAngle, currentAngle + sliceAngle);
+
+    let middleAngle = currentAngle + 0.5 * sliceAngle;
+    let textX = Math.cos(middleAngle) * 120 + centerX;
+    let textY = Math.sin(middleAngle) * 120 + centerY;
+    cx.textBaseLine = "middle";
+    if (Math.cos(middleAngle) > 0) {
+      cx.textAlign = "left";
+    } else {
+      cx.textAlign = "right";
+    }
+    cx.font = "15px Comic Sans";
+    cx.fillStyle = "black";
+    cx.fillText(result.name, textX, textY);
+
+    currentAngle += sliceAngle;
+    cx.lineTo(centerX, centerY);
+    cx.fillStyle = result.color;
+    cx.fill();
+    });
+                  
+</script>
+
+
+A Bouncing Ball
+
+<canvas width="400" height="400"></canvas>
+<script>
+  let cx = document.querySelector("canvas").getContext("2d");
+
+  let lastTime = null;
+  function frame(time) {
+    if (lastTime != null) {
+      updateAnimation(Math.min(100, time - lastTime) / 1000);
+    }
+    lastTime = time;
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+  
+  let x = 200, y = 200;
+  let r = 40;
+  let speedX = 400, speedY = 240;
+  
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+  	return color;
+  }
+
+  function updateAnimation(step) {
+    
+    cx.clearRect(0, 0, 400, 400);
+    cx.strokeStyle = getRandomColor();
+    cx.lineWidth = 4;
+    cx.strokeRect(25, 25, 350, 350);
+    
+    x += step * speedX;
+    y += step * speedY;
+    if (x < 25 + r || x > 375 - r) {
+      speedX = -speedX;
+      cx.fillStyle = getRandomColor();
+    }
+    if (y < 25 + r || y > 375 - r) {
+      speedY = -speedY;
+      cx.fillStyle = getRandomColor();
+    }
+    
+    cx.beginPath();
+    cx.arc(x, y, r, 0, 7);
+    cx.fill();
+  }
+</script>

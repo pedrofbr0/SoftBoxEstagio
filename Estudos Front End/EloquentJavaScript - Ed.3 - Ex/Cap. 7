@@ -1,0 +1,113 @@
+Cap. 7
+
+Measuring A Robot
+
+function average(array) {
+  let sum = 0;
+  for(let element of array) {
+    sum += element;
+  }
+  return sum/(array.length);
+}
+
+function countTurns(state, robot, memory) {
+  for (let turns = 0;; turns++) {
+    if (state.parcels.length == 0) return turns;
+    let action = robot(state, memory);
+    state = state.move(action.direction);
+    memory = action.memory;
+  }
+}
+
+function compareRobots(robot1, memory1, robot2, memory2) {
+  
+  let total1 = [], total2 = [];
+  for(let i = 0; i < 10000; i++) {
+    let state = VillageState.random();
+    total1.push(countTurns(state, robot1, memory1));
+    total2.push(countTurns(state, robot2, memory2));
+  }
+  console.log(total1);
+  console.log(total2);
+  console.log(`robot 1 ${average(total1)}`);
+  console.log(`robot 2 ${average(total2)}`);
+}
+
+compareRobots(routeRobot, [], goalOrientedRobot, []);
+
+
+
+Robot Eficiency
+
+function yourRobot({place, parcels}, route) {
+  let routes = [];
+  let i = 0;
+  if (route.length == 0) {
+    for(let parcel of parcels) {
+      if (parcel.place != place) {
+      routes.push(findRoute(roadGraph, place, parcel.place));
+      routes[i] = routes[i].concat(findRoute(roadGraph, parcel.place, parcel.address));
+    } else {
+      routes.push(findRoute(roadGraph, place, parcel.address));
+    }
+      let parcelAux = parcel;
+      for(let parcelNext of parcels) {
+        if(parcelNext != parcel) {
+          routes[i] = routes[i].concat(findRoute(roadGraph, parcelAux.address, parcelNext.place));
+          routes[i] = routes[i].concat(findRoute(roadGraph, parcelNext.place, parcelNext.address));
+          parcelAux = parcelNext;
+        }
+      }
+      i++;
+    }
+    routes.sort( (a, b) => {return (a.length > b.length)});
+    route = routes[0];
+  }
+  return {direction: route[0], memory: route.slice(1)};
+
+}
+  
+compareRobots(yourRobot, [], goalOrientedRobot, []);
+runRobotAnimation(VillageState.random(), yourRobot, []);
+
+
+
+Persistent group
+
+class PGroup {
+  
+  constructor(values) {
+    this.values = values;
+  }
+    
+  add(element) {
+    if(this.has(element)) return this;
+    return new PGroup(this.values.concat([element]));
+  }
+  
+  delete(element) {
+    return new PGroup(this.values.filter( n => n !== element));
+  }
+  
+  has(element) {    
+    if(this.values.indexOf(element) !== -1) {
+      return true;
+    } else
+      return false;
+  }
+
+}
+
+PGroup.empty = new PGroup([]); 
+
+let a = PGroup.empty.add("a");
+let ab = a.add("b");
+let b = ab.delete("a");
+
+console.log(b.has("b"));
+// → true
+console.log(a.has("b"));
+// → false
+console.log(b.has("a"));
+// → false
+

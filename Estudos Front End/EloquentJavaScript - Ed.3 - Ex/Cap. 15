@@ -1,0 +1,112 @@
+Cap. 15
+
+
+Balloon
+
+<p>🎈</p>
+
+<script>
+  let ballon = document.querySelector("p");
+  let count = 0;
+  let size = 10;
+
+  window.addEventListener("keydown", function ehNois(event) {
+    if (count > 3) {
+      ballon.textContent = "💥";
+      ballon.removeEventListener("keydown", ehNois);
+    } else if (event.key == "ArrowUp") {
+      count++;
+      size += 10;
+      ballon.style.fontSize = size + "px";
+      event.preventDefault();
+      
+    } else if (event.key == "ArrowDown") {
+      count--;
+      size -= 10;
+      ballon.style.fontSize = size + "px";
+      event.preventDefault();
+    }
+  });
+</script>
+
+
+Mouse Trail
+
+<style>
+  .trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: teal;
+  }
+  body {
+    height: 300px;
+  }
+</style>
+<script>
+  let array = [];
+  let trailN = 10;
+  
+  for(let i = 0; i < trailN; i++) {
+    let no = document.createElement("DIV");
+    array.push(no);
+    no.className = "trail";
+    document.body.appendChild(no);
+  }
+  
+  let currentDot = 0;
+  
+  window.addEventListener("mousemove", event => {
+    let dot = array[currentDot];
+    dot.style.left = (event.pageX - 3) + "px";
+    dot.style.top = (event.pageY - 3) + "px";
+    currentDot = (currentDot + 1) % array.length;
+  });
+ 
+</script>
+
+
+Tabs
+
+<tab-panel>
+  <div data-tabname="one">Tab one</div>
+  <div data-tabname="two">Tab two</div>
+  <div data-tabname="three">Tab three</div>
+</tab-panel>
+<script>
+  function asTabs(node) {
+
+  	console.log(node);
+    console.log(node.childNodes);
+    console.log(node.children);
+    let tabs = Array.from(node.children).map(node => {
+      let button = document.createElement("button");
+      button.textContent = node.getAttribute("data-tabname");
+      let tab = {node, button};
+      button.addEventListener("click", () => selectTab(tab));
+      return tab;
+    });
+  
+  let tabList = document.createElement("div");
+    for (let {button} of tabs) tabList.appendChild(button);
+    node.insertBefore(tabList, node.firstChild);
+
+    function selectTab(selectedTab) {
+      for (let tab of tabs) {
+        let selected = tab == selectedTab;
+        tab.node.style.display = selected ? "" : "none";
+        tab.button.style.color = selected ? "blue" : "";
+      }
+    }
+    selectTab(tabs[0]);
+  }
+  
+  asTabs(document.querySelector("tab-panel"));
+</script>
+
+
+
+
+
+
+
