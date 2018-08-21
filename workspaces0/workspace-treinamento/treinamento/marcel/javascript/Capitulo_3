@@ -1,0 +1,58 @@
+function min(a, b) {
+  if(a<b) {
+  return a;
+  } else if(a>b) {
+    return b;
+  }
+  return;
+}
+
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
+
+const isEven = function (N) {
+  if(N<0) {
+    N = Math.abs(N)
+  }
+  if(N===0) {
+    return true;
+  }
+  else if(N===1) {
+  return false;
+  }
+  return isEven(N-2);
+}
+
+console.log(isEven(50));
+// → true
+console.log(isEven(75));
+// → false
+console.log(isEven(-1));
+// → ??
+
+let countBs = function(word) {
+  let counter = 0;
+  for(let i = 0; i < word.length; i++) {
+    if(word[i]=="B") {
+      counter++;
+    }
+  }
+  return counter;
+}
+
+let countChar = function(word, letter) {
+  let counter = 0;
+  for(let i = 0; i < word.length; i++) {
+    if(word[i]==letter) {
+      counter++;
+    }
+  }
+  return counter;  
+}
+
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", "k"));
+// → 4

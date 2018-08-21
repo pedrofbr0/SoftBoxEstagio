@@ -1,0 +1,125 @@
+function range (start, end, step=1) {
+  let array = [];
+  for(let i = start; i <= end; i=i+step) {
+  array.push(i);
+  }
+  if(step<0) {
+    for(let i = start; i>=end; i=i+step) {
+    array.push(i);
+    }
+  }
+  return array;
+}
+
+function sum(array) {
+  final = 0;
+  for(i = 0; i<array.length; i++) {
+    final=final+array[i];
+  }
+  return final;
+}
+
+console.log(range(1, 10));
+// → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(range(5, 2, -1));
+// → [5, 4, 3, 2]
+console.log(sum(range(1, 10)));
+// → 55
+console.log(range(1, 10, 2));
+
+function reverseArray(string) {
+  let newArray = "";
+  for(let i = string.length-1; i >= 0; i--) {
+  newArray = newArray+string[i];
+  }
+  return newArray;
+}
+
+function reverseArrayInPlace(string) {
+  for(let i = 0; i < Math.floor(string.length/2) ; i++) {
+    let aux = string[i];
+    string[i] = string[string.length-1-i];
+    string[string.length-1-i]=aux;
+  }
+}
+
+console.log(reverseArray(["A", "B", "C"]));
+// → ["C", "B", "A"];
+let arrayValue = [1, 2, 3, 4, 5];
+reverseArrayInPlace(arrayValue);
+console.log(arrayValue);
+// → [5, 4, 3, 2, 1]
+
+function arrayToList(array) {
+  let list = null;
+  for(let i = array.length-1; i >=0; i--) {
+  list = {value: array[i], rest: list};
+  }
+  return list;
+}
+
+function listToArray(list) {
+  let array = [];
+  let i = 0;
+  for (let node = list; node; node = node.rest) {
+    array[i] = node.value;
+    i++;
+  }
+  return array;
+}
+
+function prepend(element, list) {
+  return list = {value: element, rest: list};
+}
+
+function nth(list, number) {
+  let aux = 0;
+  let counter = 0;
+  for (let node = list; node; node = node.rest) {
+    if(counter == number) {
+      aux = node.value;
+    }
+    counter++;
+  	}
+  return aux;
+}
+
+console.log(arrayToList([10, 20]));
+// → {value: 10, rest: {value: 20, rest: null}}
+console.log(listToArray(arrayToList([10, 20, 30])));
+// → [10, 20, 30]
+console.log(prepend(10, prepend(20, null)));
+// → {value: 10, rest: {value: 20, rest: null}}
+console.log(nth(arrayToList([10, 20, 30]), 1));
+// → 20
+
+function deepEqual(obj1, obj2) {
+  var array1 = [];
+  var array2 = [];
+  var counter = 0;
+  if(typeof obj1 == "object" && obj1 != null 
+     && typeof obj2 == "object" && obj2 != null) {
+    if(Object.keys(obj1).length == Object.keys(obj2).length) {
+      array1 = Object.values(obj1);
+      array2 = Object.values(obj2);
+      for(i = 0; i < array1.length ; i++) {
+        if(!deepEqual(array1[i],array2[i])) {
+        	counter++;
+      	}
+      }
+      if(counter==0) {
+        return true;
+      }
+    }
+  }
+  return obj1===obj2;
+}
+
+
+let obj = {here: {is: "an"}, object: 2};
+console.log(deepEqual(obj, obj));
+// → true
+console.log(deepEqual(obj, {here: 1, object: 2}));
+// → false
+console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+// → true

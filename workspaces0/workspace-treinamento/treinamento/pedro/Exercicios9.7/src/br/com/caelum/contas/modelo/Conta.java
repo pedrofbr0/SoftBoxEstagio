@@ -1,0 +1,79 @@
+package br.com.caelum.contas.modelo;
+/*
+ * Conta
+ * 
+ * 1.0
+ *
+ * 05/03/2018 10:22
+ * 
+ * Pedro
+ * 
+ * Copyright notice
+ * 
+ */
+
+public class Conta {
+	private String titular;
+	private int numero;
+	private String agencia;
+	protected double saldo;
+	private Data dataDeAbertura = new Data();
+	static private int identificador = 0;
+	private int id = 0;
+	
+	//Métodos
+	public void saca(double valor) {
+		this.saldo = saldo - valor;
+	}
+	public void deposita(double valor) {
+		this.saldo = saldo + valor;
+	}
+	public double getRendimento() {
+		return this.saldo*0.1;
+	}
+	public String recuperaDadosParaImpressao() {
+		String dados = "Titular: " + this.titular;
+		dados += "\nNúmero: " + this.numero;
+		dados += "\nData de abertura: " + this.dataDeAbertura.formatada();		
+		return dados;
+	}
+	public String getTitular() {
+		return this.titular;
+	}
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+	public int getNumero() {
+		return this.numero;
+	}
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	public String getAgencia() {
+		return this.agencia;
+	}
+	public void setAgencia(String agencia) {
+		this.agencia = agencia;
+	}
+	public double getSaldo() {
+		return this.saldo;
+	}	
+	public Conta(String titular) {
+		this.titular = titular;
+	}
+	public Conta() {
+		Conta.identificador = Conta.identificador + 1 ;
+		this.id = this.identificador;
+	}
+	public int getIdentificador() {
+		return this.id;
+	}
+	public String getTipo() {
+		return "Conta";
+	}
+	public void transfere(double valor, Conta conta) {
+		this.saca(valor);
+		conta.deposita(valor);
+	}
+	
+}

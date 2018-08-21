@@ -1,0 +1,3 @@
+Conta Corrente,222,666,rogerinho,100.0
+Conta Corrente,223,667,rogerinha,200.0
+Conta Corrente,666,999,zezin,0.0

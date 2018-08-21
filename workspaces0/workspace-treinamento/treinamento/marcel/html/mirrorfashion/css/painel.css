@@ -1,0 +1,80 @@
+.painel {
+	margin: 10px 0;
+	padding: 10px;
+	width: 445px;
+}
+
+.novidades {
+	float: left;
+}
+
+.mais-vendidos {
+	float: right;
+}
+
+.painel li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.painel h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.painel a {
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.novidades {
+	background-color: #f5dcdc;
+}
+
+.mais-vendidos {
+	background-color: #dcdcf5;
+}
+
+ .painel {
+   border-radius: 4px;
+   box-shadow: inset 1px 1px 4px #999;
+ }
+ .painel h2 {
+   text-shadow: 3px 3px 2px #FFF;
+ }
+
+.novidades {
+  background-color: #f5dcdc;
+  background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.mais-vendidos {
+  background: #dcdcf5;
+  background: linear-gradient(#dcdcf5, #f4bebe);
+}
+ 
+.painel li:hover {
+   background-color: rgba(255,255,255,0.8);
+   box-shadow: 0 0 5px #333;
+    transition: 0.7s ease-in;
+   transform: scale(1.2) rotate(-5deg);
+ }
+
+ .painel li:nth-child(even):hover {
+   transform: scale(1.2) rotate(5deg);
+ }
+
+ .painel li:nth-child(odd):hover {
+   transform: scale(1.2) rotate(-5deg);
+ }
+
+ .painel li {
+   transition: 0.7s ease-out;
+ }
