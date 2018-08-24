@@ -1,0 +1,530 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "67",
+    "desc_tipo_venda": "67 - CHEQUE LOSANGO SCRED",
+    "valor_entrada": "0,00",
+    "plano": "2",
+    "prestacao": null,
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219494",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 4,
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "entrega": true,
+          "data_entrega_cliente_erro": "29/02/2016",
+          "data_entrega_cliente": "26/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": "TARDE",
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "Cheque Losango",
+        "cod_forma_pagamento": "29",
+        "valor": "1.027,06",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false,
+        "cheque": {
+          "cmc7": "237318420010034895777504362409",
+          "nro_banco": "237",
+          "desc_banco": "BANCO BRADESCO S.A.",
+          "conta_pagto_pedido_agencia": "3184",
+          "conta_pagto_pedido_nro": "7750436240",
+          "nro_docto_pagto": "003489",
+          "dt_vencto_docto_pagto": "01/09/2016",
+          "dt_abertura": "01/2010"
+        }
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": true,
+        "quantidade": 3
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "cod_produto": "219494",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "196014",
+            "nome_servico": "ROUBO E FURTOS TABLET",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144776",
+            "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "196014",
+            "nome_servico": "ROUBO E FURTOS TABLET",
+            "produto": "219494.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144776",
+            "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+            "produto": "219494.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "219494.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "plano": "12",
+      "cancelar_produto": [
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "cancela_empenho_sem_emitir_mensagem": false
+        }
+      ],
+      "reempenho": [
+        {
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "10/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          }
+        }
+      ],
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "NÃO",
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "ind_entrega_atualizado": "NÃO",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 2,
+            "desc_local_empenho": "OUTRA LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": 286,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "liberacoes": [
+      {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "219494.4.0 TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+      ],
+      "planilhas": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cheque Losango",
+          "cod_forma_pagamento": "29",
+          "valor": "2.206,56",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false,
+          "cheque": {
+            "cmc7": "237318420010034895777504362409",
+            "nro_banco": "237",
+            "desc_banco": "BANCO BRADESCO S.A.",
+            "conta_pagto_pedido_agencia": "3184",
+            "conta_pagto_pedido_nro": "7750436240",
+            "nro_docto_pagto": "003489",
+            "dt_vencto_docto_pagto": "02/07/2016",
+            "dt_abertura": "01/2010"
+          }
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cheque Losango",
+          "valor": "663,38",
+          "id_linha": 1
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": false,
+          "quantidade": null
+        },
+        {
+          "cod_servico": "209514",
+          "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+          "ind_ativo": false,
+          "quantidade": null,
+          "valor": false
+        }
+      ]
+    },
+    "reabertura2": {
+      "valor_entrada": "400,00",
+      "plano": "6",
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "139756",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "SIM",
+          "descricao": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+          "ind_entrega_atualizado": "SIM",
+          "qtd": null,
+          "tabela": "96",
+          "desc_tabela": "96 - TABELA NORMAL(96)",
+          "valor_unitario": null,
+          "ind_editar_produto": true,
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "10/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "liberacoes": [
+      {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "219494.4.0 TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+      ],
+      "planilhas": [
+        {
+          "tipo": "E",
+          "forma_pagamento": "Dinheiro",
+          "cod_forma_pagamento": "1",
+          "valor": "400,00",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        },
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cheque Losango",
+          "cod_forma_pagamento": "29",
+          "valor": "4.528,98",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false,
+          "cheque": {
+            "cmc7": "237318420010034895777504362409",
+            "nro_banco": "237",
+            "desc_banco": "BANCO BRADESCO S.A.",
+            "conta_pagto_pedido_agencia": "3184",
+            "conta_pagto_pedido_nro": "7750436240",
+            "nro_docto_pagto": "003489",
+            "dt_vencto_docto_pagto": "02/07/2016",
+            "dt_abertura": "01/2010"
+          }
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cheque Losango",
+          "valor": "120,02",
+          "id_linha": 1
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": true,
+          "quantidade": 3
+        },
+        {
+          "cod_servico": "209514",
+          "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+          "ind_ativo": true,
+          "quantidade": 2,
+          "valor": false
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+          "cod_produto": "139756",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139756.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "142384",
+              "nome_servico": "MONTAGEM PAN,GAB,BAL,ARM SUP,CANT,PRATEL",
+              "produto": "139756.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139756.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "142384",
+              "nome_servico": "MONTAGEM PAN,GAB,BAL,ARM SUP,CANT,PRATEL",
+              "produto": "139756.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        },
+        {
+          "desc_produto": "ARM 3P CLASS SL AP3P S/VD BR COLORMAQ",
+          "cod_produto": "139754",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139754.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139754.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139754.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139754.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        },
+        {
+          "desc_produto": "ARM 1P BASC CLASS SL 70L BR COLORMAQ",
+          "cod_produto": "139763",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139763.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139763.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139763.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139763.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

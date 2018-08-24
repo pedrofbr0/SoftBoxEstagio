@@ -1,0 +1,56 @@
+{
+  "MVSH": {
+    "ind_cliente": 1,
+    "nome": "CARLOS ARTURO VARON RODRIGUES",
+    "email": "abs@abc.com.br",
+    "cpf_cnpj": "00000000191",
+    "uf": "GO",
+    "cidade": "GOIANIA",
+    "ind_pf": true
+  },
+  "INLOJAD": {
+    "ind_cliente": 1,
+    "nome": "CLEIDE ALVIN DOS SANTOS SILVA",
+    "email": "cleide@maquinadevendas.com.br",
+    "cpf_cnpj": "00000000191",
+    "uf": "AL",
+    "cidade": "MACEIO",
+    "ind_pf": "1"
+  },
+  "RELODEV": {
+    "ind_cliente": 1,
+    "nome": "PATRICIA DOS SANTOS RAMOS DRR",
+    "email": "teste@teste.com.br",
+    "cpf_cnpj": "00000000191",
+    "uf": "MG",
+    "cidade": "BELO HORIZONTE",
+    "ind_pf": "1"
+  },
+  "RELOWMS": {
+    "ind_cliente": 1,
+    "nome": "JAQUELINE DOS SANTOS RAMOS",
+    "email": "teste@teste.com.br",
+    "cpf_cnpj": "00000000191",
+    "uf": "MG",
+    "cidade": "BELO HORIZONTE",
+    "ind_pf": "1"
+  },
+  "RELOH": {
+    "ind_cliente": 1,
+    "nome": "USUARIO DE TESTE AUTOMATIZADO",
+    "email": "fulano_losango@gmail.com",
+    "cpf_cnpj": "37778670550",
+    "uf": "MG",
+    "cidade": "IBIRITE",
+    "ind_pf": "1"
+  },
+  "RELOH_EXA": {
+    "ind_cliente": 1,
+    "nome": "USUARIO DE TESTE AUTOMATIZADO",
+    "email": "fulano_losango@gmail.com",
+    "cpf_cnpj": "37778670550",
+    "uf": "MG",
+    "cidade": "IBIRITE",
+    "ind_pf": "1"
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Pedido kit remove sem estoque36" skipped="0" tests="1" time="181.93" timestamp="2018-08-24T14:27:15.342-03:00[America/Sao_Paulo]"><testcase name="Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento com cartão de crédito"><failure message="O status do pedido está incorreto." type="java.lang.AssertionError">O status do pedido está incorreto.</failure><system-err>O status do pedido está incorreto.
+br.com.mv.pages.PedidoPage.validarStatusPedido(PedidoPage.java:415)
+br.com.mv.steps.PedidoSteps.euValidoStatusDoPedido(PedidoSteps.java:293)
+</system-err></testcase></testsuite>

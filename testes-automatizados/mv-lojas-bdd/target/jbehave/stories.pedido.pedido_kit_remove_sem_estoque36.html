@@ -1,0 +1,68 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/pedido/pedido_kit_remove_sem_estoque36.story</div>
+<div class="scenario">
+<h2>Scenario: Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento com cart&atilde;o de cr&eacute;dito</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@base RELOH</div>
+<div class="property">@context PEDIDOS</div>
+<div class="property">@grupoInstancias Pedidos</div>
+<div class="property">@issue rgs-36</div>
+<div class="property">@rgs-36 </div>
+<div class="property">@tag component:Regress&atilde;o - RELOH</div>
+</div>
+<div class="step successful">Given Eu executo o script de reset <span class="step parameter">pedido_kit_remove_sem_estoque_36.sql</span></div>
+<div class="step successful">And Eu acesso a instancia <span class="step parameter">padrao</span></div>
+<div class="step successful">When Eu faco login na loja <span class="step parameter">291</span> com usuario <span class="step parameter">69930</span> e senha <span class="step parameter">1</span></div>
+<div class="step successful">And Eu pesquiso o cpf <span class="step parameter">37778670550</span></div>
+<div class="step successful">And Eu clico no botao 'Elaborar Pedido'</div>
+<div class="step successful">And Eu seleciono o tipo de venda <span class="step parameter">53 - CARTAO DE CREDITO</span></div>
+<div class="step successful">And Eu clico no botao adicionar produto</div>
+<div class="step successful">And Eu pesquiso o produto <span class="step parameter">158488</span></div>
+<div class="comment">!-- Produto (158486) sem estoque</div>
+<div class="step ignorable">!-- And Eu clico no botao Ok do modal</div>
+<div class="step successful">And Eu deixo o produto sem promocao</div>
+<div class="step successful">And Eu clico no botao Selecionar Produto</div>
+<div class="step ignorable">!-- And Eu pesquiso e seleciono o produto 158488</div>
+<div class="step successful">And Eu removo o produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu clico no botao adicionar produto</div>
+<div class="step successful">And Eu pesquiso o produto <span class="step parameter">158488</span></div>
+<div class="step ignorable">!-- And Eu clico no botao Ok do modal</div>
+<div class="step successful">And Eu deixo o produto sem promocao</div>
+<div class="step successful">And Eu clico no botao Selecionar Produto</div>
+<div class="step ignorable">!-- And Eu pesquiso e seleciono o produto 158488</div>
+<div class="step successful">And Eu removo o produto <span class="step parameter">158486</span></div>
+<div class="comment">!-- Desmembrar kit</div>
+<div class="step successful">And Eu clico no botao Sim do modal</div>
+<div class="step successful">And Eu clico no icone detalhes do produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu seleciono o local de empenho <span class="step parameter">DEPOSITO</span></div>
+<div class="step successful">And Eu seleciono a opcao de entrega <span class="step parameter">AGENDADA</span></div>
+<div class="step successful">And Eu clico no botao Agendada</div>
+<div class="step successful">And Eu seleciono uma data disponivel</div>
+<div class="step successful">And Eu clico no botao Reservar</div>
+<div class="step successful">And Eu clico no botao Ok do modal</div>
+<div class="step successful">And Eu clico na aba <span class="step parameter">Planilha</span></div>
+<div class="step successful">And Eu clico no botao Adicionar Forma Pagamento</div>
+<div class="step successful">And Eu seleciono o <span class="step parameter">1</span> &ordm; tipo de pagamento <span class="step parameter">F</span></div>
+<div class="step successful">And Eu seleciono a <span class="step parameter">1</span> &ordf; forma de pagamento <span class="step parameter">Cartao Mastercard</span></div>
+<div class="step successful">Then Eu clico no botao Salvar</div>
+<div class="step successful">And Eu clico no botao Ok do modal</div>
+<div class="step successful">And Eu clico no botao Fechamento Total</div>
+<div class="step failed">And Eu valido o status do pedido <span class="step parameter">30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: O status do pedido est&aacute; incorreto.</span></div>
+<div class="step ignorable">!-- And Eu salvo o pedido do teste @rgs-36 no relatorio</div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: O status do pedido est&aacute; incorreto.
+	at net.thucydides.core.steps.ErrorConvertor.convertToAssertion(ErrorConvertor.java:22)
+	at net.thucydides.core.steps.StepInterceptor.reportMethodError(StepInterceptor.java:350)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:22)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:337)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:126)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:62)
+	at br.com.mv.pages.PedidoPage$$EnhancerByCGLIB$$fcb5426c.validarStatusPedido(&lt;generated&gt;)
+	at br.com.mv.steps.PedidoSteps.euValidoStatusDoPedido(PedidoSteps.java:293)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
+</div>
+</div>

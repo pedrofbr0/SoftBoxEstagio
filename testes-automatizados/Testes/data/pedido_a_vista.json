@@ -1,0 +1,301 @@
+{
+  "RELOH": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "DINHEIRO",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "139550",
+        "cod_cor_produto": "0",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "MODEM USB ZTE MF190 POS PAGO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "58,01",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "MODEM USB ZTE MF190 POS PAGO",
+        "cod_produto": "139550",
+        "cor": "0",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "143191",
+            "nome_servico": "BANDA LARGA MODEM",
+            "produto": "139550.0.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "143191",
+            "nome_servico": "BANDA LARGA MODEM",
+            "produto": "139550.0.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ]
+  },
+  "RELOH2": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "DINHEIRO",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "742",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "COZ 7P ANITA BR 245L ITATIAIA",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {},
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": 1,
+        "ind_inserir_valor": false,
+        "valor": "857,80"
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ]
+  },
+    "RELOH_EXA": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "DINHEIRO",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219254",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "CEL MOTO G XT1068 2CHIP 8GB PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : true,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": 1,
+        "ind_inserir_valor": false,
+        "valor": "1.423,84"
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ]
+  },
+  "MVSH": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "DINHEIRO",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219254",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "CEL MOTO G XT1068 2CHIP 8GB PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : true,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": 1,
+        "ind_inserir_valor": false,
+        "valor": "1.422,94"
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ]
+  }
+}

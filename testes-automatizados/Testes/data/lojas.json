@@ -1,0 +1,2335 @@
+{
+  "INLOJAD": [
+    {
+      "cod_nro_loja": "030",	
+      "desc_loja": "CD 030 - INSINUANTE - BA"
+    },
+    {
+      "cod_nro_loja": "2",	
+      "desc_loja": "F002 - VITORIA DA CONQUISTA"
+    },
+    {
+      "cod_nro_loja": "22",	
+      "desc_loja": "F022 - BAIXA DOS SAPATEIROS III - BA"
+    },
+    {
+      "cod_nro_loja": "62",	
+      "desc_loja": "F062 - CONCEICAO DO COITE - BA"
+    },
+    {
+      "cod_nro_loja": "73",	
+      "desc_loja": "F073 - ARAPIRACA - AL"
+    },
+    {
+      "cod_nro_loja": "105",	
+      "desc_loja": "F105 ILHEUS I - BA"
+    },
+    {
+      "cod_nro_loja": "106",	
+      "desc_loja": "F106 SANTO ANTONIO DE JESUS - BA"
+    },
+    {
+      "cod_nro_loja": "77",	
+      "desc_loja": "F077 - GUANAMBI I - BA"
+    },
+    {
+      "cod_nro_loja": "78",
+      "desc_loja": "F078 - CARUARU I - PE"
+    },
+    {
+      "cod_nro_loja": "79",	
+      "desc_loja": "F079 - SAO MIGUEL DOS CAMPOS - AL"
+    },
+    {
+      "cod_nro_loja": "109",	
+      "desc_loja": "F109 ALECRIM - RN"
+    },
+    {
+      "cod_nro_loja": "110",	
+      "desc_loja": "F110 - SANTANA DO IPANEMA - AL"
+    },
+    {
+      "cod_nro_loja": "81",	
+      "desc_loja": "F081 - TEIXEIRA DE FREITAS I - BA"
+    },
+    {
+      "cod_nro_loja": "82",	
+      "desc_loja": "F082 - IRECE - BA"
+    },
+    {
+      "cod_nro_loja": "83",	
+      "desc_loja": "F083 - ITAMARAJU - BA"
+    },
+    {
+      "cod_nro_loja": "113",	
+      "desc_loja": "F113 - JOAO PESSOA II - PB"
+    },
+    {
+      "cod_nro_loja": "251",	
+      "desc_loja": "CD 251 - CANDELARIA - RN"
+    },
+    {
+      "cod_nro_loja": "258",	
+      "desc_loja": "CD 258 - FORTALEZA - RN"
+    },
+    {
+      "cod_nro_loja": "201",	
+      "desc_loja": "F201 - DIAS D AVILA"
+    },
+    {
+      "cod_nro_loja": "207",	
+      "desc_loja": "F207 - MONTESE"
+    },
+    {
+      "cod_nro_loja": "27",	
+      "desc_loja": "F027 - SHOPPING IGUATEMI - BA"
+    },
+    {
+      "cod_nro_loja": "29",	
+      "desc_loja": "F029 - LIBERDADE I - BA"
+    },
+    {
+      "cod_nro_loja": "66",	
+      "desc_loja": "F066 - RIBEIRA DO BOMBAL"
+    },
+    {
+      "cod_nro_loja": "116",	
+      "desc_loja": "F116 ABREU E LIMA 1 - PE"
+    },
+    {
+      "cod_nro_loja": "F120",	
+      "desc_loja": "F120 SETE DE SETEMBRO - BA"
+    },
+    {
+      "cod_nro_loja": "122",	
+      "desc_loja": "A122 BOA VIAGEM - PE"
+    },
+    {
+      "cod_nro_loja": "124",	
+      "desc_loja": "F124 PAULO AFONSO - BA"
+    },
+    {
+      "cod_nro_loja": "133",	
+      "desc_loja": "F133 - MACEIO III - AL"
+    },
+    {
+      "cod_nro_loja": "135",	
+      "desc_loja": "F135 SHOPPING IGUATEMI FEIRA - BA"
+    },
+    {
+      "cod_nro_loja": "85",	
+      "desc_loja": "F085 - RECIFE I - PE"
+    },
+    {
+      "cod_nro_loja": "87",	
+      "desc_loja": "F087 - RECIFE II - PE"
+    },
+    {
+      "cod_nro_loja": "126",	
+      "desc_loja": "CD 126 - PAVUNA - RJ"
+    },
+    {
+      "cod_nro_loja": "130",	
+      "desc_loja": "CD 130 - INSINUANTE II - BA"
+    },
+    {
+      "cod_nro_loja": "248",	
+      "desc_loja": "CD 248 - PRAZERES I - PE"
+    },
+    {
+      "cod_nro_loja": "266",	
+      "desc_loja": "CD 266 - JOAO PESSOA - PB"
+    },
+    {
+      "cod_nro_loja": "3",	
+      "desc_loja": "C003 - POÇOES - BA"
+    },
+    {
+      "cod_nro_loja": "4",	
+      "desc_loja": "F004 - BAIXA DOS SAPATEIROS - BA"
+    },
+    {
+      "cod_nro_loja": "341",	
+      "desc_loja": "CD 341 - PRAZERES II - PE"
+    },
+    {
+      "cod_nro_loja": "8",	
+      "desc_loja": "F008 - JEQUIE - BA"
+    },
+    {
+      "cod_nro_loja": "13",	
+      "desc_loja": "F013 - CALÇADA I - BA"
+    },
+    {
+      "cod_nro_loja": "14",	
+      "desc_loja": "F014 - FEIRA DE SANTANA - BA"
+    },
+    {
+      "cod_nro_loja": "15",	
+      "desc_loja": "F015 - ITABUNA I - BA"
+    },
+    {
+      "cod_nro_loja": "23",	
+      "desc_loja": "F023 - VITORIA DA CONQUISTA II - BA"
+    },
+    {
+      "cod_nro_loja": "200",	
+      "desc_loja": "F200 - PARALELA"
+    },
+    {
+      "cod_nro_loja": "203",	
+      "desc_loja": "F203 - SHOPPING IGUATEMI FORTALEZA"
+    },
+    {
+      "cod_nro_loja": "208",	
+      "desc_loja": "F208 - CAMPINA VERDE"
+    },
+    {
+      "cod_nro_loja": "24",	
+      "desc_loja": "F024 - SAO PEDRO - BA"
+    },
+    {
+      "cod_nro_loja": "26",	
+      "desc_loja": "F026 - VITORIA DA CONQUISTA III - BA"
+    },
+    {
+      "cod_nro_loja": "32",
+      "desc_loja": "F032 - SHOPPING PIEDADE - BA"
+    },
+    {
+      "cod_nro_loja": "34",
+      "desc_loja": "F034 - MACEIO I - AL"
+    },
+    {
+      "cod_nro_loja": "35",
+      "desc_loja": "F035 - UBAITABA - BA"
+    },
+    {
+      "cod_nro_loja": "40",
+      "desc_loja": "F040 - JACOBINA I - BA"
+    },
+    {
+      "cod_nro_loja": "32",
+      "desc_loja": "F032 - SHOPPING PIEDADE - BA"
+    },
+    {
+      "cod_nro_loja": "34",
+      "desc_loja": "F034 - MACEIO I - AL"
+    },
+    {
+      "cod_nro_loja": "35",
+      "desc_loja": "F035 - UBAITABA - BA"
+    },
+    {
+      "cod_nro_loja": "40",
+      "desc_loja": "F040 - JACOBINA I - BA"
+    },
+    {
+      "cod_nro_loja": "59",
+      "desc_loja": "F059 - LAURO DE FREITAS"
+    },
+    {
+      "cod_nro_loja": "339",
+      "desc_loja": "CD 339 - MARACANAU - CE"
+    },
+    {
+      "cod_nro_loja": "42",
+      "desc_loja": "F042 - BRUMADO - BA"
+    },
+    {
+      "cod_nro_loja": "45",
+      "desc_loja": "F045 - IPIAU - BA"
+    },
+    {
+      "cod_nro_loja": "51",
+      "desc_loja": "F051 - PALMEIRAS DOS INDIOS - AL"
+    },
+    {
+      "cod_nro_loja": "52",
+      "desc_loja": "F052 - FEIRA DE SANTANA II - BA"
+    },
+    {
+      "cod_nro_loja": "53",
+      "desc_loja": "F053 - CAMACARI I - BA"
+    },
+    {
+      "cod_nro_loja": "57",
+      "desc_loja": "F057 - COMERCIO - BA"
+    },
+    {
+      "cod_nro_loja": "58",
+      "desc_loja": "F058 - SERRINHA - BA"
+    },
+    {
+      "cod_nro_loja": "63",
+      "desc_loja": "F063 - CALÇADA II - BA"
+    },
+    {
+      "cod_nro_loja": "67",
+      "desc_loja": "F067 - SAO SEBASTIAO DO PASSE - BA"
+    },
+    {
+      "cod_nro_loja": "70",
+      "desc_loja": "F070 - LAGARTO - SE"
+    },
+    {
+      "cod_nro_loja": "101",
+      "desc_loja": "F101 - ARACAJU II - SE"
+    },
+    {
+      "cod_nro_loja": "102",
+      "desc_loja": "F102 - RIO LARGO - AL"
+    },
+    {
+      "cod_nro_loja": "149",
+      "desc_loja": "F149 - FEIRA DE SANTANA IV - BA"
+    },
+    {
+      "cod_nro_loja": "151",
+      "desc_loja": "F151 - FEIRA DE SANTANA VI - BA"
+    },
+    {
+      "cod_nro_loja": "153",
+      "desc_loja": "F153 - LIBERDADE II - BA"
+    },
+    {
+      "cod_nro_loja": "164",
+      "desc_loja": "F164 - CANDEIAS II - BA"
+    },
+    {
+      "cod_nro_loja": "214",
+      "desc_loja": "F214 - FORTALEZA - CE"
+    },
+    {
+      "cod_nro_loja": "225",
+      "desc_loja": "F225 - OLINDA II - PE"
+    },
+    {
+      "cod_nro_loja": "226",
+      "desc_loja": "F226 - CAMARAGIBE I - PE"
+    },
+    {
+      "cod_nro_loja": "247",
+      "desc_loja": "F247 - SANTA INES - MA"
+    },
+    {
+      "cod_nro_loja": "263",
+      "desc_loja": "F263 - CODO - MA"
+    },
+    {
+      "cod_nro_loja": "264",
+      "desc_loja": "F264 - MOSSORO II - RN"
+    },
+    {
+      "cod_nro_loja": "268",
+      "desc_loja": "F268 - SAO LUIS I - MA"
+    },
+    {
+      "cod_nro_loja": "98",
+      "desc_loja": "F098 - MOSSORO I - RN"
+    },
+    {
+      "cod_nro_loja": "182",
+      "desc_loja": "F182 - JUAZEIRO DO NORTE - CE"
+    },
+    {
+      "cod_nro_loja": "197",
+      "desc_loja": "F197 - ITABUNA III - BA"
+    },
+    {
+      "cod_nro_loja": "299",
+      "desc_loja": "F299 - MUTUIPE (DIGITAL) - BA"
+    },
+    {
+      "cod_nro_loja": "137",
+      "desc_loja": "F137 - SHOPPING IGUATEMI - PB"
+    },
+    {
+      "cod_nro_loja": "140",
+      "desc_loja": "F140 - SHOPPING VIA DIRETA - RN"
+    },
+    {
+      "cod_nro_loja": "146",
+      "desc_loja": "F146 - ITABUNA II - BA"
+    },
+    {
+      "cod_nro_loja": "210",
+      "desc_loja": "F210 - ARACAJU III - SE"
+    },
+    {
+      "cod_nro_loja": "219",
+      "desc_loja": "F219 - ENCRUZILHADA - PE"
+    },
+    {
+      "cod_nro_loja": "220",
+      "desc_loja": "F220 - CAPUCHINHOS - BA"
+    },
+    {
+      "cod_nro_loja": "221",
+      "desc_loja": "F221 - SHOPPING MIDWAY - RN"
+    },
+    {
+      "cod_nro_loja": "236",
+      "desc_loja": "F236 - TOBIAS BARRETO - SE"
+    },
+    {
+      "cod_nro_loja": "245",
+      "desc_loja": "F245 - TERESINA I - PI"
+    },
+    {
+      "cod_nro_loja": "261",
+      "desc_loja": "F261 - ARACAJU IV - SE"
+    },
+    {
+      "cod_nro_loja": "188",
+      "desc_loja": "F188 - ITAPETING - BA"
+    },
+    {
+      "cod_nro_loja": "293",
+      "desc_loja": "F293 - GANDU (DIGITAL) - BA"
+    },
+    {
+      "cod_nro_loja": "348",
+      "desc_loja": "F348 - SHOPPING DA ILHA - MA"
+    },
+    {
+      "cod_nro_loja": "347",
+      "desc_loja": "F347 - SAO JOSE DE RIBAMA - MA"
+    },
+    {
+      "cod_nro_loja": "143",
+      "desc_loja": "F143 - JEQUITIBA PLAZA SHOPPING - BA"
+    },
+    {
+      "cod_nro_loja": "144",
+      "desc_loja": "F144 - JACOBINA II - BA"
+    },
+    {
+      "cod_nro_loja": "152",
+      "desc_loja": "F152 - ALAGOINHAS II - BA"
+    },
+    {
+      "cod_nro_loja": "163",
+      "desc_loja": "F163 - LARGO DE ROMA - BA"
+    },
+    {
+      "cod_nro_loja": "167",
+      "desc_loja": "F167 - MANGABEIRAS - AL"
+    },
+    {
+      "cod_nro_loja": "172",
+      "desc_loja": "F172 - NATAL II - RN"
+    },
+    {
+      "cod_nro_loja": "173",
+      "desc_loja": "F173 - POTENGI - RN"
+    },
+    {
+      "cod_nro_loja": "230",
+      "desc_loja": "F230 - SAO LUIS II - MA"
+    },
+    {
+      "cod_nro_loja": "235",
+      "desc_loja": "F235 - PARNAMIRIM I - RN"
+    },
+    {
+      "cod_nro_loja": "238",
+      "desc_loja": "F238 - PATOS - PB"
+    },
+    {
+      "cod_nro_loja": "253",
+      "desc_loja": "F253 - IMBIRIBEIRA - PE"
+    },
+    {
+      "cod_nro_loja": "176",
+      "desc_loja": "F176 - ITABAIANA - SE"
+    },
+    {
+      "cod_nro_loja": "179",
+      "desc_loja": "F179 - RECIFE III - PE"
+    },
+    {
+      "cod_nro_loja": "274",
+      "desc_loja": "F274 - SALGUEIRO - PE"
+    },
+    {
+      "cod_nro_loja": "147",
+      "desc_loja": "F147 - SENHOR DO BONFIM II - BA"
+    },
+    {
+      "cod_nro_loja": "148",
+      "desc_loja": "F148 - JUAZEIRO II - BA"
+    },
+    {
+      "cod_nro_loja": "156",
+      "desc_loja": "F156 - SAO CAETANO - BA"
+    },
+    {
+      "cod_nro_loja": "162",
+      "desc_loja": "F162 - CALÇADA III - BA"
+    },
+    {
+      "cod_nro_loja": "257",
+      "desc_loja": "F257 - CAJAZEIRAS - BA"
+    },
+    {
+      "cod_nro_loja": "256",
+      "desc_loja": "F256 - DOIS DE JULHO - BA"
+    },
+    {
+      "cod_nro_loja": "222",
+      "desc_loja": "F222 - DELMIRO GOUVEIA - AL"
+    },
+    {
+      "cod_nro_loja": "262",
+      "desc_loja": "F262 - NATAL - RN"
+    },
+    {
+      "cod_nro_loja": "280",
+      "desc_loja": "F280 - FORTALEZA V - CE"
+    },
+    {
+      "cod_nro_loja": "290",
+      "desc_loja": "F290 - SURUBIM - PE"
+    },
+    {
+      "cod_nro_loja": "186",
+      "desc_loja": "F186 - SANTO AMARO II - BA"
+    },
+    {
+      "cod_nro_loja": "187",
+      "desc_loja": "F187 - NORTH SHOPPING - CE"
+    },
+    {
+      "cod_nro_loja": "291",
+      "desc_loja": "F291 - JOAO PESSOA VII - PB"
+    },
+    {
+      "cod_nro_loja": "192",
+      "desc_loja": "F192 - CARUARU II - PE"
+    },
+    {
+      "cod_nro_loja": "170",
+      "desc_loja": "F170 - JOAO PESSOA III - PB"
+    },
+    {
+      "cod_nro_loja": "277",
+      "desc_loja": "F277 - LAURO DE FREITAS IV - BA"
+    },
+    {
+      "cod_nro_loja": "199",
+      "desc_loja": "F199 - PITABU - BA"
+    },
+    {
+      "cod_nro_loja": "249",
+      "desc_loja": "F249 - CABULA - BA"
+    },
+    {
+      "cod_nro_loja": "241",
+      "desc_loja": "F241 - RECIFE V - PE"
+    },
+    {
+      "cod_nro_loja": "246",
+      "desc_loja": "F246 - IGAPO - RN"
+    },
+    {
+      "cod_nro_loja": "255",
+      "desc_loja": "F255 - AGUA FRIA - CE"
+    },
+    {
+      "cod_nro_loja": "272",
+      "desc_loja": "F272 - SAO LORENCO DA MATA - PE"
+    },
+    {
+      "cod_nro_loja": "97",
+      "desc_loja": "F097 - BOM JESUS DA LAPA - BA"
+    },
+    {
+      "cod_nro_loja": "180",
+      "desc_loja": "F180 - JOAO PESSOA IV - PB"
+    },
+    {
+      "cod_nro_loja": "282",
+      "desc_loja": "F282 - TIMON - MA"
+    },
+    {
+      "cod_nro_loja": "185",
+      "desc_loja": "F185 - ITABERABA - BA"
+    },
+    {
+      "cod_nro_loja": "294",
+      "desc_loja": "F294 - JAGUAQUARA (DIGITAL) - BA"
+    },
+    {
+      "cod_nro_loja": "193",
+      "desc_loja": "F193 - CATU (DIGITAL) - BA"
+    },
+    {
+      "cod_nro_loja": "196",
+      "desc_loja": "F196 - VITORIA DA CONQUISTA IV - BA"
+    },
+    {
+      "cod_nro_loja": "145",
+      "desc_loja": "F145 - ILHEUS II - BA"
+    },
+    {
+      "cod_nro_loja": "319",
+      "desc_loja": "F319 - SHOPPING PARALELA"
+    },
+    {
+      "cod_nro_loja": "323",
+      "desc_loja": "F323 - NORTE SHOPPING - BA"
+    },
+    {
+      "cod_nro_loja": "212",
+      "desc_loja": "F212 - JOAO PESSOA V - PB"
+    },
+    {
+      "cod_nro_loja": "234",
+      "desc_loja": "F234 - PITANGUINHA - AL"
+    },
+    {
+      "cod_nro_loja": "271",
+      "desc_loja": "F271 - BACABAL - MA"
+    },
+    {
+      "cod_nro_loja": "175",
+      "desc_loja": "F175 - SHOPPING GUARARAPES - PE"
+    },
+    {
+      "cod_nro_loja": "178",
+      "desc_loja": "F178 - NATAL III - RN"
+    },
+    {
+      "cod_nro_loja": "285",
+      "desc_loja": "F285 - PARNAIBA - PI"
+    },
+    {
+      "cod_nro_loja": "286",
+      "desc_loja": "F286 - CABO DE SANTO AGOSTINHO - PE"
+    },
+    {
+      "cod_nro_loja": "184",
+      "desc_loja": "F184 - LAURO DE FREITAS III - BA"
+    },
+    {
+      "cod_nro_loja": "296",
+      "desc_loja": "F296 - AMARGOSA (DIGITAL) - BA"
+    },
+    {
+      "cod_nro_loja": "297",
+      "desc_loja": "F297 - PIRIPIRI - PI"
+    },
+    {
+      "cod_nro_loja": "352",
+      "desc_loja": "F352 - CARPINA - PE"
+    },
+    {
+      "cod_nro_loja": "351",
+      "desc_loja": "F351 - MACEIO VI - AL"
+    },
+    {
+      "cod_nro_loja": "350",
+      "desc_loja": "F350 - SAO LUIZ VI - MA"
+    },
+    {
+      "cod_nro_loja": "95",
+      "desc_loja": "F095 - CAMPINA GRANDE I - PB"
+    },
+    {
+      "cod_nro_loja": "165",
+        "desc_loja": "F165 - CAMACARI II - BA"
+    },
+    {
+      "cod_nro_loja": "174",
+      "desc_loja": "F174 - SHOPPING JARDINS - SE"
+    },
+    {
+      "cod_nro_loja": "211",
+      "desc_loja": "F211 - ITAPOA - BA"
+    },
+    {
+      "cod_nro_loja": "215",
+      "desc_loja": "F215 - VALENCA - BA"
+    },
+    {
+      "cod_nro_loja": "217",
+      "desc_loja": "F217 - FORTALEZA II - SE"
+    },
+    {
+      "cod_nro_loja": "218",
+      "desc_loja": "F218 - AFOGADOS - PE"
+    },
+    {
+      "cod_nro_loja": "233",
+      "desc_loja": "F233 - SAO LUIS V - MA"
+    },
+    {
+      "cod_nro_loja": "237",
+      "desc_loja": "F237 - JABOATAO DOS GUARARAPES II - PE"
+    },
+    {
+      "cod_nro_loja": "240",
+      "desc_loja": "F240 - FORTALEZA III - CE"
+    },
+    {
+      "cod_nro_loja": "242",
+      "desc_loja": "F242 - BAIXA DOS SAPATEIROS IV - BA"
+    },
+    {
+      "cod_nro_loja": "252",
+      "desc_loja": "F252 - TERESINA II - PI"
+    },
+    {
+      "cod_nro_loja": "177",
+      "desc_loja": "F177 - ITABAIANA - CE"
+    },
+    {
+      "cod_nro_loja": "273",
+      "desc_loja": "F273 - JANGADINHA - PE"
+    },
+    {
+      "cod_nro_loja": "284",
+      "desc_loja": "F284 - AREINHA - MA"
+    },
+    {
+      "cod_nro_loja": "334",
+      "desc_loja": "F334 - MOSSORO III - RN"
+    },
+    {
+      "cod_nro_loja": "333",
+      "desc_loja": "F333 - ITAPIPOCA - CE"
+    },
+    {
+      "cod_nro_loja": "332",
+      "desc_loja": "F332 - PARNAMIRIM II - RN"
+    },
+    {
+      "cod_nro_loja": "327",
+      "desc_loja": "F327 - TIANGUA - CE"
+    },
+    {
+      "cod_nro_loja": "324",
+      "desc_loja": "F324 - SHOPPING PATIO MACEIO - AL"
+    },
+    {
+      "cod_nro_loja": "313",
+      "desc_loja": "F313 - PARIPE - BA"
+    },
+    {
+      "cod_nro_loja": "346",
+      "desc_loja": "F346 - FORTALEZA VIII - CE"
+    },
+    {
+      "cod_nro_loja": "304",
+      "desc_loja": "F304 - CAUCAIA - CE"
+    },
+    {
+      "cod_nro_loja": "391",
+      "desc_loja": "F391 - SIMOES FILHO - BA"
+    },
+    {
+      "cod_nro_loja": "281",
+      "desc_loja": "F291 - RECIFE IV - PE"
+    },
+    {
+      "cod_nro_loja": "330",
+      "desc_loja": "F330 - FORTALEZA VII - CE"
+    },
+    {
+      "cod_nro_loja": "308",
+      "desc_loja": "F308 - MANAUS I - AM"
+    },
+    {
+      "cod_nro_loja": "202",
+      "desc_loja": "F202 - CONCORDIA - PE"
+    },
+    {
+      "cod_nro_loja": "76",
+      "desc_loja": "F076 - GARANHUNS - PE"
+    },
+    {
+      "cod_nro_loja": "108",
+      "desc_loja": "F108 PETROLINA - PE"
+    },
+    {
+      "cod_nro_loja": "80",
+      "desc_loja": "F080 - EUNAPOLIS - BA"
+    },
+    {
+      "cod_nro_loja": "84",
+      "desc_loja": "F084 - JOAO PESSOA I - PB"
+    },
+    {
+      "cod_nro_loja": "21",
+      "desc_loja": "F021 - BONOCO - BA"
+    },
+    {
+      "cod_nro_loja": "100",
+      "desc_loja": "F100 - MACEIO II - AL"
+    },
+    {
+      "cod_nro_loja": "117",
+      "desc_loja": "F117 - PAULISTA - PE"
+    },
+    {
+      "cod_nro_loja": "132",
+      "desc_loja": "F132 - FEIRA DE SANTANA III - BA"
+    },
+    {
+      "cod_nro_loja": "86",
+      "desc_loja": "F086 - CANDEIAS I - BA"
+    },
+    {
+      "cod_nro_loja": "343",
+      "desc_loja": "CD 343 - JABOATAO DOS GUARAPES - PE"
+    },
+    {
+      "cod_nro_loja": "18",
+      "desc_loja": "F018 - BAIXA DOS SAPATEIROS II - BA"
+    },
+    {
+      "cod_nro_loja": "344",
+      "desc_loja": "F344 - TERESINHA IV - PI"
+    },
+    {
+      "cod_nro_loja": "204",
+      "desc_loja": "F204 - SHOPPING BARRA II - BA"
+    },
+    {
+      "cod_nro_loja": "39",
+      "desc_loja": "F039 - SHOPPING BARRA I - BA"
+    },
+    {
+      "cod_nro_loja": "307",
+      "desc_loja": "CD 307 - JABOATAO DOS GUARARAPES - PE"
+    },
+    {
+      "cod_nro_loja": "56",
+      "desc_loja": "F056 - SENHOR DO BONFIM I - BA"
+    },
+    {
+      "cod_nro_loja": "61",
+      "desc_loja": "F061 - JUAZEIRO I - BA"
+    },
+    {
+      "cod_nro_loja": "72",
+      "desc_loja": "F072 - ARACAJU I - SE"
+    },
+    {
+      "cod_nro_loja": "96",
+      "desc_loja": "F096 - SANTO AMARO I - BA"
+    },
+    {
+      "cod_nro_loja": "244",
+      "desc_loja": "F244 - MEGA BONOCO - BA"
+    },
+    {
+      "cod_nro_loja": "267",
+      "desc_loja": "F267 - ACU - RN"
+    },
+    {
+      "cod_nro_loja": "198",
+      "desc_loja": "F198 - BARREIRAS - BA"
+    },
+    {
+      "cod_nro_loja": "216",
+      "desc_loja": "F216 - JOAO PESSOA VI - PB"
+    },
+    {
+      "cod_nro_loja": "311",
+      "desc_loja": "F311 - NAZERE"
+    },
+    {
+      "cod_nro_loja": "317",
+      "desc_loja": "F317 - MANAUS IV - AM"
+    },
+    {
+      "cod_nro_loja": "209",
+      "desc_loja": "F209 - TEIXEIRA DE FREITAS II - BA"
+    },
+    {
+      "cod_nro_loja": "231",
+      "desc_loja": "F231 - SAO LUIS III - MA"
+    },
+    {
+      "cod_nro_loja": "276",
+      "desc_loja": "F276 - FORTALEZA IV - CE"
+    },
+    {
+      "cod_nro_loja": "349",
+      "desc_loja": "F349 - ARACAJU VI - SE"
+    },
+    {
+      "cod_nro_loja": "166",
+      "desc_loja": "F166 - GUARABIRA - PB"
+    },
+    {
+      "cod_nro_loja": "223",
+      "desc_loja": "F223 - LAGOA NOVA - RN"
+    },
+    {
+      "cod_nro_loja": "260",
+      "desc_loja": "F260 - MACEIO V - AL"
+    },
+    {
+      "cod_nro_loja": "194",
+      "desc_loja": "F194 - UNIAO DOS PALMARES - AL"
+    },
+    {
+      "cod_nro_loja": "169",
+      "desc_loja": "F169 - MACEIO IV - AL"
+    },
+    {
+      "cod_nro_loja": "227",
+      "desc_loja": "F227 - TIMBAUBA - PE"
+    },
+    {
+      "cod_nro_loja": "288",
+      "desc_loja": "F288 - ABREU E LIMA II - PE"
+    },
+    {
+      "cod_nro_loja": "189",
+      "desc_loja": "F189 - VITORIA DE SANTO ANTAO - PE"
+    },
+    {
+      "cod_nro_loja": "331",
+      "desc_loja": "F331 - PACAJUS - CE"
+    },
+    {
+      "cod_nro_loja": "306",
+      "desc_loja": "F306 - SHOPPING IGUATEMI - BA"
+    },
+    {
+      "cod_nro_loja": "329",
+      "desc_loja": "F329 - FORTALEZA VI - CE"
+    },
+    {
+      "cod_nro_loja": "328",
+      "desc_loja": "F328 - MARACANAU - CE"
+    },
+    {
+      "cod_nro_loja": "224",
+      "desc_loja": "F224 - ARAPIRACA - AL"
+    },
+    {
+      "cod_nro_loja": "259",
+      "desc_loja": "F259 - MESSEJANA - CE"
+    },
+    {
+      "cod_nro_loja": "279",
+      "desc_loja": "F279 - PORTO SEGURO - BA"
+    },
+    {
+      "cod_nro_loja": "295",
+      "desc_loja": "F295 - RECIFE VI - PE"
+    },
+    {
+      "cod_nro_loja": "270",
+      "desc_loja": "F270 - CAXIAS - MA"
+    },
+    {
+      "cod_nro_loja": "283",
+      "desc_loja": "F283 - SOBRAL - CE"
+    },
+    {
+      "cod_nro_loja": "289",
+      "desc_loja": "F289 - SALVADOR SHOPPING - BA"
+    },
+    {
+      "cod_nro_loja": "298",
+      "desc_loja": "F298 - ARACAJU V - SE"
+    },
+    {
+      "cod_nro_loja": "213",
+      "desc_loja": "F213 - CRATO - CE"
+    },
+    {
+      "cod_nro_loja": "228",
+      "desc_loja": "F228 - STA CRUZ DE CAPIBARIBE"
+    },
+    {
+      "cod_nro_loja": "342",
+      "desc_loja": "F342 - CARUARU III - PE"
+    },
+    {
+      "cod_nro_loja": "336",
+      "desc_loja": "F336 - NATAL VI - RN"
+    },
+    {
+      "cod_nro_loja": "300",
+      "desc_loja": "F300 - PONTENGI"
+    },
+    {
+      "cod_nro_loja": "278",
+      "desc_loja": "F278 - FREI SERAFIM - PI"
+    },
+    {
+      "cod_nro_loja": "353",
+      "desc_loja": "F353 - CABULA - BA"
+    },
+    {
+      "cod_nro_loja": "265",
+      "desc_loja": "F265 - CAMARAGIBE II - PE"
+    },
+    {
+      "cod_nro_loja": "205",
+      "desc_loja": "F205 IV - RECIFE"
+    },
+    {
+      "cod_nro_loja": "338",
+      "desc_loja": "F338 - CAMPINA GRANDE III - PB"
+    },
+    {
+      "cod_nro_loja": "337",
+      "desc_loja": "F337 - NATAL VII - RN"
+    },
+    {
+      "cod_nro_loja": "303",
+      "desc_loja": "F303 - RIVER SHOPPING - PE"
+    },
+    {
+      "cod_nro_loja": "326",
+      "desc_loja": "F326 - MANAUS VII - AM"
+    },
+    {
+      "cod_nro_loja": "322",
+      "desc_loja": "F322 - AMAZONAS SHOPPING - AM"
+    },
+    {
+      "cod_nro_loja": "309",
+      "desc_loja": "F309 - MANAUS II - AM"
+    },
+    {
+      "cod_nro_loja": "321",
+      "desc_loja": "F321 - MANAUS VI - AM"
+    },
+    {
+      "cod_nro_loja": "310",
+      "desc_loja": "F310 - MANAUS III - AM"
+    },
+    {
+      "cod_nro_loja": "318",
+      "desc_loja": "F318 - MANAUS V - AM"
+    },
+    {
+      "cod_nro_loja": "316",
+      "desc_loja": "CD 316 - MANAUS - AM"
+    },
+    {
+      "cod_nro_loja": "315",
+      "desc_loja": "F315 - ITABAIANA - SE"
+    },
+    {
+      "cod_nro_loja": "10",
+      "desc_loja": "F010 - LAURO DE FREITAS II - BA"
+    }
+ ],
+ "MVSH": [
+    
+    {
+      "cod_nro_loja": "44",
+      "desc_loja": "044 Jatai"
+    },
+    {
+      "cod_nro_loja": "46",
+      "desc_loja": "046 Cristalina"
+    },
+    {
+      "cod_nro_loja": "48",
+      "desc_loja": "048 Uberlandia Deposito"
+    },
+    {
+      "cod_nro_loja": "1",
+      "desc_loja": "001 Uberlandia T Vilela"
+    },
+    {
+      "cod_nro_loja": "52",
+      "desc_loja": "052 Inhumas"
+    },
+    {
+      "cod_nro_loja": "53",
+      "desc_loja": "053 Santa Helena"
+    },
+    {
+      "cod_nro_loja": "37",
+      "desc_loja": "037 Recanto das Emas"
+    },
+    {
+      "cod_nro_loja": "56",
+      "desc_loja": "056 Sto Antonio Descoberto"
+    },
+    {
+      "cod_nro_loja": "76",
+      "desc_loja": "076 Anapolis Jayara"
+    },
+    {
+      "cod_nro_loja": "59",
+      "desc_loja": "059 Araguari - RE"
+    },
+    {
+      "cod_nro_loja": "82",
+      "desc_loja": "082 B Horizonte Venda Nova"
+    },
+    {
+      "cod_nro_loja": "90",
+      "desc_loja": "090 Betim Amazonas 680"
+    },
+    {
+      "cod_nro_loja": "80",
+      "desc_loja": "080 Rib Preto S Marinho"
+    },
+    {
+      "cod_nro_loja": "88",
+      "desc_loja": "088 Sertaozinho"
+    },
+    {
+      "cod_nro_loja": "87",
+      "desc_loja": "087 Sao Sebastiao"
+    },
+    {
+      "cod_nro_loja": "15",
+      "desc_loja": "015 Matriz - Uberlandia"
+    },
+    {
+      "cod_nro_loja": "96",
+      "desc_loja": "096 Paracatu"
+    },
+    {
+      "cod_nro_loja": "10",
+      "desc_loja": "010 Goiania Anhang 483"
+    },
+    {
+      "cod_nro_loja": "33",
+      "desc_loja": "033 Udi Center Shop"
+    },
+    {
+      "cod_nro_loja": "50",
+      "desc_loja": "050 Goianesia"
+    },
+    {
+      "cod_nro_loja": "38",
+      "desc_loja": "038 Aguas Lindas"
+    },
+    {
+      "cod_nro_loja": "5",
+      "desc_loja": "005 Goiania 24 Out 1311"
+    },
+    {
+      "cod_nro_loja": "49",
+      "desc_loja": "049 Brazlandia"
+    },
+    {
+      "cod_nro_loja": "7",
+      "desc_loja": "007 Anapolis Goias"
+    },
+    {
+      "cod_nro_loja": "97",
+      "desc_loja": "097 Novo gama"
+    },
+    {
+      "cod_nro_loja": "100",
+      "desc_loja": "100 Goiania Pio XII"
+    },
+    {
+      "cod_nro_loja": "98",
+      "desc_loja": "098 Pontal"
+    },
+    {
+      "cod_nro_loja": "103",
+      "desc_loja": "103 Monte Alto"
+    },
+    {
+      "cod_nro_loja": "102",
+      "desc_loja": "102 Goiania Deposito"
+    },
+    {
+      "cod_nro_loja": "109",
+      "desc_loja": "109 Taguatinga Shopping"
+    },
+    {
+      "cod_nro_loja": "108",
+      "desc_loja": "108 Goiania Portal Shopping"
+    },
+    {
+      "cod_nro_loja": "111",
+      "desc_loja": "111 Novo Shopping"
+    },
+    {
+      "cod_nro_loja": "112",
+      "desc_loja": "112 Shopping Taguatinga"
+    },
+    {
+      "cod_nro_loja": "8",
+      "desc_loja": "008 Goiania Anhang 5004"
+    },
+    {
+      "cod_nro_loja": "9",
+      "desc_loja": "009 Uberlandia A Pena"
+    },
+    {
+      "cod_nro_loja": "18",
+      "desc_loja": "018 Goiania Asteca"
+    },
+    {
+      "cod_nro_loja": "23",
+      "desc_loja": "023 Goiania Aguang 4815"
+    },
+    {
+      "cod_nro_loja": "24",
+      "desc_loja": "024 ARAXA"
+    },
+    {
+      "cod_nro_loja": "26",
+      "desc_loja": "026 Ceilandia"
+    },
+    {
+      "cod_nro_loja": "4",
+      "desc_loja": "004 Ap Goiania Buriti Shopping"
+    },
+    {
+      "cod_nro_loja": "30",
+      "desc_loja": "030 CJ Naciona Shopping"
+    },
+    {
+      "cod_nro_loja": "31",
+      "desc_loja": "031 Goiania 24 Out 1786"
+    },
+    {
+      "cod_nro_loja": "35",
+      "desc_loja": "035 Samambaia"
+    },
+    {
+      "cod_nro_loja": "43",
+      "desc_loja": "043 Sobradinho"
+    },
+    {
+      "cod_nro_loja": "45",
+      "desc_loja": "045 Paranoa"
+    },
+    {
+      "cod_nro_loja": "14",
+      "desc_loja": "014 Ituiutaba"
+    },
+    {
+      "cod_nro_loja": "3",
+      "desc_loja": "003 Catalao"
+    },
+    {
+      "cod_nro_loja": "29",
+      "desc_loja": "029 Nucleo Bandeirante"
+    },
+    {
+      "cod_nro_loja": "41",
+      "desc_loja": "041 Valparaiso"
+    },
+    {
+      "cod_nro_loja": "101",
+      "desc_loja": "101 Senador Canedo"
+    },
+    {
+      "cod_nro_loja": "51",
+      "desc_loja": "051 Ap Goiania Garavelo"
+    },
+    {
+      "cod_nro_loja": "6",
+      "desc_loja": "006 Anapolis E Portela"
+    },
+    {
+      "cod_nro_loja": "17",
+      "desc_loja": "017 Brasilia Deposito"
+    },
+    {
+      "cod_nro_loja": "99",	
+      "desc_loja": "099 Unai"
+    },
+    {
+      "cod_nro_loja": "39",	
+      "desc_loja": "039 Planaltina GO"
+    },
+    {
+      "cod_nro_loja": "11",	
+      "desc_loja": "011 Rio Verde"
+    },
+    {
+      "cod_nro_loja": "54",
+      "desc_loja": "054 Caldas Novas"
+    },
+    {
+      "cod_nro_loja": "22",
+      "desc_loja": "022 Patos de Minas"
+    },
+    {
+      "cod_nro_loja": "58",
+      "desc_loja": "058 Udi - Center Shopping - RE"
+    },
+    {
+      "cod_nro_loja": "79",
+      "desc_loja": "079 Rib preto praca XV"
+    },
+    {
+      "cod_nro_loja": "83",
+      "desc_loja": "083 Franca Voluntarios"
+    },
+    {
+      "cod_nro_loja": "12",
+      "desc_loja": "012 Goiania Anhang 4618"
+    },
+    {
+      "cod_nro_loja": "28",
+      "desc_loja": "028 Araguari"
+    },
+    {
+      "cod_nro_loja": "115",
+      "desc_loja": "115 SHOPPING SUL"
+    },
+    {
+      "cod_nro_loja": "13",
+      "desc_loja": "013 Itumbiara"
+    },
+    {
+      "cod_nro_loja": "47",
+      "desc_loja": "047 Planaltina"
+    },
+    {
+      "cod_nro_loja": "104",
+      "desc_loja": "104 Jardinopolis"
+    },
+    {
+      "cod_nro_loja": "2",
+      "desc_loja": "Uberaba"
+    },
+    {
+      "cod_nro_loja": "27",
+      "desc_loja": "Gama"
+    },
+    {
+      "cod_nro_loja": "40",
+      "desc_loja": "Uberlandia Centro"
+    },
+    {
+      "cod_nro_loja": "105",
+      "desc_loja": "Cobranca"
+    },
+    {
+      "cod_nro_loja": "20",
+      "desc_loja": "Anapolis Bom Jesus"
+    },
+    {
+      "cod_nro_loja": "116",
+      "desc_loja": "CD 116 - ANAPOLIS - GO"
+    },
+    {
+      "cod_nro_loja": "107",
+      "desc_loja": "107 Ribeirao Preto Deposito"
+    },
+    {
+      "cod_nro_loja": "42",
+      "desc_loja": "042 Quirinopolis"
+    },
+    {
+      "cod_nro_loja": "19",
+      "desc_loja": "019 Luziania"
+    },
+    {
+      "cod_nro_loja": "55",
+      "desc_loja": "055 Mineiros"
+    },
+    {
+      "cod_nro_loja": "25",
+      "desc_loja": "025 Formosa"
+    }
+  ],
+  "RELODEV": [
+    {
+      "cod_nro_loja": "0",	
+      "desc_loja": "F000 - DIVINOPOLIS I (22) - MG"
+    },
+    {
+      "cod_nro_loja": "1",	
+      "desc_loja": "F001 - DIVINOPOLIS II - MG"
+    },
+    {
+      "cod_nro_loja": "4",	
+      "desc_loja": "F004 - NOVA SERRANA - MG"
+    },
+    {
+      "cod_nro_loja": "6",	
+      "desc_loja": "F006 - ITAÚNA - MG"
+    },
+    {
+      "cod_nro_loja": "8",	
+      "desc_loja": "F008 - BETIM - MG"
+    },
+    {
+      "cod_nro_loja": "12",	
+      "desc_loja": "F012 - BOM DESPACHO - MG"
+    },
+    {
+      "cod_nro_loja": "15",	
+      "desc_loja": "F015 - BARREIRO I - MG"
+    },
+    {
+      "cod_nro_loja": "16",	
+      "desc_loja": "F016 - ITABIRA - MG"
+    },
+    {
+      "cod_nro_loja": "17",	
+      "desc_loja": "F017 - OLIVEIRA - MG"
+    },
+    {
+      "cod_nro_loja": "19",	
+      "desc_loja": "F019 - SAO JOAO DEL REY - MG"
+    },
+    {
+      "cod_nro_loja": "21",	
+      "desc_loja": "F021 - VENDA NOVA I - MG"
+    },
+    {
+      "cod_nro_loja": "22",	
+      "desc_loja": "F022 - RIO DE JANEIRO - MG"
+    },
+    {
+      "cod_nro_loja": "133",	
+      "desc_loja": "F133 - ARACAJU II - SE"
+    },
+    {
+      "cod_nro_loja": "134",	
+      "desc_loja": "F134 - ITABUNA - BA"
+    },
+    {
+      "cod_nro_loja": "135",	
+      "desc_loja": "F135 - SETE LAGOAS II - MG"
+    },
+    {
+      "cod_nro_loja": "137",	
+      "desc_loja": "F137 - SHOPPING ARACAJU - SE"
+    },
+    {
+      "cod_nro_loja": "139",	
+      "desc_loja": "F139 - VITORIA DA CONQUISTA II"
+    },
+    {
+      "cod_nro_loja": "140",	
+      "desc_loja": "F140 - CURITIBA IV - MG"
+    },
+    {
+      "cod_nro_loja": "141",	
+      "desc_loja": "F141 - PARPE - BA"
+    },
+    {
+      "cod_nro_loja": "142",	
+      "desc_loja": "F142 - DIAS DE AVILA - BA"
+    },
+    {
+      "cod_nro_loja": "143",	
+      "desc_loja": "F143 - MURIAE - MG"
+    },
+    {
+      "cod_nro_loja": "144",	
+      "desc_loja": "F144 - ITABAIANA - SE"
+    },
+    {
+      "cod_nro_loja": "23",	
+      "desc_loja": "F023 - SHOPPING DEL REY - MG"
+    },
+    {
+      "cod_nro_loja": "28",	
+      "desc_loja": "F028 - CONSELHEIRO LAFAIETE - MG"
+    },
+    {
+      "cod_nro_loja": "30",	
+      "desc_loja": "F030 - SETE LAGOAS I - MG"
+    },
+    {
+      "cod_nro_loja": "31",	
+      "desc_loja": "F031 - MINAS SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "32",	
+      "desc_loja": "F032 - CURITIBA I - MG"
+    },
+    {
+      "cod_nro_loja": "34",	
+      "desc_loja": "F034 - GOVERNADOR VALADARES I - MG"
+    },
+    {
+      "cod_nro_loja": "35",	
+      "desc_loja": "F034 - BARBACENA - MG"
+    },
+    {
+      "cod_nro_loja": "36",	
+      "desc_loja": "F036 - IPATINGA I - MG"
+    },
+    {
+      "cod_nro_loja": "39",	
+      "desc_loja": "F039 - SHOPPING CIDADE - MG"
+    },
+    {
+      "cod_nro_loja": "40",	
+      "desc_loja": "F040 - CURITIBA II - MG"
+    },
+    {
+      "cod_nro_loja": "43",	
+      "desc_loja": "F043 - NOVA LIMA - MG"
+    },
+    {
+      "cod_nro_loja": "44",	
+      "desc_loja": "F044 - SANTA LUZIA - MG"
+    },
+    {
+      "cod_nro_loja": "46",	
+      "desc_loja": "F046 - TEOFILO OTONI - MG"
+    },
+    {
+      "cod_nro_loja": "47",	
+      "desc_loja": "CD 47 - CD CONTAGEM 1 - MG"
+    },
+    {
+      "cod_nro_loja": "48",	
+      "desc_loja": "F048 - JUIZ DE FORA II - MG"
+    },
+    {
+      "cod_nro_loja": "49",	
+      "desc_loja": "F049 - MONTE CLAROS II - MG"
+    },
+    {
+      "cod_nro_loja": "50",	
+      "desc_loja": "F050 - VIA SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "51",	
+      "desc_loja": "F051 - CORONEL FABRICIANO - MG"
+    },
+    {
+      "cod_nro_loja": "52",
+      "desc_loja": "F052 - SHOPPING VITORIA - ES"
+    },
+    {
+      "cod_nro_loja": "55",	
+      "desc_loja": "F055 - CENTRO VILA VELHA - ES"
+    },
+    {
+      "cod_nro_loja": "56",	
+      "desc_loja": "F056 - LARANJEIRAS I - ES"
+    },
+    {
+      "cod_nro_loja": "61",	
+      "desc_loja": "F061 - SHOPPING PRAIA DA COSTA - ES"
+    },
+    {
+      "cod_nro_loja": "62",
+      "desc_loja": "F062 - GLORIA VILA VELHA"
+    },
+    {
+      "cod_nro_loja": "63",
+      "desc_loja": "F063 - GOVERNADOR VALADARES II - MG"
+    },
+    {
+      "cod_nro_loja": "64",
+      "desc_loja": "F064 - JOAO MONLEVADE - MG"
+    },
+    {
+      "cod_nro_loja": "65",
+      "desc_loja": "F065 - CURVELO - MG"
+    },
+    {
+      "cod_nro_loja": "66",
+      "desc_loja": "F066 - LINHARES - ES"
+    },
+    {
+      "cod_nro_loja": "68",
+      "desc_loja": "F068 - INDUSTRIAL - MG"
+    },
+    {
+      "cod_nro_loja": "72",
+      "desc_loja": "F072 - GUARAPARI - ES"
+    },
+    {
+      "cod_nro_loja": "74",
+      "desc_loja": "F074 - ATRE - MG"
+    },
+    {
+      "cod_nro_loja": "75",
+      "desc_loja": "F075 - RUA CURITIBA III - MG"
+    },
+    {
+      "cod_nro_loja": "76",
+      "desc_loja": "F076 - BARRO PRETO - MG"
+    },
+    {
+      "cod_nro_loja": "77",
+      "desc_loja": "F077 - CARIJOS - MG"
+    },
+    {
+      "cod_nro_loja": "78",
+      "desc_loja": "F078 - CACHOEIRO ITAPEMIRIM - ES"
+    },
+    {
+      "cod_nro_loja": "79",
+      "desc_loja": "F079 - JUIZ DE FORA III - MG"
+    },
+    {
+      "cod_nro_loja": "80",
+      "desc_loja": "F080 - VESPASIANO - MG"
+    },
+    {
+      "cod_nro_loja": "81",
+      "desc_loja": "CD 81 - VILA VELHA - ES"
+    },
+    {
+      "cod_nro_loja": "82",
+      "desc_loja": "F082 - CARIACICA II - ES"
+    },
+    {
+      "cod_nro_loja": "83",
+      "desc_loja": "F083 - BIG SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "84",
+      "desc_loja": "F084 - ELDORADO II - MG"
+    },
+    {
+      "cod_nro_loja": "86",
+      "desc_loja": "F086 - IRECE - BA"
+    },
+    {
+      "cod_nro_loja": "87",
+      "desc_loja": "F087 - CALCADA I - BA"
+    },
+    {
+      "cod_nro_loja": "89",
+      "desc_loja": "F089 - AV. SET I - MERCES - BA"
+    },
+    {
+      "cod_nro_loja": "90",
+      "desc_loja": "F090 - SHOPPING IGUATEMI - BA"
+    },
+    {
+      "cod_nro_loja": "91",
+      "desc_loja": "F091 - CAMACARI - BA"
+    },
+    {
+      "cod_nro_loja": "92",
+      "desc_loja": "F092 - LIBERDADE - BA"
+    },
+    {
+      "cod_nro_loja": "95",
+      "desc_loja": "F095 - CAJAZEIROS - BA"
+    },
+    {
+      "cod_nro_loja": "96",
+      "desc_loja": "F096 - AV SETE III - SAO PEDRO - BA"
+    },
+    {
+      "cod_nro_loja": "98",
+      "desc_loja": "F098 - VITORIA DA CONQUISTA - BA"
+    },
+    {
+      "cod_nro_loja": "101",
+      "desc_loja": "F101 - ITAPUA - BA"
+    },
+    {
+      "cod_nro_loja": "103",
+      "desc_loja": "F103 - SAO MATEUS - ES"
+    },
+    {
+      "cod_nro_loja": "105",
+      "desc_loja": "F105 - SANTO ANTONIO DE JESUS - BA"
+    },
+    {
+      "cod_nro_loja": "106",
+      "desc_loja": "F106 - LAURO DE FREITAS I - BA"
+    },
+    {
+      "cod_nro_loja": "108",
+      "desc_loja": "F108 - SIMOES FILHO - BA"
+    },
+    {
+      "cod_nro_loja": "109",
+      "desc_loja": "F109 - PONTEIO LAR SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "110",
+      "desc_loja": "F110 - TUPINAMBAS II - MG"
+    },
+    {
+      "cod_nro_loja": "111",
+      "desc_loja": "F111 - SAO CAETANO - BA"
+    },
+    {
+      "cod_nro_loja": "112",
+      "desc_loja": "F112 - FEIRA DE SANTANA I - BA"
+    },
+    {
+      "cod_nro_loja": "113",
+      "desc_loja": "F113 - FEIRA DE SANTANA II - BA"
+    },
+    {
+      "cod_nro_loja": "114",
+      "desc_loja": "F114 - IPATINGA II SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "115",
+      "desc_loja": "F115 - BROTAS - BA"
+    },
+    {
+      "cod_nro_loja": "116",
+      "desc_loja": "F116 - PAULO AFONSO - BA"
+    },
+    {
+      "cod_nro_loja": "117",
+      "desc_loja": "F117 - JEQUIE - BA"
+    },
+    {
+      "cod_nro_loja": "119",
+      "desc_loja": "F119 - TEIXEIRA DE FREITAS - BA"
+    },
+    {
+      "cod_nro_loja": "120",
+      "desc_loja": "F120 - EUNAPOLIS"
+    },
+    {
+      "cod_nro_loja": "121",
+      "desc_loja": "F121 - LARANJEIRAS II - SERRA - BA"
+    },
+    {
+      "cod_nro_loja": "122",
+      "desc_loja": "F122 - ITABUNA - BA"
+    },
+    {
+      "cod_nro_loja": "123",
+      "desc_loja": "F123 - PEDRO LEOPOLDO - MG"
+    },
+    {
+      "cod_nro_loja": "125",
+      "desc_loja": "F125 - SETE PORTAS - BA"
+    },
+    {
+      "cod_nro_loja": "127",
+      "desc_loja": "F127 - CALCADA II - BA"
+    },
+    {
+      "cod_nro_loja": "128",
+      "desc_loja": "F128 - VALENCA - BA"
+    },
+    {
+      "cod_nro_loja": "131",
+      "desc_loja": "F131 - ARACAJU I - SE"
+    },
+    {
+      "cod_nro_loja": "132",
+      "desc_loja": "F132 - CRUZ DAS ALMAS - BA"
+    },
+    {
+      "cod_nro_loja": "247",
+      "desc_loja": "F247 - SAO GONZALO II - RJ"
+    },
+    {
+      "cod_nro_loja": "248",
+      "desc_loja": "F248 - MEIER II - RJ"
+    },
+    {
+      "cod_nro_loja": "249",
+      "desc_loja": "F249 - NITEROI III - RJ"
+    },
+    {
+      "cod_nro_loja": "250",
+      "desc_loja": "F250 - ITABORAI II - RJ"
+    },
+    {
+      "cod_nro_loja": "251",
+      "desc_loja": "F251 - PENHA II - RJ"
+    },
+    {
+      "cod_nro_loja": "252",
+      "desc_loja": "F252 - CENTER SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "253",
+      "desc_loja": "F253 - CABO FRIO - RJ"
+    },
+    {
+      "cod_nro_loja": "254",
+      "desc_loja": "F254 - CENTRO MACAE - RJ"
+    },
+    {
+      "cod_nro_loja": "258",
+      "desc_loja": "F258 - ATRE - ES"
+    },
+    {
+      "cod_nro_loja": "259",
+      "desc_loja": "F259 - MINI CD LAURO DE FREITAS"
+    },
+    {
+      "cod_nro_loja": "260",
+      "desc_loja": "F260 - PONTO COM (ATACADO)"
+    },
+    {
+      "cod_nro_loja": "261",
+      "desc_loja": "F261 - GUANABARA BARRA SHOPPING"
+    },
+    {
+      "cod_nro_loja": "263",
+      "desc_loja": "F263 - INDEPENDENCIA SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "145",
+      "desc_loja": "F145 - SANTO AMARO - BA"
+    },
+    {
+      "cod_nro_loja": "146",
+      "desc_loja": "F146 - AV. SANTO DUMONT - MG"
+    },
+    {
+      "cod_nro_loja": "148",
+      "desc_loja": "F148 - TANCREDO NEVES - BA"
+    },
+    {
+      "cod_nro_loja": "149",
+      "desc_loja": "F149 - SUSSUARANA - BA"
+    },
+    {
+      "cod_nro_loja": "150",
+      "desc_loja": "F150 - BARRA SHOPPING - BA"
+    },
+    {
+      "cod_nro_loja": "151",
+      "desc_loja": "F151 - ALAGOINHAS - BA"
+    },
+    {
+      "cod_nro_loja": "152",
+      "desc_loja": "F152 - LAGOINHA - MG"
+    },
+    {
+      "cod_nro_loja": "154",
+      "desc_loja": "F154 - RIO DE JANEIRO II - MG"
+    },
+    {
+      "cod_nro_loja": "155",
+      "desc_loja": "F155 - SERRA JACAREIPE - ES"
+    },
+    {
+      "cod_nro_loja": "156",
+      "desc_loja": "CD 6F - CD ESPIRITO SANTO - ES"
+    },
+    {
+      "cod_nro_loja": "157",
+      "desc_loja": "F157 - BARREIRO - MG"
+    },
+    {
+      "cod_nro_loja": "158",
+      "desc_loja": "F158 - LAGOA SANTO - MG"
+    },
+    {
+      "cod_nro_loja": "159",
+      "desc_loja": "F159 - BETIM II - MG"
+    },
+    {
+      "cod_nro_loja": "161",
+      "desc_loja": "F161 - BETANIA - MG"
+    },
+    {
+      "cod_nro_loja": "162",
+      "desc_loja": "F162 - TIMOTIO - MG"
+    },
+    {
+      "cod_nro_loja": "163",
+      "desc_loja": "F163 - MACEIO SHOPPING - AL"
+    },
+    {
+      "cod_nro_loja": "166",
+      "desc_loja": "F166 - PONTE NOVA - MG"
+    },
+    {
+      "cod_nro_loja": "167",
+      "desc_loja": "F167 - COPACABANA - RJ"
+    },
+    {
+      "cod_nro_loja": "168",
+      "desc_loja": "F168 - MADUREIRA - RJ"
+    },
+    {
+      "cod_nro_loja": "169",
+      "desc_loja": "F169 - URUGUAIANA - RJ"
+    },
+    {
+      "cod_nro_loja": "171",
+      "desc_loja": "F171 - BANGU - RJ"
+    },
+    {
+      "cod_nro_loja": "172",
+      "desc_loja": "F172 - BOM SUCESSO - RJ"
+    },
+    {
+      "cod_nro_loja": "173",
+      "desc_loja": "F173 - ILHA DO GOVERNADOR - RJ"
+    },
+    {
+      "cod_nro_loja": "176",
+      "desc_loja": "F176 - ILHA PLAZA SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "177",
+      "desc_loja": "F177 - SHOPPING IGUATEMI - RJ"
+    },
+    {
+      "cod_nro_loja": "178",
+      "desc_loja": "F178 - VOLTA REDONDA - RJ"
+    },
+    {
+      "cod_nro_loja": "179",
+      "desc_loja": "F179 - DUQUE DE CAXIAS - RJ"
+    },
+    {
+      "cod_nro_loja": "181",
+      "desc_loja": "F181 - NITEROI - RJ"
+    },
+    {
+      "cod_nro_loja": "182",
+      "desc_loja": "F182 - NILOPOLIS - RJ"
+    },
+    {
+      "cod_nro_loja": "184",
+      "desc_loja": "F184 - JACOBINA - BA"
+    },
+    {
+      "cod_nro_loja": "185",
+      "desc_loja": "F185 - JUAZEIRO - BA"
+    },
+    {
+      "cod_nro_loja": "186",
+      "desc_loja": "F186 - SERRINHA - BA"
+    },
+    {
+      "cod_nro_loja": "187",
+      "desc_loja": "F187 - VITORIA DA CONQUISTA - BA"
+    },
+    {
+      "cod_nro_loja": "189",
+      "desc_loja": "F189 - ITABIRITO - MG"
+    },
+    {
+      "cod_nro_loja": "191",
+      "desc_loja": "F191 - COMERCIO I - AL"
+    },
+    {
+      "cod_nro_loja": "192",
+      "desc_loja": "F192 - COMERCIO II - BA"
+    },
+    {
+      "cod_nro_loja": "193",
+      "desc_loja": "F193 - BOA VISTA - AL"
+    },
+    {
+      "cod_nro_loja": "195",
+      "desc_loja": "F195 - VILLAR DOS TELES - RJ"
+    },
+    {
+      "cod_nro_loja": "196",
+      "desc_loja": "F196 - MADUREIRA - RJ"
+    },
+    {
+      "cod_nro_loja": "197",
+      "desc_loja": "F197 - NOVA IGUACU - RJ"
+    },
+    {
+      "cod_nro_loja": "198",
+      "desc_loja": "F198 - SAO JOAO DO MERITI - RJ"
+    },
+    {
+      "cod_nro_loja": "199",
+      "desc_loja": "CD 9J - CD PAVUNA - RJ"
+    },
+    {
+      "cod_nro_loja": "201",
+      "desc_loja": "F201 - SAO GONCALO SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "202",
+      "desc_loja": "F202 - SANTA CRUZ PREZUNIC 2L - RJ"
+    },
+    {
+      "cod_nro_loja": "203",
+      "desc_loja": "F203 - NORTE SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "204",
+      "desc_loja": "F204 - SAO GONCALO - RJ"
+    },
+    {
+      "cod_nro_loja": "206",
+      "desc_loja": "F206 - ITAPETINGA - BA"
+    },
+    {
+      "cod_nro_loja": "209",
+      "desc_loja": "F209 - BARRA MANSA - RJ"
+    },
+    {
+      "cod_nro_loja": "210",
+      "desc_loja": "F210 - PONTO COM - MG"
+    },
+    {
+      "cod_nro_loja": "211",
+      "desc_loja": "F211 - ITAGUAI - RJ"
+    },
+    {
+      "cod_nro_loja": "213",
+      "desc_loja": "F213 - PIABETA - RJ"
+    },
+    {
+      "cod_nro_loja": "214",
+      "desc_loja": "F214 - ITABORAI - RJ"
+    },
+    {
+      "cod_nro_loja": "215",
+      "desc_loja": "F215 - ALCANTARA - RJ"
+    },
+    {
+      "cod_nro_loja": "217",
+      "desc_loja": "F217 - WEST SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "218",
+      "desc_loja": "F218 - TOP SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "220",
+      "desc_loja": "F220 - LAURO DE FREITAS II - BA"
+    },
+    {
+      "cod_nro_loja": "221",
+      "desc_loja": "CD 1N - CD CONTAGEM II - MG"
+    },
+    {
+      "cod_nro_loja": "222",
+      "desc_loja": "F222 2 - VIA PARQUE SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "223",
+      "desc_loja": "F223 - BARRA SHOPPING NEW YORK - RJ"
+    },
+    {
+      "cod_nro_loja": "224",
+      "desc_loja": "F224 4 - TRES RIOS - RJ"
+    },
+    {
+      "cod_nro_loja": "225",
+      "desc_loja": "F225 - PORTO SEGURO - BA"
+    },
+    {
+      "cod_nro_loja": "228",
+      "desc_loja": "F228 - CENTER SHOPPING - RJ"
+    },
+    {
+      "cod_nro_loja": "229",
+      "desc_loja": "F229 - PETROLINA II - PE"
+    },
+    {
+      "cod_nro_loja": "230",
+      "desc_loja": "F230 - CAMPO GRANDE - RJ"
+    },
+    {
+      "cod_nro_loja": "231",
+      "desc_loja": "F131 - BARRA DO PIRAI - RJ"
+    },
+    {
+      "cod_nro_loja": "232",
+      "desc_loja": "F232 - SHOPPING MACAE - RJ"
+    },
+    {
+      "cod_nro_loja": "234",
+      "desc_loja": "F234 - ATRE PAVUNA - RJ"
+    },
+    {
+      "cod_nro_loja": "235",
+      "desc_loja": "F235 - PRINCESA ISABEL - ES"
+    },
+    {
+      "cod_nro_loja": "236",
+      "desc_loja": "F236 - SHOPPING GRANDE RIO - RJ"
+    },
+    {
+      "cod_nro_loja": "237",
+      "desc_loja": "F237 - BANGU II - RJ"
+    },
+    {
+      "cod_nro_loja": "238",
+      "desc_loja": "F238 - SHOPPING PASSEIO - RJ"
+    },
+    {
+      "cod_nro_loja": "239",
+      "desc_loja": "F239 - NITEROI II - RJ"
+    },
+    {
+      "cod_nro_loja": "241",
+      "desc_loja": "F241 - URUGUAIANA II - RJ"
+    },
+    {
+      "cod_nro_loja": "242",
+      "desc_loja": "F242 - SAO JOAO DO MERITI II - RJ"
+    },
+    {
+      "cod_nro_loja": "244",
+      "desc_loja": "F244 - NILOPOLIS II - RJ"
+    },
+    {
+      "cod_nro_loja": "245",
+      "desc_loja": "F245 - TAQUARA II - RJ"
+    },
+    {
+      "cod_nro_loja": "264",
+      "desc_loja": "F264 - RESENDE - RJ"
+    },
+    {
+      "cod_nro_loja": "265",
+      "desc_loja": "F265 - IRAJA - RJ"
+    },
+    {
+      "cod_nro_loja": "266",
+      "desc_loja": "F266 - ARACAJU IV JOAO PESSOA"
+    },
+    {
+      "cod_nro_loja": "268",
+      "desc_loja": "F268 - CATAGUASES MG"
+    },
+    {
+      "cod_nro_loja": "269",
+      "desc_loja": "MONTES CLAROS SHOPPING CENTER"
+    },
+    {
+      "cod_nro_loja": "270",
+      "desc_loja": "F270 - JANAUBA MG"
+    },
+    {
+      "cod_nro_loja": "271",
+      "desc_loja": "F271 - CEU AZUL MG"
+    },
+    {
+      "cod_nro_loja": "274",
+      "desc_loja": "F274 - MAGE RJ"
+    },
+    {
+      "cod_nro_loja": "275",
+      "desc_loja": "F275 - RIO BONITO RJ"
+    },
+    {
+      "cod_nro_loja": "276",
+      "desc_loja": "F276 - RIO DAS OSTRAS RJ"
+    },
+    {
+      "cod_nro_loja": "277",
+      "desc_loja": "F277 - REZENDE RJ"
+    },
+    {
+      "cod_nro_loja": "278",
+      "desc_loja": "F278 - GUARANI BH - MG"
+    },
+    {
+      "cod_nro_loja": "279",
+      "desc_loja": "F279 - SANTA CRUZ 2 RJ"
+    },
+    {
+      "cod_nro_loja": "280",
+      "desc_loja": "F280 - SHOPPING GUADALUPE RJ"
+    },
+    {
+      "cod_nro_loja": "289",
+      "desc_loja": "F289 - SHOPPING ESTACAO - BH -MG"
+    },
+    {
+      "cod_nro_loja": "290",
+      "desc_loja": "F290 - ATRE BA"
+    },
+    {
+      "cod_nro_loja": "27",
+      "desc_loja": "F027 - ELDORADO I - MG"
+    },
+    {
+      "cod_nro_loja": "69",
+      "desc_loja": "F069 - RUA TUPINAMBAS I - MG"
+    },
+    {
+      "cod_nro_loja": "57",
+      "desc_loja": "F057 - GOIABEIRAS VITORIA - ES"
+    },
+    {
+      "cod_nro_loja": "67",
+      "desc_loja": "F067 - COLATINA - ES"
+    },
+    {
+      "cod_nro_loja": "88",
+      "desc_loja": "F088 - SHOPPING PIEDADE - BA"
+    },
+    {
+      "cod_nro_loja": "93",
+      "desc_loja": "F093 - SHOPPING PARALELA - BA"
+    },
+    {
+      "cod_nro_loja": "107",
+      "desc_loja": "F107 - PITUBA- BA"
+    },
+    {
+      "cod_nro_loja": "130",
+      "desc_loja": "F130 - FEIRA DE SANTANA III - BA"
+    },
+    {
+      "cod_nro_loja": "7",
+      "desc_loja": "F007 - FORMIGA - MG"
+    },
+    {
+      "cod_nro_loja": "38",
+      "desc_loja": "F038 - BH SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "281",
+      "desc_loja": "F281 - COMUNIDADE ROCINHA RJ"
+    },
+    {
+      "cod_nro_loja": "282",
+      "desc_loja": "F282 - COMUNIDADE RIO DAS PEDRAS RJ"
+    },
+    {
+      "cod_nro_loja": "283",
+      "desc_loja": "F283 - SHOPPING DIVINOPOLIS MG"
+    },
+    {
+      "cod_nro_loja": "284",
+      "desc_loja": "F284 - SHOPPING MESTRE ALVARO - ES"
+    },
+    {
+      "cod_nro_loja": "285",
+      "desc_loja": "F285 - DIAMANTINA - MG"
+    },
+    {
+      "cod_nro_loja": "286",
+      "desc_loja": "F286 - RIBEIRAO DAS NEVES"
+    },
+    {
+      "cod_nro_loja": "287",
+      "desc_loja": "F287 - INTINERANTE BARRA DA TIJUCA - RJ"
+    },
+    {
+      "cod_nro_loja": "70",
+      "desc_loja": "F070 - VENDA NOVA II - MG"
+    },
+    {
+      "cod_nro_loja": "267",
+      "desc_loja": "F267 - TELE-VENDAS ADM - MG"
+    },
+    {
+      "cod_nro_loja": "11",
+      "desc_loja": "F011 - PARA DE MINAS - MG"
+    },
+    {
+      "cod_nro_loja": "45",
+      "desc_loja": "F045 - MONTES CLAROS I - MG"
+    },
+    {
+      "cod_nro_loja": "104",
+      "desc_loja": "F104 - PAU DA LIMA - BA"
+    },
+    {
+      "cod_nro_loja": "118",
+      "desc_loja": "F118 - ILHEUS - BA"
+    },
+    {
+      "cod_nro_loja": "291",
+      "desc_loja": "F291 - DURVAL DE BARROS"
+    },
+    {
+      "cod_nro_loja": "300",
+      "desc_loja": "CD 9Z - CD RIO DE JANEIRO - RJ"
+    },
+    {
+      "cod_nro_loja": "153",
+      "desc_loja": "F153 - RETA DA PENHA - ES"
+    },
+    {
+      "cod_nro_loja": "190",
+      "desc_loja": "F190 - UBA - RJ"
+    },
+    {
+      "cod_nro_loja": "226",
+      "desc_loja": "F226 - TERESOPOLIS - RJ"
+    },
+    {
+      "cod_nro_loja": "273",
+      "desc_loja": "F273 - IBIRITE MG"
+    },
+    {
+      "cod_nro_loja": "58",
+      "desc_loja": "F058 - ITAU PLAZA SHOPPING - MG"
+    },
+    {
+      "cod_nro_loja": "225",
+      "desc_loja": "F225 - CAMPOS DOS GOYTACAZES - RJ"
+    },
+    {
+      "cod_nro_loja": "160",
+      "desc_loja": "F160 - CARAPINA - ES"
+    },
+    {
+      "cod_nro_loja": "175",
+      "desc_loja": "F175 - TIJUCA - RJ"
+    },
+    {
+      "cod_nro_loja": "194",
+      "desc_loja": "F194 - PENHA - RJ"
+    },
+    {
+      "cod_nro_loja": "212",
+      "desc_loja": "F212 - BELFORD ROXO - RJ"
+    },
+    {
+      "cod_nro_loja": "219",
+      "desc_loja": "F219 - SHOPING PETROLINA PE"
+    },
+    {
+      "cod_nro_loja": "227",
+      "desc_loja": "F227 - PETROPOLIS - RJ"
+    },
+    {
+      "cod_nro_loja": "243",
+      "desc_loja": "F243 - NOVA IGUACU III - RJ"
+    },
+    {
+      "cod_nro_loja": "272",
+      "desc_loja": "F272 - SALINAS MG"
+    },
+    {
+      "cod_nro_loja": "262",
+      "desc_loja": "F262 - TELEVENDAS"
+    },
+    {
+      "cod_nro_loja": "998",
+      "desc_loja": "1"
+    },
+    {
+      "cod_nro_loja": "3",
+      "desc_loja": "F003 - DIVINOPOLIS III - MG"
+    },
+    {
+      "cod_nro_loja": "102",
+      "desc_loja": "F102 - ABILIO MACHADO - MG"
+    },
+    {
+      "cod_nro_loja": "054",
+      "desc_loja": "F054 - CARIACICA I - ES"
+    },
+    {
+      "cod_nro_loja": "71",
+      "desc_loja": "F071 - CARATINGA - MG"
+    },
+    {
+      "cod_nro_loja": "147",
+      "desc_loja": "F147 - SHOPPING SALVADOR - BA"
+    },
+    {
+      "cod_nro_loja": "292",
+      "desc_loja": "F292 - PONTO COM - L.SANTA - MG"
+    }
+    
+  ]
+
+}

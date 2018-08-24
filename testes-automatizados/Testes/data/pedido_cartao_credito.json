@@ -1,0 +1,248 @@
+{
+  "RELOH": {
+    "tipo_venda": "53",
+    "desc_tipo_venda": "53 - CARTAO DE CREDITO",
+    "valor_entrada": "50,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "214954",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TABLET CCE TR92 8GB WF9 PTO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "00",
+        "desc_tabela": "00 - MIG (00)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Cartao Visa Electron",
+        "cod_forma_pagamento": 25,
+        "valor": "50,00",
+        "ind_inserir_valor": false
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "BANESCARD CREDITO",
+        "cod_forma_pagamento": 109,
+        "valor": "969,66",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  },
+  "RELOH_EXA": {
+    "tipo_venda": "53",
+    "desc_tipo_venda": "53 - CARTAO DE CREDITO",
+    "valor_entrada": "50,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "214954",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TABLET CCE TR92 8GB WF9 PTO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "00",
+        "desc_tabela": "00 - MIG (00)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Cartao Visa Electron",
+        "cod_forma_pagamento": 25,
+        "valor": "50,00",
+        "ind_inserir_valor": false
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "BANESCARD CREDITO",
+        "cod_forma_pagamento": 109,
+        "valor": "644,62",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  },
+  "MVSH": {
+    "tipo_venda": "53",
+    "desc_tipo_venda": "53 - CARTAO DE CREDITO",
+    "valor_entrada": "50,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "214954",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TABLET CCE TR92 8GB WF9 PTO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "00",
+        "desc_tabela": "00 - MIG (00)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Cartao Visa Electron",
+        "cod_forma_pagamento": 25,
+        "valor": "50,00",
+        "ind_inserir_valor": false
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "Cartao Mastercard",
+        "cod_forma_pagamento": 44,
+        "valor": "552,83",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  }
+}

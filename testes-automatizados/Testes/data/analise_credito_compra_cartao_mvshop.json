@@ -1,0 +1,23 @@
+{
+  "confirmacoes": {
+    
+  },
+  "liberacoes": {
+    
+  },
+  "financeira": {
+    "form_principal": {
+      "numero_proposta": "",
+      "nbg": "",
+      "status": "",
+      "autorizador": ""
+    },
+    "comunicacao": {
+      "ind_rg": true,
+      "ind_cpf": true,
+      "ind_comprovate_renda": false,
+      "nbg": "N",
+      "observacao": "TESTE AUTOMATIZADO CASPERJS"
+    }
+  }
+}

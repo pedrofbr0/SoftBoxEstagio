@@ -1,0 +1,188 @@
+{
+  "LOCALHOST": {
+    "form_principal": {
+      "nome": "Teste Automatizado Ltda.",
+      "cpf_cnpj": "",
+      "grupo": "91",
+      "desc_grup": "COMPLETO",
+      "email": "teste@gmail.com",
+      "nome_fantasia": "TESTE SOFTBOX",
+      "inscricao_estadual": "ISENTO",
+      "tipo_empresa": "2",
+      "desc_tipo_empresa": "PRIVADA",
+      "ddd_residencial": "34",
+      "fone_residencial": "33568888",
+      "ramal_residencial": "8879",
+      "ddd_celular": "34",
+      "celular": "99668558",
+      "ramal_celular": "",
+      "conceito_cliente": "000",
+      "desc_conceito_cliente": "PC"
+    },
+    "comprador_representante": [
+      {
+        "cpf": "",
+        "nome": "JOAO REPRESENTANTE",
+        "ddd_fone1": "34",
+        "nro_fone1": "33589987",
+        "ramal_fone1": "885",
+        "ddd_fone2": "34",
+        "nro_fone2": "88575547",
+        "ramal_fone2": "",
+        "cargo": "DIRETOR DE LICITACAO",
+        "data_admissao": "01/06/2010",
+        "rg": {
+          "uf": "MG",
+          "orgao": "SSP",
+          "nro": "14.002.195",
+          "data_emissao": "01/01/2000"
+        }
+      }
+    ],
+    "enderecos": [
+      {
+        "cep": "32676054",
+        "indCepUnicoCidade": 0,
+        "cidade": "BETIM",
+        "cod_cidade": "2762",
+        "estado": "MG",
+        "tipo": "MUNICIPIO",
+        "bairro": "AMARANTE",
+        "tipo_logradouro": "8",
+        "logradouro": "CINCO",
+        "numero": "",
+        "ind_numero": true,
+        "informacao_departamento": "DEPARTAMENTO",
+        "complemento_endereco": "DEPTO",
+        "cod_complemento_endereco": "8",
+        "complemento": "DEP XPTO",
+        "reside_desde": "01/2012",
+        "situacao_residencia": "2",
+        "tipo_endereco": "1"
+      }
+    ],
+    "referencias": [
+      {
+        "nome": "JOSE REFERENCIA",
+        "ddd": "34",
+        "fone": "99885877",
+        "ramal": "",
+        "vinculo": "VIZINHO",
+        "cod_vinculo": "P6",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf": "",
+        "uf": "",
+        "cidade": "",
+        "ind_pf": ""
+      },
+      {
+        "nome": "JOAO REFERENCIA II",
+        "ddd": "34",
+        "fone": "96885877",
+        "ramal": "",
+        "vinculo": "VIZINHO",
+        "cod_vinculo": "P6",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf": "",
+        "uf": "",
+        "cidade": "",
+        "ind_pf": ""
+      }
+    ]
+  },
+  "RELOH": {
+    "form_principal": {
+      "nome": "Teste Automatizado Ltda.",
+      "cpf_cnpj": "",
+      "grupo": "91",
+      "desc_grup": "COMPLETO",
+      "email": "teste@gmail.com",
+      "nome_fantasia": "TESTE SOFTBOX",
+      "inscricao_estadual": "ISENTO",
+      "tipo_empresa": "2",
+      "desc_tipo_empresa": "PRIVADA",
+      "ddd_residencial": "34",
+      "fone_residencial": "33568888",
+      "ramal_residencial": "8879",
+      "ddd_celular": "34",
+      "celular": "99668558",
+      "ramal_celular": "",
+      "conceito_cliente": "000",
+      "desc_conceito_cliente": "PC"
+    },
+    "comprador_representante": [
+      {
+        "cpf": "",
+        "nome": "JOAO REPRESENTANTE",
+        "ddd_fone1": "34",
+        "nro_fone1": "33589987",
+        "ramal_fone1": "885",
+        "ddd_fone2": "34",
+        "nro_fone2": "88575547",
+        "ramal_fone2": "",
+        "cargo": "DIRETOR DE LICITACAO",
+        "data_admissao": "01/06/2010",
+        "rg": {
+          "uf": "MG",
+          "orgao": "SSP",
+          "nro": "14.002.195",
+          "data_emissao": "01/01/2000"
+        }
+      }
+    ],
+    "enderecos": [
+      {
+        "cep": "32400000",
+        "indCepUnicoCidade": 1,
+        "cidade": "IBIRITE",
+        "cod_cidade": "3206",
+        "estado": "MG",
+        "tipo": "MUNICIPIO",
+        "bairro": "CENTRO",
+        "tipo_logradouro": "8",
+        "logradouro": "RUA OTACÍLIO NEGRÃO DE LIMA, 100",
+        "numero": "",
+        "ind_numero": true,
+        "informacao_departamento": "DEPARTAMENTO",
+        "complemento_endereco": "DEPTO",
+        "cod_complemento_endereco": "8",
+        "complemento": "DEP XPTO",
+        "reside_desde": "01/2012",
+        "situacao_residencia": "2",
+        "tipo_endereco": "1"
+      }
+    ],
+    "referencias": [
+      {
+        "nome": "JOSE REFERENCIA",
+        "ddd": "34",
+        "fone": "99885877",
+        "ramal": "",
+        "vinculo": "VIZINHO",
+        "cod_vinculo": "P6",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf": "",
+        "uf": "",
+        "cidade": "",
+        "ind_pf": ""
+      },
+      {
+        "nome": "JOAO REFERENCIA II",
+        "ddd": "34",
+        "fone": "96885877",
+        "ramal": "",
+        "vinculo": "VIZINHO",
+        "cod_vinculo": "P6",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf": "",
+        "uf": "",
+        "cidade": "",
+        "ind_pf": ""
+      }
+    ]
+  }
+}

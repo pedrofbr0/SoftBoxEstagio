@@ -1,0 +1,8 @@
+- hosts: 127.0.0.1
+  tasks:
+
+   - name: Stop docker Images
+     shell: "docker stop selenium-hub2 selenium-hub node-firefox2 node-firefox"
+
+   - name: Remove docker Images
+     shell: "docker rm selenium-hub2 selenium-hub node-firefox2 node-firefox"

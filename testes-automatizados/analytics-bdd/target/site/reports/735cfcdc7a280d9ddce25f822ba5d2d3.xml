@@ -1,0 +1,30 @@
+<acceptance-test-run title="Valida o status de aplicacao Catman" name="Valida o status de aplicacao Catman" steps="6" successful="0" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="83329" timestamp="2018-05-15T14:04:57.868-03:00">
+  <user-story id="valida_aplicacao" name="Valida aplicacao" path="stories/aplicacao/valida_aplicacao.story"/>
+  <tags>
+    <tag name="Aplicações" type="component"/>
+    <tag name="Aplicacao" type="feature"/>
+    <tag name="Aplicacao/Valida aplicacao" type="story"/>
+    <tag name="Valida aplicacao" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="78284">
+    <description>Given Eu acesso a aplicacao ｟https://catman.softbox.com.br/site/login｠</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>When Eu preencho o campo {#LoginForm_username} com o valor {catman/monitoria}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu preencho o campo {#LoginForm_password} com o valor {monitoria}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu clico no botao {.sbx-md-button-flat.sbx-md-cor-primaria.sbx-md-bnt-login}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then Eu verifico o status da aplicacao</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu valido a presenca do elemento {#container-novidades}</description>
+  </test-step>
+</acceptance-test-run>

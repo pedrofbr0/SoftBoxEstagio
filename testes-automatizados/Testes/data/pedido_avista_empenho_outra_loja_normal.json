@@ -1,0 +1,540 @@
+{
+  "MVSH":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "143403",
+      "cod_cor_produto": "0",
+      "cod_tipo_voltagem": "0",
+      "ind_entrega_produto": "NÃO",
+      "descricao":	"OCULOS SONY TDG BR250/B 3D",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 1145,
+        "ind_valid_regra_cad_endereco": false,
+        "empenha_sem_emitir_mensagem": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "39,80",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": null
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+       "cod_servico": "103495",
+       "descricao": "PASSAPORTE CRESÇA BRASIL",
+       "ind_ativo": false
+      }
+    ],
+    "liberacoes": [
+      {
+        "tipo_liberacao": "Liberacao de reserva outra loja",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "143403.0.0 OCULOS SONY TDG BR250/B 3D",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+    ]
+  },
+  "INLOJAD":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "711",
+      "cod_cor_produto": "0",
+      "cod_tipo_voltagem": "0",
+      "ind_entrega_produto": "NÃO",
+      "descricao":	"PAN PRESSAO PANELUX 4.5LTS POLIDA",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 2,
+        "ind_valid_regra_cad_endereco": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "43,63",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": "101010"
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+       "cod_servico": "103495",
+       "descricao": "PASSAPORTE CRESÇA BRASIL",
+       "ind_ativo": false
+      },
+      {
+       "cod_servico": "209514",
+       "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+       "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "RELODEV":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "155174",
+      "cod_cor_produto": "0",
+      "cod_tipo_voltagem": "B",
+      "ind_entrega_produto": "SIM",
+      "descricao":	"BLU RAY SAMSUNG BD-E5500 3D WF",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 8,
+        "ind_valid_regra_cad_endereco": false,
+        "empenha_sem_emitir_mensagem": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "791,43",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": null
+    }],
+    "servicos": [
+      {
+        "cod_servico": "136707",	
+        "descricao": "IMPRESSAO DIGITAL PRINT FOTO - 36 FOTOS",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "192437",	
+        "descricao": "SERVICO ANTI VIURS NORTON MOBILE",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "182981",	
+        "descricao": "AJUSTE PRECO CDC",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "RELOWMS":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "143403",
+      "cod_cor_produto": "0",
+      "cod_tipo_voltagem": "0",
+      "ind_entrega_produto": "NÃO",
+      "descricao":	"OCULOS SONY TDG BR250/B 3D",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 1,
+        "ind_valid_regra_cad_endereco": false,
+        "empenha_sem_emitir_mensagem": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "202,18",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": false
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+       "cod_servico": "103495",
+       "descricao": "PASSAPORTE CRESÇA BRASIL",
+       "ind_ativo": false
+      },
+      {
+       "cod_servico": "103501",
+       "descricao": "SEGURO RESIDENCIAL",
+       "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "RELOH":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+    	"cod_nro_produto": "188774",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "SUP MULTI TV PLUG LED 14A84 PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 2,
+          "desc_local_empenho": "OUTRA LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": 286,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+    }],
+    "planilhas": [
+    {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "278,80",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": false
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": [
+      {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "188774.14.0 SUP MULTI TV PLUG LED 14A84 PTO",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+    ]
+  },
+  "RELOD":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "139756",
+      "cod_cor_produto": "4",
+      "cod_tipo_voltagem": "0",
+      "ind_entrega_produto": "NÃO",
+      "descricao": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 286,
+        "ind_valid_regra_cad_endereco": false,
+        "empenha_sem_emitir_mensagem": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "2.495,90",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": false
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": [
+	  {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "139756.4.0 PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+        "ind_liberar": true,
+        "obs": ".. Liberar valor da parcela",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+    ]
+  },
+  "RELOH_EXA":{    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [{
+      "cod_departamento": "",
+      "cod_grupo_produto": "",
+      "desc_departamento": "",
+      "desc_grupo_produto": "",
+      "cod_sub_grupo_produto": "",
+      "desc_sub_grupo_produto": "",
+      "cod_nro_produto": "139756",
+      "cod_cor_produto": "4",
+      "cod_tipo_voltagem": "0",
+      "ind_entrega_produto": "NÃO",
+      "descricao": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+      "ind_entrega_atualizado": "NÃO",
+      "qtd": null,
+      "tabela": null,
+      "desc_tabela": null,
+      "valor_unitario": null,
+      "ind_editar_produto": false,
+      "empenho" : {
+        "local_empenho": 2,
+        "desc_local_empenho": "OUTRA LOJA",
+        "opcao_entrega": 0,
+        "desc_opcao_entrega": "NORMAL",
+        "entrega": false,
+        "data_entrega_cliente": null,
+        "turno": null,
+        "desc_turno": null,
+        "ind_validacao_data_agendamento": null,
+        "nro_loja_empenho": 286,
+        "ind_valid_regra_cad_endereco": false,
+        "empenha_sem_emitir_mensagem": true
+      },
+      "promocao": {
+        "ind_promocao_ativa": false,
+        "ind_sel_promo": false
+      }
+    }],
+    "planilhas": [
+   {
+      "tipo": "V",
+      "forma_pagamento": "DINHEIRO",
+      "cod_forma_pagamento": "1",
+      "valor": "1.605,80",
+      "ind_inserir_valor": false,
+      "ind_gerar_financiamento": false,
+      "documento": false
+    }],
+    "servicos": [
+      {
+        "cod_servico": "163594",	
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  }
+}

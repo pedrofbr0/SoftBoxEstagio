@@ -1,0 +1,274 @@
+{
+  
+  "MVSH": {    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": null,
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "EM ELABORACAO",
+    "statusAposFechamentoTotalPedido": "AGUARDANDO RECEBIMENTO",
+    "msg_success_ao_finalizar": "Status: 30 - AGUARDANDO RECEBIMENTO",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": null,
+    "produtos": [],
+    "planilha": [
+	 {
+      "tipo": "V",
+      "forma_pagamento": "Dinheiro",
+      "cod_forma_pagamento": 1,
+      "valor": "418,95",
+      "ind_inserir_valor": false
+    }],
+    "servicos": [
+      {
+      "cod_servico": "163594",	
+      "descricao": "SEG CAMINHAO DA SORTE.",
+      "ind_ativo": false
+    },
+    {
+     "cod_servico": "103495",
+     "descricao": "PASSAPORTE CRESÇA BRASIL",
+     "ind_ativo": false
+    }],
+    "liberacoes": [],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": false,
+        "ind_cpf": true,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "pedido": "",
+        "cpf": "000.000.001-91",
+        "loja": "",
+        "desc_produto": "TV SAMSUNG 51 PL51F4000 PLASMA",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "GARANTIA MAIOR PLASMA - 1 ANO",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "197594",
+        "nro_servico": "144660",
+        "ind_valid_faixa_preco": false,
+        "consulta_nota": {
+          "loja": "1",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ]
+    
+  },
+  "RELODEV": {    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": null,
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": null,
+    "produtos": [],
+    "planilha": [
+	 {
+      "tipo": "V",
+      "forma_pagamento": "Dinheiro",
+      "cod_forma_pagamento": 1,
+      "valor": "527,24",
+      "ind_inserir_valor": false
+    }],
+    "servicos": [
+      {
+      "cod_servico": "163594",	
+      "descricao": "SEG CAMINHAO DA SORTE.",
+      "ind_ativo": false
+    },
+    {
+     "cod_servico": "103495",
+     "descricao": "PASSAPORTE CRESÇA BRASIL",
+     "ind_ativo": false
+    }],
+    "liberacoes": [],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": true,
+        "ind_cpf": false,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "pedido": "",
+        "cpf": "000.000.001-91",
+        "loja": "",
+        "desc_produto": "TV PHILIPS 32 PFL4007 LED HD SMART",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "GARANTIA MAIOR TV LCD - 1 ANO .",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "149699",
+        "nro_servico": "144659",
+        "ind_valid_faixa_preco": false,
+        "consulta_nota": {
+          "loja": "102",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ]
+    
+  },
+  "INLOJAD": {    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": null,
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": null,
+    "produtos": [],
+    "planilha": [
+	 {
+      "tipo": "V",
+      "forma_pagamento": "Dinheiro",
+      "cod_forma_pagamento": 1,
+      "valor": "319,08",
+      "ind_inserir_valor": false
+    }],
+    "servicos": [
+      {
+      "cod_servico": "163594",	
+      "descricao": "SEG CAMINHAO DA SORTE.",
+      "ind_ativo": false
+    },
+    {
+     "cod_servico": "103495",
+     "descricao": "PASSAPORTE CRESÇA BRASIL",
+     "ind_ativo": false
+    },
+    {
+     "cod_servico": "209514",
+     "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+     "ind_ativo": false
+    }],
+    "liberacoes": [],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": true,
+        "ind_cpf": false,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "pedido": "",
+        "cpf": "000.000.001-91",
+        "loja": "",
+        "desc_produto": "TV CCE 42 D4201 LCD FD STILE",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "MEGA GARANTIA TV LCD (1GF) - 3 ANOS",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "142772",
+        "nro_servico": "145343",
+        "ind_valid_faixa_preco": true,
+        "consulta_nota": {
+          "loja": "59",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ]
+    
+  },
+  "RELOWMS": {    
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": null,
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": null,
+    "produtos": [],
+    "planilha": [
+	 {
+      "tipo": "V",
+      "forma_pagamento": "Dinheiro",
+      "cod_forma_pagamento": 1,
+      "valor": "323,14",
+      "ind_inserir_valor": false
+    }],
+    "servicos": [
+		{
+	      "cod_servico": "103501",	
+	      "descricao": "SEGURO RESIDENCIAL",
+	      "ind_ativo": false
+	    },
+	    {
+	     "cod_servico": "103495",
+	     "descricao": "PASSAPORTE CRESÇA BRASIL",
+	     "ind_ativo": true
+	    },
+	    {
+	     "cod_servico": "163594",
+	     "descricao": "SEG CAMINHAO DA SORTE.",
+	     "ind_ativo": true
+	    }],
+    "liberacoes": [],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": true,
+        "ind_cpf": false,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "pedido": "",
+        "cpf": "000.000.001-91",
+        "loja": "",
+        "desc_produto": "TV PHILIPS 32 PFL4007 LED HD SMART",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "GARANTIA MAIOR TV LCD - 1 ANO",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "192394",
+        "nro_servico": "144659",
+        "ind_valid_faixa_preco": false,
+        "consulta_nota": {
+          "loja": "102",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ]
+    
+  }
+  
+}

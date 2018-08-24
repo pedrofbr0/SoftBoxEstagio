@@ -1,0 +1,23 @@
+- hosts: 127.0.0.1
+  tasks:
+
+   - name: Pull Selenium Hub
+     docker_container:
+        name: selenium-hub2
+        image: selenium/hub
+        state: stopped
+
+   - name: Start Selenium Hub
+     shell: "docker run -d -p 4446:4444 --name selenium-hub -P selenium/hub" 
+     
+   - name: Pull Firefox Node
+     docker_container:
+         name: node-firefox2
+         image: selenium/node-firefox
+         state: stopped
+         
+   - name: Start Firefox Node with Selenium Hub Network link
+     shell: "docker run -d -P -e no_proxy=localhost -e HUB_ENV_no_proxy=localhost --name node-firefox --link selenium-hub:hub selenium/node-firefox"
+     
+
+

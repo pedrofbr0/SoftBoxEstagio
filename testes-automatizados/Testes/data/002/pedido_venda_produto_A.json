@@ -1,0 +1,295 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "ajustar_datas_divergentes": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "187374",
+        "cod_cor_produto": "0",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "TV LG 32 LN540B LED DTV",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 4,
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "entrega": true,
+          "data_entrega_cliente_erro": "29/04/2016",
+          "data_entrega_cliente": "06/04/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": "TARDE",
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      },
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "16376",
+        "cod_cor_produto": "0",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "KIT FEM BE SECRET - MORANGO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 4,
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "entrega": true,
+          "data_entrega_cliente_erro": "29/04/2016",
+          "data_entrega_cliente": "06/04/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": "TARDE",
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "3.120,56",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": true,
+        "quantidade": 2
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "TV LG 32 LN540B LED DTV",
+        "cod_produto": "187374",
+        "cor": "0",
+        "voltagem": "B",
+        "garantias": [
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "187374.0.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144658",
+            "nome_servico": "GARANTIA MAIOR TV LCD - 2 ANOS.",
+            "produto": "187374.0.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144658",
+            "nome_servico": "GARANTIA MAIOR TV LCD - 2 ANOS.",
+            "produto": "187374.0.B",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "187374.0.B",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "215914",
+            "nome_servico": "AJUSTE DE PREÇO (LINHA VIDEO)",
+            "produto": "187374.0.B",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "SUP MULT TV PLUG 14A71 PTO",
+        "cod_produto": "16376",
+        "cor": "0",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "136711",
+            "nome_servico": "PERFUMARIA",
+            "produto": "16376.0.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "reempenho": [
+        {
+          "cod_nro_produto": "187374",
+          "cod_cor_produto": "0",
+          "cod_tipo_voltagem": "B",
+          "descricao": "TV LG 32 LN540B LED DTV",
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "27/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": true
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "DINHEIRO",
+          "cod_forma_pagamento": "1",
+          "valor": "3.100,60",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null
+        }
+      ],
+      "cancelar_produto": [
+        {
+          "descricao": "TV LG 32 LN540B LED DTV",
+          "cod_nro_produto": "187374",
+          "cod_cor_produto": "0",
+          "cod_tipo_voltagem": "B",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "cancela_empenho_sem_emitir_mensagem": true
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "valor": "1.857,18"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": false
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true
+        }
+      ],
+      "garantias": [
+      {
+        "desc_produto": "TV LG 32 LN540B LED DTV",
+        "cod_produto": "187374",
+        "cor": "0",
+        "voltagem": "B",
+        "garantias": [
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "187374.0.B",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "144658",
+            "nome_servico": "GARANTIA MAIOR TV LCD - 2 ANOS",
+            "produto": "187374.0.B",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "SUP MULT TV PLUG 14A71 PTO",
+        "cod_produto": "16376",
+        "cor": "0",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "136711",
+            "nome_servico": "PERFUMARIA",
+            "produto": "16376.0.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ]
+    }
+  }
+}

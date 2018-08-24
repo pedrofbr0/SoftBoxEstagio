@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>stories.pedido.pedido_kit_com_promocao40</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/pedido/pedido_kit_com_promocao40.story" title="">
+<scenario keyword="Scenario:" title="Elaborar um pedido de KIT com promoção e empenho em DEPOSITO/NORMAL pagamento a vista">
+<meta>
+<property keyword="@" name="base" value="RELOH"/>
+<property keyword="@" name="context" value="PEDIDOS"/>
+<property keyword="@" name="grupoInstancias" value="Pedidos"/>
+<property keyword="@" name="issue" value="rgs-40"/>
+<property keyword="@" name="rgs-40" value=""/>
+<property keyword="@" name="tag" value="component:Regressão - RELOH"/>
+</meta>
+<step outcome="successful">Given Eu executo o script de reset <parameter>pedido_kit_com_promocao40.sql</parameter></step>
+<step outcome="successful">And Eu acesso a instancia <parameter>padrao</parameter></step>
+<step outcome="successful">When Eu faco login na loja <parameter>291</parameter> com usuario <parameter>69930</parameter> e senha <parameter>1</parameter></step>
+<step outcome="successful">And Eu pesquiso o cpf <parameter>37778670550</parameter></step>
+<step outcome="successful">And Eu clico no botao &apos;Elaborar Pedido&apos;</step>
+<step outcome="successful">And Eu seleciono o tipo de venda <parameter>1 - A VISTA</parameter></step>
+<step outcome="successful">And Eu clico no botao adicionar produto</step>
+<step outcome="successful">And Eu pesquiso o produto <parameter>139756</parameter></step>
+<step outcome="failed" keyword="FAILED">And Eu seleciono a promocao de valor <parameter>1.000,00</parameter><failure>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;ace radio-seleciona-promocao&quot; name=&quot;form-field-radio-promocao&quot; type=&quot;radio&quot;&gt; is not clickable at point (522,238.71665954589844) because another element &lt;div class=&quot;blockUI blockOverlay&quot;&gt; obscures it
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WS-SBDEV-851&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.8.0-53-generic&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 27889, moz:profile: /tmp/rust_mozprofile.Ax733f..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.8.0-53-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a33f7dd8-cd1b-446a-914a-d9211af297e1</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Selecionar Produto</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no icone detalhes do produto <parameter>139756</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu seleciono o local de empenho <parameter>DEPOSITO</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu seleciono a opcao de entrega <parameter>AGENDADA</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu informo a flag entrega como <parameter>SIM</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Agendada</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu seleciono uma data disponivel</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Reservar</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico na aba <parameter>Planilha</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Adicionar Forma Pagamento</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu seleciono o <parameter>1</parameter> º tipo de pagamento <parameter>V</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu seleciono a <parameter>1</parameter> ª forma de pagamento <parameter>Cartao Visa Electron</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu clico no botao Salvar</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Ok do modal</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao Fechamento Total</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido o status do pedido <parameter>30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor</parameter></step>
+<step outcome="ignorable">!-- And Eu salvo o pedido do teste @rgs-40 no relatorio</step>
+<failure>org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;ace radio-seleciona-promocao&quot; name=&quot;form-field-radio-promocao&quot; type=&quot;radio&quot;&gt; is not clickable at point (522,238.71665954589844) because another element &lt;div class=&quot;blockUI blockOverlay&quot;&gt; obscures it
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;WS-SBDEV-851&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.8.0-53-generic&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 27889, moz:profile: /tmp/rust_mozprofile.Ax733f..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.8.0-53-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a33f7dd8-cd1b-446a-914a-d9211af297e1
+	(reflection-construct)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:981)
+	at br.com.mv.pages.ConsultaPromocaoModal.selecionarPromocao(ConsultaPromocaoModal.java:56)
+	at br.com.mv.steps.ConsultaProdutoSteps.euSelecionoAPromocao(ConsultaProdutoSteps.java:97)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

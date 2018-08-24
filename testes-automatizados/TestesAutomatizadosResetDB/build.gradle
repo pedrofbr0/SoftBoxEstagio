@@ -1,0 +1,41 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = '1.0'
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Testes Automatizados - Reset DB',
+                   'Implementation-Version': version,
+                   'Main-Class': 'br.com.mv.main.ExecucaoScripts'
+    }
+    
+    from sourceSets.main.allJava
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+repositories {
+        mavenCentral()
+        maven {
+            url 'http://artifactory.softbox.network:8081/artifactory/repo'
+        }
+    }
+
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+   	compile group: 'com.oracle.ojdbc', name: 'ojdbc6', version: '1.0'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}

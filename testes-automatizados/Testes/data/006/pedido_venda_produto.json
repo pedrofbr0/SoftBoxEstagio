@@ -1,0 +1,204 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "214954",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TABLET CCE TR92 8GB WF9 PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 2,
+          "desc_opcao_entrega": "RETIRADA LOJA COM RETENCAO",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": "26/02/2016",
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "1.004,47",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTI VIRUS NORTON MOBILE",
+        "ind_ativo": true,
+        "quantidade": 3
+      },
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "TABLET CCE TR92 8GB WF9 PTO",
+        "cod_produto": "214954",
+        "cor": "14",
+        "voltagem": "B",
+        "garantias": [
+          {
+            "cod_servico": "196014",
+            "nome_servico": "ROUBO E FURTOS TABLET",
+            "produto": "214954.14.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "214954.14.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144776",
+            "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+            "produto": "214954.14.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "214954.14.B",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "196014",
+            "nome_servico": "ROUBO E FURTOS TABLET",
+            "produto": "214954.14.B",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144776",
+            "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+            "produto": "214954.14.B",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "planilhas": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "DINHEIRO",
+          "cod_forma_pagamento": "1",
+          "valor": "1.004,47",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "valor": "950,16"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "192437",
+          "descricao": "SERVICO ANTI VIRUS NORTON MOBILE",
+          "ind_ativo": false,
+          "quantidade": 2
+        },
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": false
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "TABLET CCE TR92 8GB WF9 PTO",
+          "cod_produto": "214954",
+          "cor": "14",
+          "voltagem": "B",
+          "garantias": [
+            {
+              "cod_servico": "196014",
+              "nome_servico": "ROUBO E FURTOS TABLET",
+              "produto": "214954.14.B",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "144776",
+              "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+              "produto": "214954.14.B",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144776",
+              "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+              "produto": "214954.14.B",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

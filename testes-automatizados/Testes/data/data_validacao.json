@@ -1,0 +1,190 @@
+{
+  "MVSH" :{ 
+    "validacoes_login": [
+      {
+        "loja": "9999",
+        "user": "7380",
+        "senha": "1",
+        "msg_test": ".. Logando com loja inexistente",
+        "msg_erro": "Nenhuma empresa foi encontrada no perfil de acesso do usuário."
+      },
+      {
+        "loja": "1",
+        "user": "00000",
+        "senha": "1",
+        "msg_test": ".. Logando com usuário inexistente",
+        "msg_erro": "Nenhuma empresa foi encontrada no perfil de acesso do usuário."
+      },
+      {
+        "loja": "1",
+        "user": "7380",
+        "senha": "111",
+        "msg_test": ".. Logando com senha incorreta",
+        "msg_erro": "Senha incorreta."
+      }
+    ],
+    "validacoes_cpf": [
+      {
+        "msg_test": ".. Informando CPF inválido: 00000000000",
+        "msg_erro": "CPF informado não é válido.",
+        "msg_info": ".. Clicando no botão de cadastro de cliente informando um CPF inválido.",
+        "msg_falha_validacao": "Não ocorreu validação para o CPF incorreto",
+        "cpf": "00000000000"
+      },
+      {
+        "msg_test": ".. Informando CPF ja cadastrado: 00000000191",
+        "msg_erro": "Já existe um cliente cadastrado para esse CPF!",
+        "msg_info": ".. Clicando no botão de cadastro de cliente informando um CPF ja existente.",
+        "msg_falha_validacao": "Não ocorreu validação para o CPF ja existente",
+        "cpf": "00000000191"
+      }
+    ],
+    "liberacao_frete": [
+    {
+      "tipo_liberacao": "LIBERAÇÃO DE EXCLUSÃO DE FRETE",
+      "ind_liberacao": "D;C;G",
+      "msg_sucesso": "Liberação realizada com sucesso!",
+      "msg_erro": "Liberação de preco nao encontrada na aba de liberacoes",
+      "ind_liberar": true,
+      "obs": ".. Liberacao Frete.",
+      "user": "7380",
+      "senha": "1",
+      "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+      "usuarioLogadoPossuiPrivilegio": true
+    }],
+    "dados_cliente" : {
+      "nome" : "FULANO DA SILVA",
+      "email_invalido": "teste@",
+      "email_valido": "teste@gmail.com.br",
+      "ddd_residencial": "34",
+      "nro_residencial": "33229987",
+      "ddd_celular": "34",
+      "nro_celular": "99875587",
+      "cep_invalido": "00000000",
+      "cidade_invalida": "UBERLANDIA",
+      "estado_invalido": "GO",
+      "cep_valido":"38400696",
+      "end_numero": "3345",
+      "ind_numero": false,
+      "complemento": "5",
+      "desc_complemento": "Casa",
+      "reside_desde": "01/2014",
+      "desc_situacao_endereco": "Propria",
+      "situacao_endereco": "1",
+      "desc_tipo_endereco": "Auxiliar",
+      "tipo_endereco": "2",
+      "desc_tipo_endereco_alterado": "Principal",
+      "tipo_endereco_alterado": "1"
+    },
+    "pedido": {
+      "produto": {
+        "desc_invalida": "PRODUTO 0",
+        "desc_sem_estoque": "",
+        "nro_prod_sem_estoque": "12532",
+        "cod_sem_estoque": "12532.4.2",
+        "cor_sem_estoque": "4",
+        "voltagem_sem_estoque": "2",
+        "nro_prod_ok": "711",
+        "cor_prod_ok": "0",
+        "voltagem_prod_ok": "0"
+      },
+      "pagamento": {
+        "tipo_venda": "1",
+        "desc_tipo_venda": "A Vista"
+      },
+      "cliente": {
+        "cpf": "54859522672",
+        "cpf_formatado": "548.595.226-72",
+        "nome": "LIDIA LUCAS FEREIRA"
+      },
+      "empenho": {
+        "local": "0",
+        "desc_local": "Loja",
+        "opcao": "0",
+        "desc_opcao": "Normal",
+        "entrega": false
+      },
+      "servicos": [
+        {
+          "excluir": true,
+          "adicionar": false,
+          "validacao": false,
+          "msg_validacao": "",
+          "cod": "163594",
+          "desc": "SEG CAMINHAO DA SORTE."
+        },
+        {
+          "excluir": false,
+          "adicionar": true,
+          "validacao": true,
+          "msg_validacao": "pode ser adicionado apenas para clientes com com faixa etária entre, 18 e 70 anos!",
+          "msg_exibicao": "Validacao realizada com sucesso: O serviço de (SEG CAMINHAO DA SORTE.) pode ser adicionado apenas para clientes com com faixa etária entre, 18 e 70 anos!",
+          "msg_erro": "Foi permitido inserir servico SEG CAMINHAO DA SORTE, para uma pessoa com idade superior a 70 anos.",
+          "cod": "163594",
+          "desc": "SEG CAMINHAO DA SORTE."
+        }
+      ],
+      "planilha": {
+        "tipo": "V",
+        "nro_forma_pagto": "1",
+        "desc_forma_pagto": "1",
+        "valor": "74,80"
+      }
+      
+    }
+  },
+  "INLOJAD" :{ 
+    "validacoes_login": [
+      {
+        "loja": "9999",
+        "user": "7380",
+        "senha": "1",
+        "msg_test": ".. Logando com loja inexistente",
+        "msg_erro": "Nenhuma empresa foi encontrada no perfil de acesso do usuário."
+      },
+      {
+        "loja": "1",
+        "user": "00000",
+        "senha": "1",
+        "msg_test": ".. Logando com usuário inexistente",
+        "msg_erro": "Usuário [00000] não encontrado."
+      },
+      {
+        "loja": "1",
+        "user": "7380",
+        "senha": "111",
+        "msg_test": ".. Logando com senha incorreta",
+        "msg_erro": "Senha incorreta."
+      }
+    ],
+    "validacoes_cpf": [
+      {
+        "msg_test": ".. Informando CPF inválido: 00000000000",
+        "msg_erro": "CPF informado não é válido.",
+        "msg_info": ".. Clicando no botão de cadastro de cliente informando um CPF inválido.",
+        "msg_falha_validacao": "Não ocorreu validação para o CPF incorreto",
+        "cpf": "00000000000"
+      },
+      {
+        "msg_test": ".. Informando CPF ja cadastrado: 00000000191",
+        "msg_erro": "Já existe um cliente cadastrado para esse CPF!",
+        "msg_info": ".. Clicando no botão de cadastro de cliente informando um CPF ja existente.",
+        "msg_falha_validacao": "Não ocorreu validação para o CPF ja existente",
+        "cpf": "00000000191"
+      }
+    ],
+    "liberacao_frete": [
+    {
+      "tipo_liberacao": "LIBERAÇÃO DE EXCLUSÃO DE FRETE",
+      "ind_liberacao": "D;C;G",
+      "msg_sucesso": "Liberação realizada com sucesso!",
+      "msg_erro": "Liberação de preco nao encontrada na aba de liberacoes",
+      "ind_liberar": true,
+      "obs": ".. Liberacao Frete.",
+      "user": "7380",
+      "senha": "1",
+      "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+      "usuarioLogadoPossuiPrivilegio": true
+    }]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "10",
+    "prestacao": "58,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "187574",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 2,
+          "desc_local_empenho": "OUTRA LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": 286,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      },
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219494",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 3,
+          "desc_opcao_entrega": "RETIRADA OUTRA LOJA COM RESERVA DEPOSITO",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": 291,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      },
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "201791",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "KIT COZ ELIANA BR MULTIVISAO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 4,
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "entrega": true,
+          "data_entrega_cliente_erro": "29/02/2016",
+          "data_entrega_cliente": "26/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": 2,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": "TARDE",
+          "ind_validacao_data_agendamento": false,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "liberacoes": [
+      {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "187574.14.0 SUP MULTI TV PLUG 14A84 PTO",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "Dinheiro",
+        "cod_forma_pagamento": "1",
+        "valor": "1.471,69",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "139524",
+        "descricao": "SOLUCAO CERTA INFORMATICA",
+        "ind_ativo": true,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true,
+        "quantidade": null
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+        "cod_produto": "187574",
+        "cor": "14",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "149535",
+            "nome_servico": "SUPORTE TV",
+            "produto": "187574.14.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "187574.14.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "cod_produto": "219494",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144776",
+            "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "196014",
+            "nome_servico": "ROUBO E FURTOS TABLET",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "KIT COZ ELIANA BR MULTIVISAO",
+        "cod_produto": "201791",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "142383",
+            "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "cancelar_produto": [
+        {
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "desc_local_empenho": "OUTRA LOJA",
+          "desc_opcao_entrega": "NORMAL",
+          "cancela_empenho_sem_emitir_mensagem": true
+        },
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "RETIRADA OUTRA LOJA COM RESERVA DEPOSITO",
+          "cancela_empenho_sem_emitir_mensagem": true
+        },
+        {
+          "descricao": "KIT COZ ELIANA BR MULTIVISAO",
+          "cod_nro_produto": "201791",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "B",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "AGENDADA CLIENTE",
+          "cancela_empenho_sem_emitir_mensagem": true
+        }
+      ],
+      "cancelar_produto_2": [
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "desc_local_empenho": "LOJA",
+          "desc_opcao_entrega": "NORMAL",
+          "cancela_empenho_sem_emitir_mensagem": true
+        }
+      ],
+      "reempenho": [
+        {
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": true
+          }
+        },
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": true
+          }
+        },
+        {
+          "descricao": "KIT COZ ELIANA BR MULTIVISAO",
+          "cod_nro_produto": "201791",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "B",
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": true
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Cartao Visa Electron",
+          "cod_forma_pagamento": "25",
+          "valor": "15,00",
+          "ind_inserir_valor": true,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        },
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "cod_forma_pagamento": "1",
+          "valor": "833,70",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "valor": "0,00"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "139524",
+          "descricao": "SOLUCAO CERTA INFORMATICA",
+          "ind_ativo": false,
+          "quantidade": null
+        },
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": false,
+          "quantidade": null
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": false,
+          "quantidade": null
+        }
+      ],
+      "remover_produto": [
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "id": null
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_produto": "187574",
+          "cor": "14",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "149535",
+              "nome_servico": "SUPORTE TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "140358",
+              "nome_servico": "INSTALAÇÃO_DE_TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": false
+            }
+          ]
+        },
+        {
+          "desc_produto": "KIT COZ ELIANA BR MULTIVISAO",
+          "cod_produto": "201791",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "142383",
+              "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+              "produto": "201791.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

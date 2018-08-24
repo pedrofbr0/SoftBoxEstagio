@@ -1,0 +1,76 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/pedido/pedido_kit_remove_sem_estoque37.story</div>
+<div class="scenario">
+<h2>Scenario: Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista</h2>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@base RELOH</div>
+<div class="property">@context PEDIDOS</div>
+<div class="property">@grupoInstancias Pedidos</div>
+<div class="property">@issue rgs-37</div>
+<div class="property">@rgs-37 </div>
+<div class="property">@tag component:Regress&atilde;o - RELOH</div>
+</div>
+<div class="step successful">Given Eu executo o script de reset <span class="step parameter">pedido_kit_remove_sem_estoque_37.sql</span></div>
+<div class="step successful">And Eu acesso a instancia <span class="step parameter">padrao</span></div>
+<div class="step successful">When Eu faco login na loja <span class="step parameter">291</span> com usuario <span class="step parameter">69930</span> e senha <span class="step parameter">1</span></div>
+<div class="step successful">And Eu pesquiso o cpf <span class="step parameter">37778670550</span></div>
+<div class="step successful">And Eu clico no botao 'Elaborar Pedido'</div>
+<div class="step successful">And Eu seleciono o tipo de venda <span class="step parameter">1 - A VISTA</span></div>
+<div class="step successful">And Eu clico no botao adicionar produto</div>
+<div class="step successful">And Eu pesquiso e seleciono o produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu removo o produto <span class="step parameter">158488</span></div>
+<div class="comment">!-- Desmembra o kit e sobra o 158486</div>
+<div class="step successful">And Eu clico no botao Sim do modal</div>
+<div class="step successful">And Eu removo o produto <span class="step parameter">158486</span></div>
+<div class="step successful">And Eu clico no botao adicionar produto</div>
+<div class="step ignorable">!-- And Eu pesquiso o produto 158488</div>
+<div class="step ignorable">!-- And Eu clico no botao Ok do modal</div>
+<div class="step ignorable">!-- And Eu clico no botao Selecionar Produto</div>
+<div class="step successful">And Eu pesquiso e seleciono o produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu removo o produto <span class="step parameter">158486</span></div>
+<div class="comment">!-- Sobra o produto (158488)</div>
+<div class="step successful">And Eu clico no botao adicionar produto</div>
+<div class="step successful">And Eu pesquiso e seleciono o produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu clico no icone detalhes do produto <span class="step parameter">158488</span></div>
+<div class="step successful">And Eu seleciono o local de empenho <span class="step parameter">DEPOSITO</span></div>
+<div class="step successful">And Eu seleciono a opcao de entrega <span class="step parameter">AGENDADA</span></div>
+<div class="step successful">And Eu clico no botao Agendada</div>
+<div class="step successful">And Eu seleciono uma data disponivel</div>
+<div class="step successful">And Eu clico no botao Reservar</div>
+<div class="step successful">And Eu clico no botao Ok do modal</div>
+<div class="step failed">And Eu clico na aba <span class="step parameter">Planilha</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Element &lt;a id=&quot;tab-planilha&quot; href=&quot;#aba-planilha&quot;&gt; is not clickable at point (510.5,272) because another element &lt;div class=&quot;row &quot;&gt; obscures it
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'WS-SBDEV-851', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-53-generic', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28868, moz:profile: /tmp/rust_mozprofile.IvWIZv..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.8.0-53-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6bec37ab-1f98-44e0-be43-7ffe434bab1f</span></div>
+<div class="step notPerformed">And Eu clico no botao Adicionar Forma Pagamento <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And Eu seleciono o <span class="step parameter">1</span> &ordm; tipo de pagamento <span class="step parameter">V</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And Eu seleciono a <span class="step parameter">1</span> &ordf; forma de pagamento <span class="step parameter">Dinheiro</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then Eu clico no botao Salvar <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And Eu clico no botao Ok do modal <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And Eu clico no botao Fechamento Total <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">And Eu valido o status do pedido <span class="step parameter">30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step ignorable">!-- And Eu salvo o pedido do teste @rgs-37 no relatorio</div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Element &lt;a id=&quot;tab-planilha&quot; href=&quot;#aba-planilha&quot;&gt; is not clickable at point (510.5,272) because another element &lt;div class=&quot;row &quot;&gt; obscures it
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'WS-SBDEV-851', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-53-generic', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28868, moz:profile: /tmp/rust_mozprofile.IvWIZv..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.8.0-53-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6bec37ab-1f98-44e0-be43-7ffe434bab1f
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:21)
+	at net.thucydides.core.steps.StepInterceptor.reportMethodError(StepInterceptor.java:349)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:22)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:337)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:126)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:62)
+	at br.com.mv.pages.PedidoPage$$EnhancerByCGLIB$$fcb5426c.clicarNaAba(&lt;generated&gt;)
+	at br.com.mv.steps.PedidoSteps.euClicoNaAba(PedidoSteps.java:193)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
+</div>
+</div>

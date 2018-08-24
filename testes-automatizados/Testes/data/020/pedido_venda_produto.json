@@ -1,0 +1,418 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "66",
+    "desc_tipo_venda": "66 - CARNE LOSANGO SCRED",
+    "valor_entrada": "0,00",
+    "plano": "4",
+    "prestacao": "0,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "201791",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "KIT COZ ELIANA BR MULTIVISAO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": "01",
+        "desc_tabela": "01 - TABELA NORMAL(01)",
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 3,
+          "desc_opcao_entrega": "RETIRADA OUTRA LOJA COM EMPENHO DEPOSITO",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": 291,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "Carne Losango",
+        "cod_forma_pagamento": "30",
+        "valor": "1.101,48",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "187814",
+        "descricao": "AJUSTE DE PREÇO SUGERIDO",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "103533",
+        "descricao": "CDC ASSISTENCIA 1000",
+        "ind_ativo": false,
+        "quantidade": null,
+        "valor": null
+      },
+      {
+        "cod_servico": "103534",
+        "descricao": "CDC ASSISTENCIA 2000",
+        "ind_ativo": false,
+        "quantidade": null,
+        "valor": null
+      },
+      {
+        "cod_servico": "139524",
+        "descricao": "SOLUCAO CERTA INFORMATICA",
+        "ind_ativo": true,
+        "quantidade": null,
+        "valor": null
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "KIT COZ ELIANA BR MULTIVISAO",
+        "cod_produto": "201791",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "142383",
+            "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "142383",
+            "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+            "produto": "201791.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "201791.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "plano": "21",
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "NÃO",
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "ind_entrega_atualizado": "NÃO",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 2,
+            "desc_local_empenho": "OUTRA LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": 286,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        },
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "NÃO",
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "ind_entrega_atualizado": "SIM",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 4,
+            "desc_opcao_entrega": "AGENDADA CLIENTE",
+            "entrega": true,
+            "data_entrega_cliente_erro": "29/02/2016",
+            "data_entrega_cliente": "26/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "TARDE",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Carne Losango",
+          "cod_forma_pagamento": "30",
+          "valor": "5.077,59",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "liberacoes": [
+       {
+        "tipo_liberacao": "LIBERACAO DE RESERVA OUTRA LOJA",
+        "ind_liberacao": "A;C;D;G;R;V",
+        "inf_produto": "187574.14.0 SUP MULTI TV PLUG 14A84 PTO",
+        "ind_liberar": true,
+        "obs": ".. Liberar empenho em outra loja",
+        "user": "291",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": true
+       }
+     ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Carne Losango",
+          "valor": "524,40"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "209514",
+          "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+          "ind_ativo": true,
+          "quantidade": 3
+        },
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": true,
+          "quantidade": 5
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true,
+          "quantidade": null,
+          "valor": "400,00"
+        },
+        {
+          "cod_servico": "103537",
+          "descricao": "CDC ASSISTENCIA 2000 II",
+          "ind_ativo": false,
+          "quantidade": null
+        },
+        {
+          "cod_servico": "187814",
+          "descricao": "AJUSTE DE PREÇO SUGERIDO",
+          "ind_ativo": true,
+          "quantidade": null
+        }
+      ],
+      "garantias": [
+        {
+        "desc_produto": "KIT COZ ELIANA BR MULTIVISAO",
+        "cod_produto": "201791",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "142383",
+            "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+            "produto": "201791.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+        {
+          "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_produto": "187574",
+          "cor": "14",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "149535",
+              "nome_servico": "SUPORTE TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "140358",
+              "nome_servico": "INSTALAÇÃO_DE_TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        },
+        {
+          "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_produto": "219494",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "196014",
+              "nome_servico": "ROUBO E FURTOS TABLET",
+              "produto": "219494.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "139524",
+              "nome_servico": "SOLUCAO CERTA INFORMATICA",
+              "produto": "219494.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144776",
+              "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+              "produto": "219494.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "209514",
+              "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+              "produto": "219494.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "196014",
+              "nome_servico": "ROUBO E FURTOS TABLET",
+              "produto": "219494.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "139524",
+              "nome_servico": "SOLUCAO CERTA INFORMATICA",
+              "produto": "219494.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "144776",
+              "nome_servico": "GARANTIA MAIOR TABLET - 2 ANOS",
+              "produto": "219494.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            },
+            {
+              "cod_servico": "209514",
+              "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+              "produto": "219494.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

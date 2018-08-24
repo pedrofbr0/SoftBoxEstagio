@@ -1,0 +1,92 @@
+{
+  "RELOH": {
+    "tipo_venda": "66",
+    "desc_tipo_venda": "66 - CARNE LOSANGO SCRED",
+    "valor_entrada": "00,00",
+    "plano": "10",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": null,
+        "cod_grupo_produto": null,
+        "desc_departamento": null,
+        "desc_grupo_produto": null,
+        "cod_sub_grupo_produto": null,
+        "desc_sub_grupo_produto": null,
+        "cod_nro_produto": "219254",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "CEL MOTO G XT1068 2CHIP 8GB PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": "98",
+        "desc_tabela": "98 - TABELA 98",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem" : false,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilha": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "Carne Losango",
+        "cod_forma_pagamento": 30,
+        "valor": "1.743,60",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "187814",
+        "descricao": "AJUSTE DE PREÇO SUGERIDO",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "103534",
+        "descricao": "CDC ASSISTENCIA 2000",
+        "ind_ativo": false
+      }
+    ]
+  }
+}

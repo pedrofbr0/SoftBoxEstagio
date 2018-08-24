@@ -1,0 +1,140 @@
+{
+  "RELOH": {
+    "nome": "USUARIO DE TESTE AUTOMATIZADO II",
+    "email": "fulano_losango@gmail.com",
+    "grupo": "91",
+    "correspondencia": "R",
+    "ddd_residencial": "34",
+    "fone_residencial": "32218838",
+    "ramal_residencial": "",
+    "ddd_celular": "34",
+    "celular": "911112222",
+    "endereco": [
+      {
+        "cep": "32400000",
+        "cidade": "IBIRITE",
+        "indCepUnicoCidade": 1,
+        "cod_cidade": "3206",
+        "estado": "MG",
+        "tipo": "MUNICIPIO",
+        "bairro": "CENTRO",
+        "tipo_logradouro": "8",
+        "logradouro": "RUA OTACÍLIO NEGRÃO DE LIMA, 100",
+        "numero": "101",
+        "ind_numero": true,
+        "informacao_departamento": "DEPARTAMENTO",
+        "complemento_endereco": "DEPTO",
+        "cod_complemento_endereco": "8",
+        "complemento": "DEP XPTO",
+        "reside_desde": "01/2012",
+        "situacao_residencia": "2",
+        "tipo_endereco": "1",
+        "desc_tipo_endereco": "PRINCIPAL"
+      },
+      {
+        "numero": "102",
+        "tipo_endereco": "2",
+        "desc_tipo_endereco": "AUXILIAR"
+      }
+    ],
+    "identificacao_trabalho": {
+      "identidade": {
+        "orgao": "SSP-SSP",
+        "cod_orgao": "1",
+        "estado": "MG",
+        "rg": "112254",
+        "data_emissao": "01/01/2014"
+      },
+      "dados_pessoais": {
+        "nome_pai": "JOAO DA SILVA LOSANGO II",
+        "nome_mae": "MARIA DA SILVA LOSANGO",
+        "data_nascimento": "01/01/1990",
+        "sexo": "M",
+        "nacionalidade": "B",
+        "naturalidade_mg": "MG",
+        "naturalidade_cidade": "MONTE ALEGRE DE MINAS",
+        "naturalidade_cod_cidade": "3438",
+        "cod_estado_civil": "1",
+        "estado_civil": "CASADO(A)",
+        "sexo_conjuge": "F",
+        "nome_conjuge": "JOANA MARIA LOSANGO",
+        "escolaridade": "2",
+        "nom_escolaridade": "SEGUNDO GRAU COMPLETO"
+      },
+      "trabalho": {
+        "ocupacao": "EMPRESARIO",
+        "cod_ocupacao": "0",
+        "cargo": "PROPRIETARIO",
+        "cod_profissao": "1333"
+      },
+      "renda_principal": {
+        "tipo_comprovante": "DECLARACAO DO CONTADOR",
+        "cod_tipo_comprovante": "C",
+        "mes_ano": "01/2015",
+        "renda_liquida": "2.000,00",
+        "nro_beneficio": "",
+        "orgao_pagador": ""
+      },
+      "outra_renda": {
+        "origem": "",
+        "cod_origem": "",
+        "valor": ""
+      },
+      "local_trabalho": {
+        "local": "SoftBox",
+        "cep": "38400696",
+        "endereco": "AV. CESARIO ALVIM",
+        "numero": "3345",
+        "complemento": "",
+        "bairro": "BRASIL",
+        "cidade": "UBERLANDIA",
+        "estado": "MG",
+        "ddd": "34",
+        "fone": "32218838",
+        "ramal": "",
+        "trabalha_desde": "12/2013"
+      }
+    },
+    "referencias": [
+      {
+        "nome": "JOSE DIAS II",
+        "ddd": "34",
+        "fone": "99885877",
+        "ramal": "",
+        "vinculo": "VIZINHO",
+        "cod_vinculo": "P6",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf": "",
+        "uf": "",
+        "cidade": "",
+        "ind_pf": ""
+      },
+      {
+        "nome": "PATRICIA DOS SANTOS RAMOS DRR",
+        "ddd": "34",
+        "fone": "91150910",
+        "ramal": "",
+        "vinculo": "IRMAO",
+        "cod_vinculo": "P02",
+        "ativo": "SIM",
+        "cod_ativo": 1,
+        "cpf_cnpj": "00000000191",
+        "uf": "MG",
+        "cidade": "BELO HORIZONTE",
+        "ind_pf": ""
+      }
+    ],
+    "cartao_mv_shop": {
+      "administradora": "MVSHOP",
+      "cod_administradora": "11",
+      "emissor": "HSBC",
+      "cod_emissor": "24",
+      "dia_vencimento": "20",
+      "endereco_fatura": "RESIDENCIAL",
+      "cod_endereco_fatura": "2",
+      "nome_impressao_cartao": "FULANO DA SILVA II",
+      "dependentes": []
+    }
+  }
+}

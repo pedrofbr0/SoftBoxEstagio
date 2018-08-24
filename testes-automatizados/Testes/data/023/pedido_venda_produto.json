@@ -1,0 +1,439 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "57",
+    "desc_tipo_venda": "57 - CARTAO RICARDO ELETR",
+    "valor_entrada": "0,00",
+    "plano": "10",
+    "prestacao": "58,00",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "139756",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "95",
+        "desc_tabela": "95 - TABELA NORMAL(95)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 6,
+          "desc_opcao_entrega": "AGENDADA",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": "10/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "Cartao Ricardo Eletr",
+        "cod_forma_pagamento": "96",
+        "valor": "2.978,60",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": true,
+        "quantidade": 3
+      },
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": true,
+        "quantidade": 2
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true,
+        "quantidade": null,
+        "valor": "30,00"
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+        "cod_produto": "139756",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139756.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "142384",
+            "nome_servico": "MONTAGEM PAN,GAB,BAL,ARM SUP,CANT,PRATEL",
+            "produto": "139756.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139756.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "142384",
+            "nome_servico": "MONTAGEM PAN,GAB,BAL,ARM SUP,CANT,PRATEL",
+            "produto": "139756.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      },
+      {
+        "desc_produto": "ARM 3P CLASS SL AP3P S/VD BR COLORMAQ",
+        "cod_produto": "139754",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "139754.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139754.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "139754.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139754.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      },
+      {
+        "desc_produto": "ARM 1P BASC CLASS SL 70L BR COLORMAQ",
+        "cod_produto": "139763",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "139763.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139763.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "139763.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "139763.4.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "valor_entrada": "400,00",
+      "plano": "6",
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "219757",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "B",
+          "ind_entrega_produto": "SIM",
+          "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+          "ind_entrega_atualizado": "NÃO",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 2,
+            "desc_opcao_entrega": "RETIRADA LOJA COM RETENÇÃO",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": "26/02/2016",
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "cancelar_produto": [
+        {
+          "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+          "cod_nro_produto": "219757",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "B",
+          "desc_local_empenho": "LOJA",
+          "desc_opcao_entrega": "RETIRADA LOJA COM RETENCAO"
+        }
+      ],
+      "reempenho": [
+        {
+          "cod_nro_produto": "219757",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "B",
+          "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "E",
+          "forma_pagamento": "Cartao Visa Electro",
+          "cod_forma_pagamento": "25",
+          "valor": "200,00",
+          "ind_inserir_valor": true,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        },
+        {
+          "tipo": "E",
+          "forma_pagamento": "Dinheiro",
+          "cod_forma_pagamento": "1",
+          "valor": "200,00",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        },
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cartao Ricardo Eletr",
+          "cod_forma_pagamento": "96",
+          "valor": "2.539,40",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Cartao Ricardo Eletr",
+          "valor": "1.451,00"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "209514",
+          "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+          "ind_ativo": false
+        },
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": true,
+          "quantidade": 2
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true,
+          "quantidade": null,
+          "valor": "27,00"
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "PAN 6P CLASS SL C/VD 70L BR COLORMAQ",
+          "cod_produto": "139756",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139756.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "142384",
+              "nome_servico": "MONTAGEM PAN,GAB,BAL,ARM SUP,CANT,PRATEL",
+              "produto": "139756.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        },
+        {
+          "desc_produto": "ARM 3P CLASS SL AP3P S/VD BR COLORMAQ",
+          "cod_produto": "139754",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139754.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139754.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        },
+        {
+          "desc_produto": "ARM 1P BASC CLASS SL 70L BR COLORMAQ",
+          "cod_produto": "139763",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "192434",
+              "nome_servico": "MONTAGEM DE MOVEIS",
+              "produto": "139763.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            },
+            {
+              "cod_servico": "144765",
+              "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+              "produto": "139763.4.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        },
+        {
+          "desc_produto": "PRANCHA MALLORY ARGAN LISS BIV",
+          "cod_produto": "219757",
+          "cor": "14",
+          "voltagem": "B",
+          "garantias": [
+            {
+              "cod_servico": "144779",
+              "nome_servico": "TROCA GARANTIDA - 1 ANO",
+              "produto": "219757.14.B",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "144779",
+              "nome_servico": "TROCA GARANTIDA - 1 ANO",
+              "produto": "219757.14.B",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

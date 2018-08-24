@@ -1,0 +1,4 @@
+br/com/softbox/pages/HomePage.class
+br/com/softbox/steps/LoginSteps.class
+br/com/softbox/model/SessionVariables.class
+br/com/softbox/test/ValidaAplicacao.class

@@ -1,0 +1,30 @@
+<acceptance-test-run title="Valida o status de aplicacao Cashlink" name="Valida o status de aplicacao Cashlink" steps="6" successful="0" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45425" timestamp="2018-05-15T14:08:40.161-03:00">
+  <user-story id="valida_aplicacao" name="Valida aplicacao" path="stories/aplicacao/valida_aplicacao.story"/>
+  <tags>
+    <tag name="Aplicações" type="component"/>
+    <tag name="Aplicacao" type="feature"/>
+    <tag name="Aplicacao/Valida aplicacao" type="story"/>
+    <tag name="Valida aplicacao" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="45410">
+    <description>Given Eu acesso a aplicacao ｟http://cashlinkbi.softbox.com.br/site/login｠</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When Eu preencho o campo {#LoginForm_username} com o valor {fibra/monitoria}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu preencho o campo {#LoginForm_password} com o valor {monitoria1}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu clico no botao {.sbx-md-button-flat.sbx-md-cor-primaria.sbx-md-bnt-login}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then Eu verifico o status da aplicacao</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu valido a presenca do elemento {.material-icons}</description>
+  </test-step>
+</acceptance-test-run>

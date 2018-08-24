@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Atendimento cliente troca simplificada loja","Elaborar um pedido a vista com empenho em loja/normal","SKIPPED","2018-08-24T14:27:04.916-03:00[America/Sao_Paulo]","0.0","0.01"
+"Atendimento cliente troca simplificada loja","Fatura o pedido recebido","SKIPPED","2018-08-24T14:27:04.929-03:00[America/Sao_Paulo]","0.0","0.0"
+"Atendimento cliente troca simplificada loja","Elaborar um atendimento para o pedido realizado","SKIPPED","2018-08-24T14:27:04.933-03:00[America/Sao_Paulo]","0.0","0.01"
+"Atendimento cliente troca simplificada loja","Fatura o pedido criado na troca simplificada","SKIPPED","2018-08-24T14:27:04.947-03:00[America/Sao_Paulo]","0.0","0.0"
+"Atendimento cliente troca simplificada loja","Realiza o Recolhimento de Produto","SKIPPED","2018-08-24T14:27:04.95-03:00[America/Sao_Paulo]","0.0","0.0"

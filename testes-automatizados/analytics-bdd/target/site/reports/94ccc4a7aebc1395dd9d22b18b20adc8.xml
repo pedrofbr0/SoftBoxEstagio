@@ -1,0 +1,30 @@
+<acceptance-test-run title="Valida o status de aplicacao Eldoc_MV" name="Valida o status de aplicacao Eldoc_MV" steps="6" successful="0" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45658" timestamp="2018-05-15T14:09:25.649-03:00">
+  <user-story id="valida_aplicacao" name="Valida aplicacao" path="stories/aplicacao/valida_aplicacao.story"/>
+  <tags>
+    <tag name="Aplicações" type="component"/>
+    <tag name="Aplicacao" type="feature"/>
+    <tag name="Aplicacao/Valida aplicacao" type="story"/>
+    <tag name="Valida aplicacao" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="45485">
+    <description>Given Eu acesso a aplicacao ｟http://10.25.238.15:8080/eldoc/｠</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>When Eu preencho o campo {#user.ui-widget-content.ui-corner-all} com o valor {softbox@softbox.com.br}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu preencho o campo {#password.ui-widget-content.ui-corner-all} com o valor {softbox!eldoc!123}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu clico no botao {.ui-button-text}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then Eu verifico o status da aplicacao</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And Eu valido a presenca do elemento {#ajuda.help}</description>
+  </test-step>
+</acceptance-test-run>

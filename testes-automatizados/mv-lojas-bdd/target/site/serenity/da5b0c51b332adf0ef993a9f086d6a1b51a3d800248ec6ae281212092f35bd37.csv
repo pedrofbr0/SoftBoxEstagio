@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pedido kit remove sem estoque36","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento com cartão de crédito","FAILURE","2018-08-24T14:27:15.342-03:00[America/Sao_Paulo]","0.0","181.93"
+"Pedido kit remove sem estoque38","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista","FAILURE","2018-08-24T14:30:35.382-03:00[America/Sao_Paulo]","0.0","207.45"
+"Pedido kit remove sem estoque39","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista","FAILURE","2018-08-24T14:38:15.391-03:00[America/Sao_Paulo]","0.0","166.43"

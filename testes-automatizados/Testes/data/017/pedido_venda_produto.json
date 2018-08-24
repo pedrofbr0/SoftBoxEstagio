@@ -1,0 +1,357 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "53",
+    "desc_tipo_venda": "53 - CARTAO DE CREDITO",
+    "valor_entrada": "150,00",
+    "plano": "3",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "208974",
+        "cod_cor_produto": "371",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "RACK 091L MOSCOU 29598 CRV TQ EDN",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": 95,
+        "desc_tabela": "95 - TABELA 95",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 6,
+          "desc_opcao_entrega": "AGENDADA",
+          "entrega": true,
+          "data_entrega_cliente_erro": "01/01/2020",
+          "data_entrega_cliente": "10/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": "MANHA",
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      },
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "188774",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "SUP MULTI TV PLUG LED 14A84 PTO",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": 95,
+        "desc_tabela": "95 - TABELA 95",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 2,
+          "desc_opcao_entrega": "RETIRADA LOJA COM RETENCAO",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": "29/03/2016",
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Dinheiro",
+        "cod_forma_pagamento": "1",
+        "valor": "150,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": null
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "VISA",
+        "cod_forma_pagamento": "27",
+        "valor": "751,68",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "RACK 091L MOSCOU 29598 CRV TQ EDN",
+        "cod_produto": "208974",
+        "cor": "371",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "208974.371.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "208974.371.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "208974.371.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "208974.371.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      },
+      {
+        "desc_produto": "SUP MULTI TV PLUG LED 14A84 PTO",
+        "cod_produto": "188774",
+        "cor": "14",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "188774.14.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "149535",
+            "nome_servico": "SUPORTE TV",
+            "produto": "188774.14.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "188774.14.0",
+            "ind_add": true,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "149535",
+            "nome_servico": "SUPORTE TV",
+            "produto": "188774.14.0",
+            "ind_add": true,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "valor_entrada": "0,00",
+      "plano": "6",
+      "produtos": [
+        {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "16374",
+        "cod_cor_produto": "0",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "KIT FEM BE SECRET - PERA",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": 95,
+        "desc_tabela": "95 - TABELA 95",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "VISA",
+          "cod_forma_pagamento": "27",
+          "valor": "1.026,84",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "E",
+          "forma_pagamento": "Dinheiro",
+          "valor": "150,00"
+        },
+        {
+          "tipo": "F",
+          "forma_pagamento": "VISA",
+          "valor": "384,63"
+        }
+      ],
+      "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "139524",
+        "descricao": "SOLUCAO CERTA INFORMATICA",
+        "ind_ativo": true
+      }
+    ],
+      "garantias": [
+      {
+        "desc_produto": "RACK 091L MOSCOU 29598 CRV TQ EDN",
+        "cod_produto": "208974",
+        "cor": "371",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "208974.371.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "144765",
+            "nome_servico": "GARANTIA MAIOR MOVEIS - 1 ANO",
+            "produto": "208974.371.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "SUP MULTI TV PLUG LED 14A84 PTO",
+        "cod_produto": "188774",
+        "cor": "14",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "188774.14.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "149535",
+            "nome_servico": "SUPORTE TV",
+            "produto": "188774.14.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "KIT FEM BE SECRET - PERA",
+        "cod_produto": "16374",
+        "cor": "0",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "136711",
+            "nome_servico": "PERFUMARIA",
+            "produto": "16374.0.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ]
+    }
+  }
+}

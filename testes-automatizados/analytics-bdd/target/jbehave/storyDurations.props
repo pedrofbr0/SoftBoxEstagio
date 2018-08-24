@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Tue May 15 14:17:13 BRT 2018
+threads=1
+total=736000
+threadAverage=736000
+stories/aplicacao/valida_aplicacao.story=736000

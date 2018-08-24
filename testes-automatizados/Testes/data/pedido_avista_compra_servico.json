@@ -1,0 +1,166 @@
+{
+  "RELOH": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "50,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "103519",
+        "descricao": "CLARO CARTAO 50",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "RELOD": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "50,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "103519",
+        "descricao": "CLARO CARTAO 50",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "RELOH_EXA": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "55,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "103519",
+        "descricao": "CLARO CARTAO 50",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  },
+  "MVSH": {
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "50,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "103519",
+        "descricao": "CLARO CARTAO 50",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false
+      }
+    ],
+    "liberacoes": []
+  }
+}

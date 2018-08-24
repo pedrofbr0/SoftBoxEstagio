@@ -1,0 +1,94 @@
+[
+	   
+	  {
+	  	"banco": "MVSH",
+	  	"desc_empresa": "CARLOS SARAIVA",
+	  	"loja": "6044",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false,
+	  	"receber_pedido": false
+	  },
+	  {	
+	  	"banco": "INLOJAD",
+	  	"desc_empresa": "INSINUANTE",
+	  	"loja": "59",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  },
+	  {
+	  	"banco": "RELODEV",
+	  	"desc_empresa": "RICARDO ELETRO",
+	  	"loja": "102",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  },
+	  {
+	  	"banco": "RELOWMS",
+	  	"desc_empresa": "RICARDO ELETRO WMS",
+	  	"loja": "102",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  },
+	  {
+	  	"banco": "RELODEV_OUTRA",
+	  	"desc_empresa": "RICARDO ELETRO WMS",
+	  	"loja": "102",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  },
+	  {
+	  	"banco": "LOCALHOST",
+	  	"desc_empresa": "RICARDO ELETRO - CODIGO LOCAL",
+	  	"loja": "102",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  },
+	  {
+	  	"banco": "RELOH",
+	  	"desc_empresa": "RICARDO ELETRO - BANCO NOVO",
+	  	"loja": "291",
+	  	"usuario": "6699",
+	  	"senha": "1",
+	  	"executar_teste": true,
+	  	"receber_pedido": true,
+	  	"pdv": "110",
+	  	"ind_log": true
+	  },
+	  {
+	  	"banco": "RELOD",
+	  	"desc_empresa": "RICARDO ELETRO - BANCO NOVO",
+	  	"loja": "291",
+	  	"usuario": "6699",
+	  	"senha": "1",
+	  	"executar_teste": false,
+	  	"receber_pedido": false,
+	  	"pdv": "110",
+	  	"ind_log": true
+	  },
+	  {
+	  	"banco": "RELOH_BA",
+	  	"desc_empresa": "RICARDO ELETRO - BANCO NOVO",
+	  	"loja": "4010",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false,
+	  	"pdv" : "110",
+	  	"receber_pedido" : true,
+	  	"ind_log": true
+	  },
+      {
+	  	"banco": "RELOH_EXA",
+	  	"desc_empresa": "RICARDO ELETRO - BANCO NOVO",
+	  	"loja": "133",
+	  	"usuario": "7380",
+	  	"senha": "1",
+	  	"executar_teste": false
+	  }
+	  
+]

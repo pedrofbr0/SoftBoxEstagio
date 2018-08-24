@@ -1,0 +1,233 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "2",
+    "desc_tipo_venda": "2 - PESSOA JURIDICA",
+    "valor_entrada": "100,00",
+    "plano": "3",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219494",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 6,
+          "desc_opcao_entrega": "AGENDADA",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": "03/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Dinheiro",
+        "cod_forma_pagamento": "1",
+        "valor": "100,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "BOLETO BANCARIO",
+        "cod_forma_pagamento": "9",
+        "valor": "572,98",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": true,
+        "documento": "000001",
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true
+      },
+      {
+        "cod_servico": "139524",
+        "descricao": "SOLUCAO CERTA INFORMATICA",
+        "ind_ativo": true
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "cod_produto": "219494",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "201791",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "SIM",
+          "descricao": "KIT COZ ELIANA BR MULTIVISAO",
+          "ind_entrega_atualizado": "SIM",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "03/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "E",
+          "forma_pagamento": "ENTRADA",
+          "cod_forma_pagamento": "1",
+          "valor": "100,00",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null,
+          "ind_remove": false
+        },
+        {
+          "tipo": "F",
+          "forma_pagamento": "BOLETO BANCARIO",
+          "cod_forma_pagamento": "9",
+          "valor": "1.301,88",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": true,
+          "documento": "000001",
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "E",
+          "forma_pagamento": "Dinheiro",
+          "valor": "100,00"
+        },
+        {
+          "tipo": "F",
+          "forma_pagamento": "BOLETO BANCARIO",
+          "valor": "283,98"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "192437",
+          "descricao": "SERVICO ANTI VIRUS NORTON MOBILE",
+          "ind_ativo": false
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "KIT COZ ELIANA BR MULTIVISAO",
+          "cod_produto": "201791",
+          "cor": "4",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "142383",
+              "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+              "produto": "201791.4.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "142383",
+              "nome_servico": "MONTAGEM KIT COZINHA / COZINHAS",
+              "produto": "201791.4.0",
+              "ind_add": true,
+              "ind_existe": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

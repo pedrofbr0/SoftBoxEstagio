@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Aug 24 14:41:20 BRT 2018
+stories/pedido/pedido_kit_remove_sem_estoque39.story=185000
+threads=1
+total=185000
+threadAverage=185000

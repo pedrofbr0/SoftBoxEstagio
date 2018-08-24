@@ -1,0 +1,270 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "207614",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "TV CCE 32 LN32G LED HD PTO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 6,
+          "desc_opcao_entrega": "AGENDADA",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": "28/07/2015",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "consulta_simplificada": {
+      "cpf": "00000000191",
+      "data_nascimento": "23/01/1986",
+      "tipo_venda": "66",
+      "desc_tipo_venda": "66 - Carne Losango SCRED",
+      "ret_enviar_msg": "<b>CONSULTA SIMPLIFICADA EM ANDAMENTO, AGUARDE ALGUNS <br>INSTANTES E ACIONE CONSULTAR <br><b></b></b>",
+      "ret_concluido_avaliacao": "<span class=\"alert-success\"><i class=\"icon-smile\"></i> Elegível</span>",
+      "ind_elaborar_pedido": true
+    },
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "1.713,30",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false,
+        "cheque": {
+          "cmc7": "237318420010034895777504362409",
+          "nro_banco": "237",
+          "desc_banco": "BANCO BRADESCO S.A.",
+          "conta_pagto_pedido_agencia": "3184",
+          "conta_pagto_pedido_nro": "7750436240",
+          "nro_docto_pagto": "003489",
+          "dt_vencto_docto_pagto": "19/08/2015",
+          "dt_abertura": "01/2010"
+        }
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "103501",
+        "descricao": "SEGURO RESIDENCIAL",
+        "quantidade": 1,
+        "valor": "30,00",
+        "ind_ativo": false
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "TV CCE 32 LN32G LED HD PTO",
+        "cod_produto": "207614",
+        "cor": "14",
+        "voltagem": "B",
+        "garantias": [
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "207614.14.B",
+            "ind_add": false,
+            "ind_existe": false,
+            "ind_validacao": false,
+            "validacao": {
+              "usuario": "7380",
+              "senha": 1
+            }
+          }
+        ]
+      }
+    ],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": true,
+        "ind_cpf": false,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "cpf": null,
+        "loja": "",
+        "desc_produto": "DVD LENOXX INOVOX IN-1218 USB",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "GARANTIA MAIOR DVD - 2 ANOS",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "192834",
+        "nro_servico": "144718",
+        "ind_valid_faixa_preco": false,
+        "consulta_nota": {
+          "loja": "102",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ],
+    "liberacoes": [
+      {
+        "tipo_liberacao": "LIBERACAO DE TABELA",
+        "ind_liberacao": "C;D;G;R;",
+        "msg_sucesso": "Liberacao de tabela encontrada na aba de liberacoes",
+        "msg_erro": "Liberacao de preco nao encontrada na aba de liberacoes",
+        "ind_liberar": true,
+        "obs": ".. Liberacao da tabela de preco normal.",
+        "user": "5501",
+        "senha": "1",
+        "msg_sucesso_apos_liberacao": "Liberação realizada com sucesso!",
+        "usuarioLogadoPossuiPrivilegio": false
+      }
+    ],
+    "reabertura1": {
+      "reempenho": [
+        {
+          "cod_nro_produto": "207614",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "B",
+          "descricao": "TV CCE 32 LN32G LED HD PTO",
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "28/07/2015",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "DINHEIRO",
+          "cod_forma_pagamento": "1",
+          "valor": "1.872,30",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null,
+          "cheque": {
+            "cmc7": "237318420010034895777504362409",
+            "nro_banco": "237",
+            "desc_banco": "BANCO BRADESCO S.A.",
+            "conta_pagto_pedido_agencia": "3184",
+            "conta_pagto_pedido_nro": "7750436240",
+            "nro_docto_pagto": "003489",
+            "dt_vencto_docto_pagto": "19/08/2015",
+            "dt_abertura": "01/2010"
+          }
+        }
+      ],
+      "cancelar_produto": [
+        {
+          "descricao": "TV CCE 32 LN32G LED HD PTO",
+          "cod_nro_produto": "207614",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "B",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "AGENDADA"
+        }
+      ],
+      "remover_produto": [
+        {
+          "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+          "cod_nro_produto": "219494",
+          "cod_cor_produto": "4",
+          "cod_tipo_voltagem": "0",
+          "id": null
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "valor": "1.857,18"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "103501",
+          "descricao": "SEGURO RESIDENCIAL",
+          "ind_ativo": false
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "TV CCE 32 LN32G LED HD PTO",
+          "cod_produto": "207614",
+          "cor": "14",
+          "voltagem": "B",
+          "garantias": [
+            {
+              "cod_servico": "185134",
+              "nome_servico": "AJUSTE DE PREÇO SUGERIDO PRATA",
+              "produto": "207614.14.B",
+              "ind_add": false
+            },
+            {
+              "cod_servico": "140358",
+              "nome_servico": "INSTALAÇÃO_DE_TV",
+              "produto": "207614.14.B",
+              "ind_add": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

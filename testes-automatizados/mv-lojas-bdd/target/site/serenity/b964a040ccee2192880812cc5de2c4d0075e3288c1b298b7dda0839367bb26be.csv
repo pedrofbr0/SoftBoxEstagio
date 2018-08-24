@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pedido kit com promocao40","Elaborar um pedido de KIT com promoção e empenho em DEPOSITO/NORMAL pagamento a vista","ERROR","2018-08-24T14:25:49.83-03:00[America/Sao_Paulo]","0.0","71.14"
+"Pedido kit remove sem estoque36","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento com cartão de crédito","FAILURE","2018-08-24T14:27:15.342-03:00[America/Sao_Paulo]","0.0","181.93"
+"Pedido kit remove sem estoque37","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista","ERROR","2018-08-24T14:34:06.387-03:00[America/Sao_Paulo]","0.0","173.99"
+"Pedido kit remove sem estoque38","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista","FAILURE","2018-08-24T14:30:35.382-03:00[America/Sao_Paulo]","0.0","207.45"
+"Pedido kit remove sem estoque39","Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista","FAILURE","2018-08-24T14:38:15.391-03:00[America/Sao_Paulo]","0.0","166.43"
+"Pedido promocao kit35","Elaborar um pedido a vista com DEPOSITO/RETIRADA OUTRA LOJA COM RESERVA DEPOSITO","ERROR","2018-08-24T14:37:02.743-03:00[America/Sao_Paulo]","0.0","69.39"

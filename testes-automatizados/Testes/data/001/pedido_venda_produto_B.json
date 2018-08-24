@@ -1,0 +1,222 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "1",
+    "desc_tipo_venda": "1 - A VISTA",
+    "valor_entrada": "0,00",
+    "plano": "",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Recebimento",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "187574",
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 1,
+          "desc_local_empenho": "DEPOSITO",
+          "opcao_entrega": 6,
+          "desc_opcao_entrega": "AGENDADA",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": "18/02/2016",
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": "TARDE",
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": true
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "V",
+        "forma_pagamento": "DINHEIRO",
+        "cod_forma_pagamento": "1",
+        "valor": "925,80",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+        "cod_produto": "187574",
+        "cor": "14",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "149535",
+            "nome_servico": "SUPORTE TV",
+            "produto": "187574.14.0",
+            "ind_add": false,
+            "ind_existe": true
+          },
+          {
+            "cod_servico": "140358",
+            "nome_servico": "INSTALAÇÃO_DE_TV",
+            "produto": "187574.14.0",
+            "ind_add": false,
+            "ind_existe": false
+          }
+        ]
+      }
+    ],
+    "garantia_avulsa_venda_interna": [
+      {
+        "ind_nota_fiscal": false,
+        "ind_pedido": true,
+        "ind_cpf": false,
+        "nota_fiscal": "",
+        "cupom_fiscal": "",
+        "serie": "",
+        "cpf": null,
+        "loja": "",
+        "desc_produto": "TV PANASONIC 32 TC-32A400B LED HD",
+        "garantia": "DESCONTOSERVICO01",
+        "desc_garantia": "GARANTIA MAIOR TV LCD - 2 ANOS.",
+        "ind_inserir": true,
+        "ind_remover": false,
+        "nro_produto": "215276",
+        "nro_servico": "144658",
+        "ind_valid_faixa_preco": false,
+        "consulta_nota": {
+          "loja": "291",
+          "pedido": null,
+          "emissao": null,
+          "nota_fiscal": null,
+          "cupom": null,
+          "serie": null,
+          "produto": null,
+          "desc_produto": null
+        }
+      }
+    ],
+    "reabertura1": {
+      "reempenho": [
+        {
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": "18/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": true
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "DINHEIRO",
+          "cod_forma_pagamento": "1",
+          "valor": "364,47",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null
+        }
+      ],
+      "cancelar_produto": [
+        {
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "desc_local_empenho": "DEPOSITO",
+          "desc_opcao_entrega": "AGENDADA",
+          "cancela_empenho_sem_emitir_mensagem": true
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "V",
+          "forma_pagamento": "Dinheiro",
+          "valor": "1.857,18"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "163594",
+          "descricao": "SEG CAMINHAO DA SORTE.",
+          "ind_ativo": false
+        },
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_produto": "187574",
+          "cor": "14",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "149535",
+              "nome_servico": "SUPORTE TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

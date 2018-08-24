@@ -1,0 +1,246 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "2",
+    "desc_tipo_venda": "2 - PESSOA JURIDICA",
+    "valor_entrada": "0,00",
+    "plano": "1",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "139550",
+        "cod_cor_produto": "0",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "SIM",
+        "descricao": "MODEM USB ZTE MF190 POS PAGO",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": true,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false,
+          "info_venda": {
+            "ge": "1",
+            "nro_serie": "0001"
+          }
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "Duplicata AON",
+        "cod_forma_pagamento": "65",
+        "valor": "108,01",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": null,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true,
+        "valor": "50,00"
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "MODEM USB ZTE MF190 POS PAGO",
+        "cod_produto": "139550",
+        "cor": "0",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "143191",
+            "nome_servico": "BANDA LARGA MODEM",
+            "produto": "139550.0.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "187574",
+          "cod_cor_produto": "14",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "NÃO",
+          "descricao": "SUP MULTI TV PLUG 14A84 PTO",
+          "ind_entrega_atualizado": "SIM",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 4,
+            "desc_opcao_entrega": "AGENDADA CLIENTE",
+            "entrega": true,
+            "data_entrega_cliente_erro": "26/02/2016",
+            "data_entrega_cliente": "12/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "MANHA",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "cancelar_produto": [
+        {
+          "cod_nro_produto": "139550",
+          "cod_cor_produto": "0",
+          "cod_tipo_voltagem": "0",
+          "descricao": "MODEM USB ZTE MF190 POS PAGO",
+          "desc_local_empenho": "LOJA",
+          "desc_opcao_entrega": "NORMAL"
+        }
+      ],
+      "reempenho": [
+        {
+          "cod_nro_produto": "139550",
+          "cod_cor_produto": "0",
+          "cod_tipo_voltagem": "0",
+          "descricao": "MODEM USB ZTE MF190 POS PAGO",
+          "empenho": {
+            "local_empenho": 0,
+            "desc_local_empenho": "LOJA",
+            "opcao_entrega": 2,
+            "desc_opcao_entrega": "RETIRADA COM RETENCAO",
+            "entrega": false,
+            "data_entrega_cliente_erro": null,
+            "data_entrega_cliente": null,
+            "ind_data_sistema": null,
+            "data_retencao": "12/02/2016",
+            "turno": null,
+            "desc_turno": null,
+            "desc_turno_erro": null,
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Duplicata AON",
+          "cod_forma_pagamento": "65",
+          "valor": "227,81",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": null,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Duplicata AON",
+          "valor": "1.034,01"
+        }
+      ],
+      "servicos": [
+        {
+          "cod_servico": "104141",
+          "descricao": "FRETE",
+          "ind_ativo": true
+        }
+      ],
+      "garantias": [
+        {
+          "desc_produto": "SUP MULTI TV PLUG 14A84 PTO",
+          "cod_produto": "187574",
+          "cor": "14",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "140358",
+              "nome_servico": "INSTALAÇÃO_DE_TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true,
+              "ind_remove": true
+            },
+            {
+              "cod_servico": "149535",
+              "nome_servico": "SUPORTE TV",
+              "produto": "187574.14.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        },
+        {
+          "desc_produto": "MODEM USB ZTE MF190 POS PAGO",
+          "cod_produto": "139550",
+          "cor": "0",
+          "voltagem": "0",
+          "garantias": [
+            {
+              "cod_servico": "143191",
+              "nome_servico": "BANDA LARGA MODEM",
+              "produto": "139550.0.0",
+              "ind_add": false,
+              "ind_existe": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

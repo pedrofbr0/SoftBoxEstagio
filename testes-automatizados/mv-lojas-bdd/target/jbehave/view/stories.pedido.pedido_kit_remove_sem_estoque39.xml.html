@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>stories.pedido.pedido_kit_remove_sem_estoque39</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/pedido/pedido_kit_remove_sem_estoque39.story" title="">
+<scenario keyword="Scenario:" title="Elaborar um pedido com KIT e empenho em DEPOSITO/NORMAL pagamento a vista">
+<meta>
+<property keyword="@" name="base" value="RELOH"/>
+<property keyword="@" name="context" value="PEDIDOS"/>
+<property keyword="@" name="grupoInstancias" value="Pedidos"/>
+<property keyword="@" name="issue" value="rgs-39"/>
+<property keyword="@" name="rgs-39" value=""/>
+<property keyword="@" name="tag" value="component:Regressão - RELOH"/>
+</meta>
+<step outcome="successful">Given Eu executo o script de reset <parameter>pedido_kit_remove_sem_estoque_39.sql</parameter></step>
+<step outcome="successful">And Eu acesso a instancia <parameter>padrao</parameter></step>
+<step outcome="successful">When Eu faco login na loja <parameter>291</parameter> com usuario <parameter>69930</parameter> e senha <parameter>1</parameter></step>
+<step outcome="successful">And Eu pesquiso o cpf <parameter>37778670550</parameter></step>
+<step outcome="successful">And Eu clico no botao &apos;Elaborar Pedido&apos;</step>
+<step outcome="successful">And Eu seleciono o tipo de venda <parameter>1 - A VISTA</parameter></step>
+<step outcome="successful">And Eu clico no botao adicionar produto</step>
+<step outcome="successful">And Eu pesquiso o produto <parameter>8776</parameter></step>
+<step outcome="comment">!-- Produto (158486) sem estoque</step>
+<step outcome="ignorable">!-- And Eu clico no botao Ok do modal</step>
+<step outcome="successful">And Eu clico no botao Selecionar Produto</step>
+<step outcome="successful">And Eu removo o produto <parameter>135155</parameter></step>
+<step outcome="comment">!-- Remove todos</step>
+<step outcome="successful">And Eu clico no botao adicionar produto</step>
+<step outcome="successful">And Eu pesquiso o produto <parameter>8776</parameter></step>
+<step outcome="comment">!-- Produto (158486) sem estoque</step>
+<step outcome="ignorable">!-- And Eu clico no botao Ok do modal</step>
+<step outcome="successful">And Eu clico no botao Selecionar Produto</step>
+<step outcome="successful">And Eu removo o produto <parameter>12905</parameter></step>
+<step outcome="comment">!-- Remove todos</step>
+<step outcome="comment">!-- Coloca estoque em todos os produtos</step>
+<step outcome="successful">And Eu executo o script de reset <parameter>pedido_kit_remove_sem_estoque_39_1.sql</parameter></step>
+<step outcome="successful">And Eu clico no botao adicionar produto</step>
+<step outcome="successful">And Eu pesquiso o produto <parameter>8776</parameter></step>
+<step outcome="successful">And Eu clico no botao Selecionar Produto</step>
+<step outcome="successful">And Eu clico no icone detalhes do produto <parameter>8776</parameter></step>
+<step outcome="successful">And Eu seleciono o local de empenho <parameter>LOJA</parameter></step>
+<step outcome="successful">And Eu seleciono a opcao de entrega <parameter>NORMAL</parameter></step>
+<step outcome="successful">And Eu clico no botao Reservar</step>
+<step outcome="successful">And Eu clico na aba <parameter>Planilha</parameter></step>
+<step outcome="successful">And Eu clico no botao Adicionar Forma Pagamento</step>
+<step outcome="successful">And Eu seleciono o <parameter>1</parameter> º tipo de pagamento <parameter>V</parameter></step>
+<step outcome="successful">And Eu seleciono a <parameter>1</parameter> ª forma de pagamento <parameter>Cartao Visa Electron</parameter></step>
+<step outcome="successful">Then Eu clico no botao Salvar</step>
+<step outcome="successful">And Eu clico no botao Ok do modal</step>
+<step outcome="successful">And Eu clico no botao Fechamento Total</step>
+<step outcome="failed" keyword="FAILED">And Eu valido o status do pedido <parameter>30 - Ag. Receb. ou em Analise p/Troca Minha Casa Melhor</parameter><failure>net.serenitybdd.core.exceptions.SerenityManagedException: O status do pedido está incorreto.</failure></step>
+<step outcome="ignorable">!-- And Eu salvo o pedido do teste @rgs-39 no relatorio</step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: O status do pedido está incorreto.
+	at net.thucydides.core.steps.ErrorConvertor.convertToAssertion(ErrorConvertor.java:22)
+	at net.thucydides.core.steps.StepInterceptor.reportMethodError(StepInterceptor.java:350)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:22)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:337)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:126)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:62)
+	at br.com.mv.pages.PedidoPage$$EnhancerByCGLIB$$fcb5426c.validarStatusPedido(&lt;generated&gt;)
+	at br.com.mv.steps.PedidoSteps.euValidoStatusDoPedido(PedidoSteps.java:293)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

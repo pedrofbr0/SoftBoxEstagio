@@ -1,0 +1,30 @@
+<acceptance-test-run title="Valida o status de aplicacao Efetividade" name="Valida o status de aplicacao Efetividade" steps="6" successful="0" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="45537" timestamp="2018-05-15T14:07:54.621-03:00">
+  <user-story id="valida_aplicacao" name="Valida aplicacao" path="stories/aplicacao/valida_aplicacao.story"/>
+  <tags>
+    <tag name="Aplicações" type="component"/>
+    <tag name="Aplicacao" type="feature"/>
+    <tag name="Aplicacao/Valida aplicacao" type="story"/>
+    <tag name="Valida aplicacao" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="45408">
+    <description>Given Eu acesso a aplicacao ｟https://efetividade.softbox.com.br/site/login｠</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When Eu preencho o campo {#LoginForm_username} com o valor {efetividade/MONITORIA}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu preencho o campo {#LoginForm_password} com o valor {softbox!eldoc!123}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu clico no botao {.button}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then Eu verifico o status da aplicacao</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu valido a presenca do elemento {.icon}</description>
+  </test-step>
+</acceptance-test-run>

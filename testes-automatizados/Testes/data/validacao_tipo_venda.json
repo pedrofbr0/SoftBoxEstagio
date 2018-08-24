@@ -1,0 +1,124 @@
+{
+  "_commenst_geral":"true => desbloqueado, false => bloqueado",
+  "_1_comment": "A Vista",
+  "1": {
+    "plano": false,
+    "vr_prestacao": false,
+    "entrada": false,
+    "tac": false,
+    "primeiro_vencimento": false,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false
+  },
+  "_2_comment": "Pessoa Jurídica",
+  "2": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false
+  },
+  "_3_comment": "Venda c/ Abervação",
+  "3": {
+    "plano": false,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false
+  },
+  "_11_comment": "Carne s/ Juros",
+  "11": {
+    "plano": false,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false
+  },
+  "_13_comment": "Depósito a prazo",
+  "13": {
+    "plano": null,
+    "vr_prestacao": null,
+    "entrada": null,
+    "tac": null,
+    "primeiro_vencimento": null,
+    "financiado_produto": null,
+    "financiado_servico": null,
+    "total_pedido": null
+  },
+  "_53_comment": "Cartão de Crédito",
+  "53": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  },
+  "_57_comment": "Cartão Ricado Eletro",
+  "57": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  },
+  "_65_comment": "Depósito em Conta",
+  "65": {
+    "plano": false,
+    "vr_prestacao": false,
+    "entrada": false,
+    "tac": false,
+    "primeiro_vencimento": false,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  },
+  "_66_comment": "Carne Losango SCRED",
+  "66": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  },
+  "_70_comment": "Carne MV Shop",
+  "70": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  },
+  "_73_comment": "MCM Crédito",
+  "73": {
+    "plano": true,
+    "vr_prestacao": true,
+    "entrada": true,
+    "tac": false,
+    "primeiro_vencimento": true,
+    "financiado_produto": false,
+    "financiado_servico": false,
+    "total_pedido": false 
+  }
+}

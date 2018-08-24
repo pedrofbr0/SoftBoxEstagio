@@ -1,0 +1,30 @@
+<acceptance-test-run title="Valida o status de aplicacao Kelex" name="Valida o status de aplicacao Kelex" steps="6" successful="0" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="51961" timestamp="2018-05-15T14:10:57.043-03:00">
+  <user-story id="valida_aplicacao" name="Valida aplicacao" path="stories/aplicacao/valida_aplicacao.story"/>
+  <tags>
+    <tag name="Aplicações" type="component"/>
+    <tag name="Aplicacao" type="feature"/>
+    <tag name="Aplicacao/Valida aplicacao" type="story"/>
+    <tag name="Valida aplicacao" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="51952">
+    <description>Given Eu acesso a aplicacao ｟http://mv.kelex.com.br/Login｠</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When Eu preencho o campo {#login.form-control} com o valor {monitoria@softbox.com.br}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And Eu preencho o campo {#senha.form-control} com o valor {kelexmonitoria}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And Eu clico no botao {#btLogin.btn.btn-success.bg-blue-ace.btn-block}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then Eu verifico o status da aplicacao</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And Eu valido a presenca do elemento {.content-header}</description>
+  </test-step>
+</acceptance-test-run>

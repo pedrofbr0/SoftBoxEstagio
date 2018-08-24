@@ -1,0 +1,365 @@
+<html>
+<head>
+<title>stories.aplicacao.valida_aplicacao</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/aplicacao/valida_aplicacao.story" title="">
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Catman">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://catman.softbox.com.br/site/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#LoginForm_username</parameter> com o valor <parameter>catman/monitoria</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#LoginForm_password</parameter> com o valor <parameter>monitoria</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.sbx-md-button-flat.sbx-md-cor-primaria.sbx-md-bnt-login</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#container-novidades</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Pine">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://pine.softbox.com.br/site/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#LoginForm_username</parameter> com o valor <parameter>pine/monitoria</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#LoginForm_password</parameter> com o valor <parameter>S0ftB0x@#$%2017</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.button</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Catman-Ice">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://catmanice.softbox.com.br/site/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#LoginForm_username</parameter> com o valor <parameter>catmanice/MONITORIA</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#LoginForm_password</parameter> com o valor <parameter>S0ftB0x@#$%2017</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.sbx-md-button-flat.sbx-md-cor-primaria.sbx-md-bnt-login</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.material-icons</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Efetividade">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://efetividade.softbox.com.br/site/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#LoginForm_username</parameter> com o valor <parameter>efetividade/MONITORIA</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#LoginForm_password</parameter> com o valor <parameter>softbox!eldoc!123</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.button</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.icon</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Cashlink">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://cashlinkbi.softbox.com.br/site/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#LoginForm_username</parameter> com o valor <parameter>fibra/monitoria</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#LoginForm_password</parameter> com o valor <parameter>monitoria1</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.sbx-md-button-flat.sbx-md-cor-primaria.sbx-md-bnt-login</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.material-icons</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Eldoc_MV">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://10.25.238.15:8080/eldoc/</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#user.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>softbox@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#password.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>softbox!eldoc!123</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.ui-button-text</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#ajuda.help</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Eldoc_MV_Lojas_Fisicas">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://eldoc.maquinadevendas.corp/eldoc/</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#user.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>softbox@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#password.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>softbox!eldoc!123</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.ui-button-text</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#ajuda.help</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Kelex">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://mv.kelex.com.br/Login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#login.form-control</parameter> com o valor <parameter>monitoria@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#senha.form-control</parameter> com o valor <parameter>kelexmonitoria</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>#btLogin.btn.btn-success.bg-blue-ace.btn-block</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.content-header</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Sistema_GPC">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://sistemagpc.softbox.com.br/eldoc_hpf_view/#/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#login_username</parameter> com o valor <parameter>suporte@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#login_password</parameter> com o valor <parameter>NocSoftbox0310</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.width-35.pull-right.btn.btn-sm.btn-primary</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#navbar-container</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao SERD">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://www.serd.com.br/eldoc_unilever/</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#user.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>suporte@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#password.ui-widget-content.ui-corner-all</parameter> com o valor <parameter>softbox!eldoc!123</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.ui-button-text</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#ajuda.help</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Suvinil">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://suvinilon.suvinil.com.br/</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#username.ng-pristine.ng-empty.ng-invalid.ng-invalid-required.ng-touched</parameter> com o valor <parameter>qaprodutos@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#password.ng-pristine.ng-empty.ng-invalid.ng-invalid-required.ng-touched</parameter> com o valor <parameter>Tradelinks@suvinil1</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.bottom-pos</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#main</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao CoachingUFS">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>http://www.coachingufs.com.br/Authentication</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#Username</parameter> com o valor <parameter>000381282</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.btn.btn-orange.btn-block</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.navbar-inner</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Vortex">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://vortex.softbox.com.br</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#input-usuario</parameter> com o valor <parameter>qaprodutos@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#input-senha</parameter> com o valor <parameter>Qav0rtt3xmonnit0r</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>#button-entrar</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>#opcoes-menu</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Execu&#231;&#227;o">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://www.execucaounilever.com.br/#/login</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#input_0</parameter> com o valor <parameter>1010</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#input_1</parameter> com o valor <parameter>s0ftb0xm0n1t0r3</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.login-btn.md-raised.md-primary.submit.md-button.md-ink-ripple.flex-grow</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.ng-scope</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="Valida o status de aplicacao Tobias">
+<step outcome="failed" keyword="FAILED">Given Eu acesso a aplicacao <parameter>https://tobias.softbox.com.br/tobias/</parameter><failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Eu preencho o campo <parameter>#login-email</parameter> com o valor <parameter>infra@softbox.com.br</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu preencho o campo <parameter>#login-senha</parameter> com o valor <parameter>sj28yab8yp</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu clico no botao <parameter>.btn.btn-block.btn-primary.mt-lg.ng-scope</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Eu verifico o status da aplicacao</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And Eu valido a presenca do elemento <parameter>.img-responsive</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:146)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:133)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:103)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:178)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:173)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:831)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:741)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:729)
+	at br.com.softbox.steps.LoginSteps.iAccess(LoginSteps.java:24)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

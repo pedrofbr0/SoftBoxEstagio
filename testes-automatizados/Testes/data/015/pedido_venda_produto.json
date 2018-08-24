@@ -1,0 +1,197 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "2",
+    "desc_tipo_venda": "2 - PESSOA JURIDICA",
+    "valor_entrada": "100,00",
+    "plano": "1",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "219494",
+        "cod_cor_produto": "4",
+        "cod_tipo_voltagem": "0",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "BOLETO BANCARIO",
+        "cod_forma_pagamento": "9",
+        "valor": "597,99",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": true,
+        "documento": "0001",
+        "ind_remove": false
+      }
+    ],
+    "servicos": [],
+    "garantias": [
+      {
+        "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "cod_produto": "219494",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "209514",
+            "nome_servico": "SERVICO ANTIVIRUS MOBILE NORTON",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true,
+            "ind_remove": true
+          },
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ],
+    "reabertura1": {
+      "produtos": [
+        {
+          "cod_departamento": "",
+          "cod_grupo_produto": "",
+          "desc_departamento": "",
+          "desc_grupo_produto": "",
+          "cod_sub_grupo_produto": "",
+          "desc_sub_grupo_produto": "",
+          "cod_nro_produto": "189137",
+          "cod_cor_produto": "315",
+          "cod_tipo_voltagem": "0",
+          "ind_entrega_produto": "SIM",
+          "descricao": "RACK 097L TUANI 28988 EBA/PTO EDN",
+          "ind_entrega_atualizado": "SIM",
+          "qtd": null,
+          "tabela": null,
+          "desc_tabela": null,
+          "valor_unitario": null,
+          "ind_editar_produto": false,
+          "empenho": {
+            "local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 6,
+            "desc_opcao_entrega": "AGENDADA",
+            "entrega": true,
+            "data_entrega_cliente_erro": "01/01/2020",
+            "data_entrega_cliente": "10/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "MANHA",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false
+          },
+          "promocao": {
+            "ind_promocao_ativa": false,
+            "ind_sel_promo": false
+          }
+        }
+      ],
+      "planilhas": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "Duplicata AON",
+          "cod_forma_pagamento": "65",
+          "valor": "1.191,99",
+          "ind_inserir_valor": false,
+          "ind_gerar_financiamento": false,
+          "documento": null,
+          "ind_remove": false
+        }
+      ],
+      "planilhas_remove": [
+        {
+          "tipo": "F",
+          "forma_pagamento": "BOLETO BANCARIO",
+          "valor": "308,99"
+        }
+      ],
+      "servicos": [
+        {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": true 
+      }
+        ],
+      "garantias": [
+      {
+        "desc_produto": "TABLET DL TP104 KIDS 8GB 7CAPA TV:BR:SEM VOLT",
+        "cod_produto": "219494",
+        "cor": "4",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "139524",
+            "nome_servico": "SOLUCAO CERTA INFORMATICA",
+            "produto": "219494.4.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      },
+      {
+        "desc_produto": "RACK 097L TUANI 28988 EBA/PTO EDN",
+        "cod_produto": "189137",
+        "cor": "315",
+        "voltagem": "0",
+        "garantias": [
+          {
+            "cod_servico": "192434",
+            "nome_servico": "MONTAGEM DE MOVEIS",
+            "produto": "189137.315.0",
+            "ind_add": false,
+            "ind_existe": true
+          }
+        ]
+      }
+    ]
+    }
+  }
+}

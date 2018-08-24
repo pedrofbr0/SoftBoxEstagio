@@ -1,0 +1,245 @@
+{
+  "RELOH": {
+    "tipo_venda": "70",
+    "desc_tipo_venda": "70 - CARTAO MVSHOP",
+    "valor_entrada": "0,00",
+    "plano": "3",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Liberações",
+    "msg_success_ao_finalizar": "Status: 10 - Ag. Liberações",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": 219757,
+        "cod_cor_produto": 14,
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "65",
+        "desc_tabela": "65 - TABELA NORMAL(65)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+        	"local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 4,
+            "desc_opcao_entrega": "AGENDADA CLIENTE",
+            "entrega": true,
+            "data_entrega_cliente_erro": "26/02/2016",
+            "data_entrega_cliente": "12/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "MANHA",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "MV Shop 1.Compra",
+        "cod_forma_pagamento": 116,
+        "valor": "143,55",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 187814,
+        "descricao": "AJUSTE DE PREÇO SUGERIDO",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  },
+  "RELOH_EXA": {
+    "tipo_venda": "70",
+    "desc_tipo_venda": "70 - CARTAO MVSHOP",
+    "valor_entrada": "0,00",
+    "plano": "3",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": 219757,
+        "cod_cor_produto": 14,
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "65",
+        "desc_tabela": "65 - TABELA NORMAL(65)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+        	"local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": true,
+            "data_entrega_cliente_erro": "26/02/2016",
+            "data_entrega_cliente": "12/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "MANHA",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "MV Shop 1.Compra",
+        "cod_forma_pagamento": 116,
+        "valor": "138,12",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 187814,
+        "descricao": "AJUSTE DE PREÇO SUGERIDO",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  },
+  "MVSH": {
+    "tipo_venda": "70",
+    "desc_tipo_venda": "70 - CARTAO MVSHOP",
+    "valor_entrada": "0,00",
+    "plano": "3",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Lib. Credito Central",
+    "msg_success_ao_finalizar": "Status: 22 - Ag. Lib. Credito Central",
+    "ind_analise_credito": true,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": 219757,
+        "cod_cor_produto": 14,
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "SIM",
+        "descricao": "PRANCHA MALLORY ARGAN LISS BIV",
+        "ind_entrega_atualizado": "SIM",
+        "qtd": null,
+        "tabela": "65",
+        "desc_tabela": "65 - TABELA NORMAL(65)",
+        "valor_unitario": null,
+        "ind_editar_produto": true,
+        "empenho": {
+        	"local_empenho": 1,
+            "desc_local_empenho": "DEPOSITO",
+            "opcao_entrega": 0,
+            "desc_opcao_entrega": "NORMAL",
+            "entrega": true,
+            "data_entrega_cliente_erro": "26/02/2016",
+            "data_entrega_cliente": "12/02/2016",
+            "ind_data_sistema": null,
+            "data_retencao": null,
+            "turno": null,
+            "desc_turno": "TARDE",
+            "desc_turno_erro": "MANHA",
+            "ind_validacao_data_agendamento": null,
+            "nro_loja_empenho": null,
+            "ind_valid_regra_cad_endereco": false,
+            "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "F",
+        "forma_pagamento": "MV Shop 1.Compra",
+        "cod_forma_pagamento": 116,
+        "valor": "138,12",
+        "ind_inserir_valor": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": 163594,
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 187814,
+        "descricao": "AJUSTE DE PREÇO SUGERIDO",
+        "ind_ativo": false
+      },
+      {
+        "cod_servico": 104141,
+        "descricao": "FRETE",
+        "ind_ativo": true
+      }
+    ]
+  }
+}

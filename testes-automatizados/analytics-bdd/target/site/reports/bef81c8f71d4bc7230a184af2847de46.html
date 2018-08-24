@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Features</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- jQplot -->
+<!--[if IE]>
+<script language="javascript" type="text/javascript" src="excanvas/3/excanvas.compiled.js"></script>
+<![endif]--><link rel="stylesheet" type="text/css" href="jqplot/1.0.8/jquery.jqplot.min.css"/>
+<script type="text/javascript" src="jqplot/1.0.8/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+
+
+
+
+    <script class="code" type="text/javascript">$(document).ready(function () {
+        var plot1 = $.jqplot('coverage_pie_chart', [
+            [
+                ['Passing', 0],
+                ['Pending', 0],
+                ['Ignored', 0],
+                ['Failing', 0],
+                ['Errors',  1],
+                ['Compromised',  0],
+                ['Untested',  0],
+            ]
+        ], {
+            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
+            seriesColors: [
+                '#30cb23',
+                '#a2f2f2',
+                '#eeeadd',
+                '#f8001f',
+                '#fc6e1f',
+                'fuchsia',
+                'darkgrey'],
+            seriesDefaults: {
+                renderer: $.jqplot.PieRenderer,
+                trendline: {show: false},
+                rendererOptions: {padding: 8, showDataLabels: true}
+            },
+            legend: {
+                show: true,
+                placement: 'outside',
+                rendererOptions: {
+                    numberRows: 3
+                },
+                location: 's',
+                marginTop: '15px'
+            },
+            series: [
+                {label: '0 requirements tested successfully'},
+                {label: '0 requirements pending'},
+                {label: '0} requirements skipped'},
+                {label: '0} requirements with failures'},
+                {label: '1} requirements with errors'},
+                {label: '0} requirements compromised'},
+                {label: '0} requirements untested'},
+            ]
+        });
+        // Results table
+        $('#test-results-table').DataTable({
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 100,
+            "lengthMenu": [ [50, 100, 200, -1] , [50, 100, 200, "All"] ]
+        });
+
+        // Results table
+        $('#req-results-table').DataTable({
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 100,
+            "lengthMenu": [ [50, 100, 200, -1] , [50, 100, 200, "All"] ]
+        });
+
+        $('#examples-table').DataTable({
+            "order": [
+                [2, "asc"]
+            ],
+            "pageLength": 25
+        });
+        $("#requirements-tabs").tabs();
+        $("#test-tabs").tabs();
+    })
+    ;
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".read-more-link").click(function () {
+                $(this).nextAll("div.read-more-text").toggle();
+                var isrc = $(this).find("img").attr('src');
+                if (isrc == 'images/plus.png') {
+                    $(this).find("img").attr("src", function () {
+                        return "images/minus.png";
+                    });
+                } else {
+                    $(this).find("img").attr("src", function () {
+                        return "images/plus.png";
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Analytics - BDD</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+            <a href='index.html'>Home</a> > Requirements
+
+
+                > Aplicacao
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li >
+            <a href="index.html"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li class="active">
+            <a href="#"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="5f5dee50b3955739bfb580c79f480d2e.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-05-2018 14:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <div>
+                    <h2><i class="fa fa-book"></i> Feature:  Aplicacao</h2>
+                        <div class="requirementNarrativeTitle">
+                        Aplicacao
+                        </div>
+
+                </div>
+
+                <div id="requirements-summary">
+                    <div id="coverage_pie_chart"
+                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
+                    <div id="coverage_summary">
+                        <div>
+                            <h4>Requirements Overview</h4>
+                            <table class="summary-table">
+                                <head>
+                                    <tr>
+                                        <th>Requirement Type</th>
+                                        <th>Total</th>
+                                        <th>Pass&nbsp;<i class="icon-check"></i></th>
+                                        <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
+                                        <th>Pending&nbsp;<i class="icon-calendar"></i></th>
+                                        <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
+                                    </tr>
+                                </head>
+                                <body>
+                                    <tr>
+                                        <td class="summary-leading-column"><a href="#requirements-tabs">Stories</a></td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+
+                                <tr>
+                                    <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
+                                    <td>15</td>
+                                    <td>0</td>
+                                    <td>15</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td></td>
+                                </tr>
+                                </body>
+                            </table>
+                        </div>
+
+
+
+
+
+<div>
+    <h4>Test Result Summary</h4>
+    <table class="summary-table">
+        <head>
+            <tr>
+                <th>Test Type</th>
+                <th>Total</th>
+                <th>Pass&nbsp;<i class="icon-check"/> </th>
+                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+            </tr>
+        </head>
+        <body>
+        <tr>
+            <td class="summary-leading-column">Automated</td>
+            <td>15</td>
+            <td>0 (0%)</td>
+            <td>15 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Manual</td>
+            <td>0</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total</td>
+            <td>15</td>
+            <td>0 (0%)</td>
+            <td>15 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total Duration</td>
+                <td colspan="5">12 minutes 12 seconds</td>
+        </tr>
+        </body>
+    </table>
+</div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+
+                <div id="requirements-tabs">
+                        <ul>
+                                <li><a href="#tabs-1">
+                                Stories (1)
+                                </a></li>
+                        </ul>
+                        <div id="tabs-1" class="capabilities-table">
+                            <div id="tabs-1" class="capabilities-table">
+
+
+<div id="req_list_tests" class="table">
+    <div class="test-results">
+        <table id="req-results-table">
+            <thead>
+            <tr>
+                <th width="30" class="test-results-heading">&nbsp;</th>
+                <th width="65" class="test-results-heading">ID</th>
+                <th width="525" class="test-results-heading">Story</th>
+                <th class="test-results-heading" width="75px">Automated<br/>Tests</th>
+                    <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
+
+                <th width="125px" class="test-results-heading">Test Results</th>
+
+            </tr>
+            <tbody>
+
+
+
+                <tr class="test-ERROR requirementRow">
+                    <td class="requirementRowCell">
+                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                        <span style="display:none">4</span>
+                    </td>
+                    <td class="cardNumber requirementRowCell"></td>
+
+                    <td class="ERROR-text requirementRowCell">
+                        <a href="javaScript:void(0)" class="read-more-link">
+                            <img src="images/plus.png" height="16"/></a>
+                        <span class="requirementName"><a
+                                href="31dcf1c42b56c57d7ae0aa50c2f54e5a.html">Valida aplicacao</a></span>
+
+                        <div class="requirementNarrative read-more-text"></div>
+                    </td>
+
+
+                    <td class="greentext highlighted-value requirementRowCell">15</td>
+<!--
+                    <td class="greentext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">0</td>
+                    <td class="lightorangetext requirementRowCell">15</td>
+                    <td class="violettext requirementRowCell">0</td>
+-->
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
+<!--
+                        <td class="greentext requirementRowCell">0</td>
+                        <td class="bluetext requirementRowCell">0</td>
+                        <td class="redtext requirementRowCell">0</td>
+                        <td class="lightorangetext requirementRowCell">0</td>
+                        -->
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+
+<table>
+    <tr>
+        <td width="40px">
+            <div class="small">0%</div>
+        </td>
+        <td width="125px">
+            <div class="percentagebar"
+                 title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                 style="width: 125px;">
+                <div class="pendingbar"
+                     title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                     style="width: 125px;">
+                    <div class="ignoredbar"
+                         style="width: 125px;"
+                         title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                        <div class="compromisedbar"
+                             style="width: 125px;"
+                             title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                            <div class="errorbar"
+                                 style="width: 125px;"
+                                 title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                <div class="failingbar"
+                                     style="width: 0px;"
+                                     title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    <div class="passingbar"
+                                         style="width: 0px;"
+                                         title="  - Total tests: 15
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 15 (100%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+                            </div>
+                        </div>
+<table>
+    <tr>
+        <td>
+            <div><h3>Acceptance Criteria</h3></div>
+            <div id="test_list_tests" class="table">
+                <div class="test-results">
+                    <table id="test-results-table">
+                        <thead>
+                        <tr>
+                            <th width="50" class="test-results-heading">&nbsp;</th>
+                            <th width="%" class="test-results-heading">Tests</th>
+                            <th width="70" class="test-results-heading">Steps</th>
+
+                                <th width="65" class="test-results-heading">Fail</th>
+                                <th width="65" class="test-results-heading">Error</th>
+                                <th width="65" class="test-results-heading">Comp</th>
+                                <th width="65" class="test-results-heading">Pend</th>
+                                <th width="65" class="test-results-heading">Ignore</th>
+                                <th width="65" class="test-results-heading">Skip</th>
+                            <th width="100" class="test-results-heading">Duration<br>(seconds)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="bfe85acf87f2ccb9e48a369beba96bb6.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Cashlink 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.43</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="735cfcdc7a280d9ddce25f822ba5d2d3.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Catman 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">83.33</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="561dc842ba9c7e6052f732f04f7e8f04.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Catman-Ice 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.31</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="2fafdb126e608e84cb4300a98d20ccb6.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao CoachingUFS 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">5</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">4</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.61</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="27e5be0f562409a99c32de87af31249d.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Efetividade 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.54</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="94ccc4a7aebc1395dd9d22b18b20adc8.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Eldoc_MV 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.66</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="706cb9f47b67cb88ccb1a0652f4f6b0b.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Eldoc_MV_Lojas_Fisicas 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.73</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="7da624da4888667f97d59ff4a6b186ca.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Execução 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.33</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="88a88974728398038fcdca1838c37dbf.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Kelex 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">51.96</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="622c50fdcd2fa7e94ec3c593ceec3961.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Pine 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">5</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">4</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">46.4</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="286dcd6192153b2ad313eecf41113cfc.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao SERD 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.71</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="ac8d351b5b6e26a8eaee83a70d848d08.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Sistema_GPC 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">45.5</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="fac2fde1d9ebf27ecc84dd053f35b775.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Suvinil 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">48.36</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="a30c626248fae3b7b010d70d06980f4d.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Tobias 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">46.48</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="436ab50fc554eaba5884267e94217c23.html" class="ellipsis" title="Unsupported driver exception: Could n...">
+                                    Valida o status de aplicacao Vortex 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">6</td>
+
+                                    <td class="redtext">0</td>
+                                    <td class="redtext">1</td>
+                                    <td class="redtext">0</td>
+                                    <td class="bluetext">0</td>
+                                    <td class="bluetext">5</td>
+                                    <td class="bluetext">0</td>
+
+                                <td class="lightgreentext">46.44</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.39</span>
+</div>
+</body>
+</html>

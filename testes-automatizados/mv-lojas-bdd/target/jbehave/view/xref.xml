@@ -1,0 +1,204 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/cadastros/cadastro_cliente_pf_basico.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>cadastrar um novo cliente Pessoa Física, perfil básico</title>
+            <meta>
+              <properties>
+                <property name="tag" value="component:Regressao - RELOH"/>
+                <property name="issue" value="cad-14"/>
+                <property name="grupoInstancias" value="Pedidos"/>
+                <property name="context" value="CADASTROS"/>
+                <property name="cad-14" value=""/>
+                <property name="base" value="RELOH"/>
+              </properties>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA DE LOGIN</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>Given Eu acesso a instancia padrao</string>
+              <string>When Eu faco login na loja 291 com usuario 7380 e senha 1</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA CONSULTA CLIENTE</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>And Eu informo um novo CPF</string>
+              <string>And Eu espero 5000 milisegundos</string>
+              <string>And Eu clico no botao Novo Cliente</string>
+              <string>And Eu espero 6000 milisegundos</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA CADASTRO CLIENTE</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>And Eu informo o nome do cliente Rogerinho do Ingá</string>
+              <string>And Eu seleciono o grupo BASICO</string>
+              <string>And Eu informo o numero de telefone residencial 34 32118345 1</string>
+              <string>And Eu informo o numero de telefone celular 34 999993456 1</string>
+              <string>And Eu clico no botao Inserir Novo Endereco</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA PESQUISA ENDEREÇO</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>And Eu informo o CEP 38400-752</string>
+              <string>And Eu clico no botao Pesquisar Endereco</string>
+              <string>And Eu espero 5000 milisegundos</string>
+              <string>And Eu clico no endereco no campo radio</string>
+              <string>And Eu clico no botao Selecionar</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA ENDEREÇO</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>And Eu informo o numero da residencia 456</string>
+              <string>And Eu seleciono o tipo de complemento CASA</string>
+              <string>And Eu informo a data de residencia 04/2015</string>
+              <string>And Eu informo o situacao da residencia PROPRIA</string>
+              <string>And Eu informo o tipo de endereco PRINCIPAL</string>
+              <string>And Eu clico no botao OK</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>!-- TELA CADASTRO CLIENTE</string>
+              <string>!-- ----------------------------------------------</string>
+              <string>And Eu clico no botao Salvar cliente</string>
+              <string>And Eu espero 5000 milisegundos</string>
+              <string>Then Eu valido a mensagem de sucesso do cadastro do cliente</string>
+              <string>And Eu salvo o pedido do teste @cad-14 no relatorio</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>cadastro_cliente_pf_basico.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>false</allowed>
+      <givenStories/>
+      <scenarios/>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>0</durationInMillis>
+        <start>0</start>
+        <end>0</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios/>
+</xref>

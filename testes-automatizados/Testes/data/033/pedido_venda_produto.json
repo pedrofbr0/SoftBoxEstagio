@@ -1,0 +1,136 @@
+{
+  "RELOH": {
+    "nro_pedido": "",
+    "tipo_venda": "53",
+    "desc_tipo_venda": "53 - CARTAO DE CREDITO",
+    "valor_entrada": "1.330,00",
+    "plano": "1",
+    "status_pedido": "Em Elaboração",
+    "statusAtualizadoAposSalvarPedido": "Em Elaboracao",
+    "statusAposFechamentoTotalPedido": "Ag. Receb. ou em Analise p/Troca Minha Casa Melhor",
+    "msg_success_ao_finalizar": "Status: 30 - Ag. Recebimento",
+    "ind_analise_credito": false,
+    "btn_confirme_analise": false,
+    "produtos": [
+      {
+        "cod_departamento": "",
+        "cod_grupo_produto": "",
+        "desc_departamento": "",
+        "desc_grupo_produto": "",
+        "cod_sub_grupo_produto": "",
+        "desc_sub_grupo_produto": "",
+        "cod_nro_produto": "223892",	
+        "cod_cor_produto": "14",
+        "cod_tipo_voltagem": "B",
+        "ind_entrega_produto": "NÃO",
+        "descricao": "MINI SYSTEM SAMSUNG MX-J640 200W BIV",
+        "ind_entrega_atualizado": "NÃO",
+        "qtd": null,
+        "tabela": null,
+        "desc_tabela": null,
+        "valor_unitario": null,
+        "ind_editar_produto": false,
+        "empenho": {
+          "local_empenho": 0,
+          "desc_local_empenho": "LOJA",
+          "opcao_entrega": 0,
+          "desc_opcao_entrega": "NORMAL",
+          "entrega": false,
+          "data_entrega_cliente_erro": null,
+          "data_entrega_cliente": null,
+          "ind_data_sistema": null,
+          "data_retencao": null,
+          "turno": null,
+          "desc_turno": null,
+          "desc_turno_erro": null,
+          "ind_validacao_data_agendamento": null,
+          "nro_loja_empenho": null,
+          "ind_valid_regra_cad_endereco": false,
+          "empenha_sem_emitir_mensagem": false
+        },
+        "promocao": {
+          "ind_promocao_ativa": false,
+          "ind_sel_promo": false
+        }
+      }
+    ],
+    "planilhas": [
+      {
+        "tipo": "E",
+        "forma_pagamento": "Dinheiro",
+        "cod_forma_pagamento": "1",
+        "valor": "1.330,00",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": null
+      },
+      {
+        "tipo": "F",
+        "forma_pagamento": "VISA",
+        "cod_forma_pagamento": "27",
+        "valor": "560,77",
+        "ind_inserir_valor": false,
+        "ind_gerar_financiamento": false,
+        "documento": null,
+        "ind_remove": false
+      }
+    ],
+    "servicos": [
+      {
+        "cod_servico": "163594",
+        "descricao": "SEG CAMINHAO DA SORTE.",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "104141",
+        "descricao": "FRETE",
+        "ind_ativo": false,
+        "quantidade": null
+      },	
+      {
+        "cod_servico": "290795",
+        "descricao": "USE MAIS SAUDE",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "278095",
+        "descricao": "ASSISTENCIA CASA PROTEGIDA",
+        "ind_ativo": false,
+        "quantidade": null
+      },
+      {
+        "cod_servico": "209514",
+        "descricao": "SERVICO ANTIVIRUS MOBILE NORTON",
+        "ind_ativo": false,
+        "quantidade": null
+      }
+    ],
+    "garantias": [
+      {
+        "desc_produto": "MINI SYSTEM SAMSUNG MX-J640 200W BIV",
+        "cod_produto": "223892",
+        "cor": "14",
+        "voltagem": "B",
+        "garantias": [
+          {
+            "cod_servico": "144730",
+            "nome_servico": "GARANTIA MAIOR AUDIO - 2 ANOS",
+            "produto": "223892.14.B",
+            "ind_add": false,
+            "ind_existe": false
+          },
+          {
+            "cod_servico": "196054",
+            "nome_servico": "ROUBO E FURTOS MICRO MINI SYSTEM",
+            "produto": "223892.14.B",
+            "ind_add": false,
+            "ind_existe": false
+          }
+        ]
+      }
+    ]
+  }
+}
