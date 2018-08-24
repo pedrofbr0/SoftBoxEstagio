@@ -1,0 +1,57 @@
+JENKINS CONFIGURAÇÕES - JOBS
+
+/home/pedro/Documentos/Automação/testes-automatizados/mv-lojas-bdd
+
+
+
+REGRESSAO - BDD - PEDIDOS - PARTE I
+
+clean verify -Dmetafilter="groovy: (issue == 'rgs-01' || issue == 'rgs-02' || issue == 'rgs-03' || issue == 'rgs-04' || issue == 'rgs-05' || issue == 'rgs-06' || issue == 'rgs-07' || issue == 'rgs-08' || issue == 'rgs-09' || issue == 'rgs-10' || issue == 'rgs-11' || issue == 'rgs-12' || issue == 'rgs-13' || issue == 'rgs-14' || issue == 'rgs-15' || issue == 'rgs-16' || issue == 'rgs-17' || issue == 'rgs-18' || issue == 'rgs-19' || issue == 'rgs-20')"
+
+
+REGRESSAO - BDD - PEDIDOS - PARTE II
+
+clean verify -Dmetafilter="groovy: (issue == 'rgs-21' || issue == 'rgs-22' || issue == 'rgs-23' || issue == 'rgs-24' || issue == 'rgs-25' || issue == 'rgs-26' || issue == 'rgs-27' || issue == 'rgs-28' || issue == 'rgs-29' || issue == 'rgs-34' || issue == 'rgs-35' || issue == 'rgs-36' || issue == 'rgs-37' || issue == 'rgs-38' || issue == 'rgs-39' || issue == 'rgs-40' || issue == 'rgs-41')"
+
+
+REGRESSAO - BDD - PEDIDOS - PARTE III
+
+clean verify -Dmetafilter="groovy: (issue == 'rgs-42' || issue == 'rgs-43' || issue == 'rgs-44' || issue == 'rgs-45' || issue == 'rgs-46' || issue == 'rgs-47' || issue == 'rgs-48' || issue == 'rgs-49' || issue == 'rgs-50' || issue == 'rgs-51' || issue == 'rgs-52' || issue == 'rgs-53' || issue == 'rgs-54' || issue == 'rgs-55' || issue == 'rgs-56' || issue == 'rgs-57' || issue == 'rgs-58'  ||  issue == 'rgs-73'  || issue == 'rgs-74')"
+
+
+REGRESSAO - BDD - PEDIDOS - PARTE IV
+
+clean verify -Dmetafilter="groovy: (issue == 'rgs-42' || issue == 'rgs-43' || issue == 'rgs-44' || issue == 'rgs-45' || issue == 'rgs-46' || issue == 'rgs-47' || issue == 'rgs-48' || issue == 'rgs-49' || issue == 'rgs-50' || issue == 'rgs-51' || issue == 'rgs-52' || issue == 'rgs-53' || issue == 'rgs-54' || issue == 'rgs-55' || issue == 'rgs-56' || issue == 'rgs-57' || issue == 'rgs-58'  || issue == 'rgs-59'  || issue == 'rgs-60'  || issue == 'rgs-61'  || issue == 'rgs-62'  || issue == 'rgs-63'  || issue == 'rgs-64'  || issue == 'rgs-65'  || issue == 'rgs-73'  || issue == 'rgs-74')"
+
+
+REGRESSAO - BDD - NOTAS FISCAIS - PARTE I
+
+clean verify -Dmetafilter="groovy: (issue == 'nf-01' || issue == 'nf-02' || issue == 'nf-03' || issue == 'nf-04' || issue == 'nf-05' || issue == 'nf-06' || issue == 'nf-07' || issue == 'nf-08' || issue == 'nf-09' || issue == 'nf-10' || issue == 'nf-11' || issue == 'nf-12' || issue == 'nf-13' || issue == 'nf-14' || issue == 'nf-15' || issue == 'nf-16' || issue == 'nf-17' || issue == 'nf-18' || issue == 'nf-19' || issue == 'nf-20')"
+
+
+REGRESSAO - BDD - NOTAS FISCAIS - PARTE II
+
+clean verify -Dmetafilter="groovy: (issue == 'nf-21' || issue == 'nf-22' || issue == 'nf-23' || issue == 'nf-24' || issue == 'nf-25' || issue == 'nf-26' || issue == 'nf-27' || issue == 'nf-28' || issue == 'nf-29' || issue == 'nf-34' || issue == 'nf-35' || issue == 'nf-36' || issue == 'nf-37' || issue == 'nf-38' || issue == 'nf-39' || issue == 'nf-40' || issue == 'nf-41')"
+
+
+REGRESSAO - BDD - NOTAS FISCAIS - PARTE III
+
+clean verify -Dmetafilter="groovy: (issue == 'nf-42' || issue == 'nf-43' || issue == 'nf-44' || issue == 'nf-45' || issue == 'nf-46' || issue == 'nf-47' || issue == 'nf-48' || issue == 'nf-49' || issue == 'nf-50' || issue == 'nf-51' || issue == 'nf-52' || issue == 'nf-53' || issue == 'nf-54' || issue == 'nf-55' || issue == 'nf-56')" -Dmaven.clean.failOnError=false
+
+
+REGRESSAO - BDD - CADASTROS
+
+clean verify -Dmetafilter="groovy: (context == 'CADASTROS' && base != 'MVSH')"
+
+
+TESTES DE FUMACA - BDD - PEDIDOS
+
+clean verify -Dmetafilter="groovy: (issue != 'prd-smk-01' && issue != 'prd-smk-02' && context == 'SMOKE_TESTING' && base != 'MVSH')"
+
+
+SMOKE TESTS
+clean verify -Dmetafilter="groovy: (issue == 'smk-01' || issue == 'smk-02' || issue == 'smk-03' || issue == 'smk-04' || issue == 'smk-05' || issue == 'smk-06' || issue == 'smk-07' || issue == 'smk-08' || issue == 'smk-09')"
+
+
+
+

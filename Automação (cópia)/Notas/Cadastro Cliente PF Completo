@@ -1,0 +1,179 @@
+CADASTRO CLIENTE PF COMPLETO
+
+-TELA CONSULTA CLIENTE
+
+    //CHECKBOX TIPO DE PESSOA (Pessoa Física): id="ckb-tipo-pessoa" //*[@id="ckb-tipo-pessoa"]
+    //CNPJ: id="cbx-cnpj" //*[@id="cbx-cnpj"]
+    CPF:   cbx-cpf  
+    BOTAO NOVO CLIENTE: btn-novo-cliente
+    NOME: txt-nome
+    //NOME FANTASIA: //*[@id="frm-cadastro-cliente"]/div[3]/div[6]/input
+    //INSCRIÇÃO ESTADUAL (IE): //*[@id="frm-cadastro-cliente"]/div[4]/div[2]/input
+    //TIPO DE EMPRESA: //*[@id="cbx_nro_tipo_empresa_chosen"]
+    TELEFONE RESIDENCIAL: txtDddResidencial txtNroTelefoneResidencial txtRamalResidencial
+    TELEFONE CELULAR: txtDddCelular txtNroTelefoneCelular txtRamalCelular
+    BOTAO INSERIR NOVO ENDERECO: btn-novo-endereco
+    BOTAO PESQUISAR ENDERECO: btn-pesquisar-endereco
+
+-TELA NOVO ENDERECO
+
+    CEP: txt-cep-pesquisa-endereco
+    CAMPO RADIO: //*[@id='grd-pesquisa-endereco']/tbody/tr[2]/td[3]
+    BOTAO SELECIONAR ENDERECO: btn-selecionar-endereco
+    NUMERO: input[data-column='nro_endereco_cliente']
+    TIPO DE ENDERECO: "//*[@id=\"cbx_tipo_complemento_endereco_chosen\"]"
+    RESIDE DESDE: "dp-residencia-cliente"
+    SITUAÇÃO RESIDÊNCIA: "//*[@id=\"infoEndereco\"]/div[4]/div"
+    TIPO ENDEREÇO: "//*[@id=\"infoEndereco\"]/div[6]/div"
+    BOTAO OK (SALVAR ENDEREÇO): "btn-salvar-endereco"
+
+
+-TELA IDENTIFICAÇÃO/TRABALHO
+
+    ABA IDENTIFICAÇÃO/TRABALHO: id=lnk-modal-trabalho //*[@id="lnk-modal-trabalho"]
+    ÓRGÃO/UF/Número: 
+
+        title id = cbx_orgao_emissor_chosen //*[@id="cbx_orgao_emissor_chosen"] 
+        //*[@id="cbx_uf_chosen"] ou //*[@id="cbx_uf_chosen"]/a ou //*[@id="cbx_uf_chosen"]/a/span
+        input id="nroRg" //*[@id="nroRg"]
+
+    DATA DE EMISSAO: id="identidade_dt_emissao" //*[@id="identidade_dt_emissao"]
+    NOME DO PAI: id="nome_pai"
+    NOME DA MAE (NOME E SOBRENOME): id="nome_mae"
+    DATA DE NASCIMENTO: identidade_ddd
+    SEXO: cbx_sexo_chosen ou //*[@id="cbx_sexo_chosen"]
+    NACIONALIDADE: flag_nacionalidade_chosen //*[@id="flag_nacionalidade_chosen"]
+    NATURALIDADE: cbx_uf_naturalidade_chosen //*[@id="cbx_uf_naturalidade_chosen"] 
+    ESTADO CIVIL: cbx_estado_civil_chosen //*[@id="cbx_estado_civil_chosen"]
+    OCUPACAO: cbx_ocupacao_chosen //*[@id="cbx_ocupacao_chosen"]
+    PROFISSAO: cbx_profissao_chosen //*[@id="cbx_profissao_chosen"]
+
+    TIPO COMPROVANTE: cbx_tipo_comprovante_renda_chosen //*[@id="cbx_tipo_comprovante_renda_chosen"]
+    MES/ANO dp-comprovante-renda //*[@id="dp-comprovante-renda"]
+
+    RENDA LIQUIDA txt-vr-salario-cliente //*[@id="txt-vr-salario-cliente"]
+
+    LOCAL DE TRABALHO: 
+
+    LOCAL
+
+    local_trabalho //*[@id="local_trabalho"]
+
+    txtCepTrabalho //*[@id="txtCepTrabalho"]
+
+    CEP 
+
+    txtCepTrabalho
+
+    //*[@id="txtCepTrabalho"]
+
+    //*[@id="dp-trabalha-desde"]
+
+    TRABALHADESDE
+
+    dp-trabalha-desde
+
+
+    NUMERO
+
+    txt-numero-trabalho-cliente
+
+    //*[@id="txt-numero-trabalho-cliente"]
+
+    DDD/FONE
+
+    txtDddTrabalho //*[@id="txtDddTrabalho"]
+
+    txtNroTelefoneTrabalho //*[@id="txtNroTelefoneTrabalho"]
+
+    txtRamalTrabalho //*[@id="txtRamalTrabalho"]
+
+    BOTAO OK (SALVAR TRABALHO)
+
+    btn-salvar-trabalho //*[@id="btn-salvar-trabalho"]
+
+
+    TELA REFERENCIA (MIN 2)
+
+    CLICAR TELA DE REFERÊNCIA: //*[@id="tab-cadastro-cliente"]/li[3]/a
+
+    BOTAO NOVA REFERENCIA btn-nova-referencia
+
+    NOME txt-sf-cliente-ref-text
+
+    DDD/FONE 
+
+    data-column="fone_referencia_ddd"  //*[@id="frm-referencia-cliente"]/fieldset/div[1]/div[4]/input[1]
+
+    data-column="fone_referencia_nro"  //*[@id="frm-referencia-cliente"]/fieldset/div[1]/div[4]/input[2]
+
+    data-column="fone_referencia_ramal" //*[@id="frm-referencia-cliente"]/fieldset/div[1]/div[4]/input[3]
+
+
+    VINCULO //*[@id="frm-referencia-cliente"]/fieldset/div[2]/div[2]/div
+
+    BOTAO OK (SALVAR REFERENCIA CLIENTE): btn-salvar-referencia-cliente
+
+
+
+
+
+
+Criar Pages diferentes para os diferentes tipos de clientes
+
+
+
+And Eu informo o nome do pai Baiano
+And Eu informo o nome da mae Maria de Jesus
+And Eu informo data de nascimento 18/11/1986
+And Eu seleciono sexo Masculino
+And Eu seleciono nacionalidade BRASILEIRO
+And Eu seleciono naturalidade BA BONITO
+And Eu seleciono Estado Civil SOLTEIRO(A)
+
+And Eu seleciono ocupacao ASSALARIADO
+And Eu seleciono profissao BABÁ
+And Eu seleciono tipo de comprovante de renda Extrato Bancario
+And Eu seleciono mes/ano 04/2018
+And Eu informo renda liquida 1500
+And Eu informo local de trabalho PADARIA
+And Na tela de Identificao/Trabalho, eu informo o CEP 38400-750
+And Eu seleciono trabalha desde 04/2010
+And Eu informo numero do local de trabalho 
+And Eu informo numero de telefone do trabalho 34 32445566 1
+And Eu clico no botao ok da tela Identificacao/Trabalho
+
+And Eu clico aba de referencias
+And Eu clico no botao de inserir
+And Eu informo o nome da referencia PAULO
+And Eu informo o numero de telefone da referencia  34 32446766 1
+And Eu seleciono o vinculo CLIENTE
+And Eu clico no botao ok
+
+And Eu clico no botao de inserir
+And Eu informo o nome da referencia RICARDO
+And Eu informo o numero de telefone da referencia  34 32445678 1
+And Eu seleciono o vinculo CLIENTE
+And Eu clico no botao ok
+
+
+
+
+
+ O Grau de escolaridade na aba Crediário Próprio não foi preenchido. Favor preencher e tentar novamente.
+ O tipo de telefone residencial na aba Crediário Próprio não foi preenchido. Favor preencher e tentar novamente.
+ A série Carteira de Trabalho da aba Crediário Próprio não foi preenchida. Favor preencher e tentar novamente.
+ O Nº Carteira de Trabalho na aba Crediário Próprio não foi preenchido. Favor preencher e tentar novamente.
+ O ponto de Referência na aba Crediário Próprio não foi preenchido. Favor preencher e tentar novamente.
+
+
+-TELA CREDIÁRIO PRÓPRIO
+
+    ABA CREDIÁRIO PRÓPRIO: lnk-modal-dados-financeiros
+    ESCOLARIDADE: cbx_grau_escolaridade_chosen
+    TIPO TELEFONE RESIDENCIAL: cbx_tipo_tel_residencial_chosen
+    N° CARTEIRA DE TRABALHO: //*[@id="frm-dados-financeiros"]/fieldset/div[1]/div[4]/input
+    SÉRIE CARTEIRA DE TRABALHO: //*[@id="frm-dados-financeiros"]/fieldset/div[2]/div[4]/input
+    PONTO DE REFERÊNCIA: obs_endereco_cliente
+    BOTAO OK (SALVAR DADOS FINANCEIROS): btn-salvar-dados-financeiros
+

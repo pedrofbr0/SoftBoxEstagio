@@ -1,0 +1,9 @@
+COISAS A FAZER AUTOMAÇÃO
+
+- Automatizar a veirifcação das instâncias a partir da planilha de instâncias (e modificá-lo de acord se for neecessário)
+
+- Rodar os testes diariamente em horários pré-definidos de forma automática
+
+- Jenkins: gerar relatório do serenity de forma autônoma ao eclipse
+
+-  

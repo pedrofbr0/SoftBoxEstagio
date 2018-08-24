@@ -1,0 +1,27 @@
+				if (links[i-1].trim().equals("Faturamento") && links[i].trim().equals("Cadastros")) {
+					System.out.println("entrei if Faturamento"+i);
+					wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//a[text()='Faturamento']/parent::li/ul[contains(@class, 'dropdown-menu')]/li/a[not(contains(@class, 'raiz')) and text()='" + links[i].trim() + "']")));
+					btnClick = driver.findElement(By.xpath(".//a[text()='Faturamento']/parent::li/ul[contains(@class, 'dropdown-menu')]/li/a[not(contains(@class, 'raiz')) and text()='" + links[i].trim() + "']"));
+//					hover.moveToElement(btnClick).perform();
+					hover.moveToElement(btnClick).build();
+//					hover.moveToElement(btnClick);
+					Thread.sleep(3000);
+//					btnClick.click();
+					Thread.sleep(3000);
+					
+					
+				} else if (links[i-1].trim().equals("Mostruário") && (links[i].trim().equals("Gerar Previsão Ordem Montagem") ||  links[i].trim().equals("Gerar Previsão Ordem Desmontagem"))) {
+					System.out.println("entrei if Mostruário"+i);
+					wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//a[text()='Mostruário']/parent::li/ul[contains(@class, 'dropdown-menu')]/li/a[not(contains(@class, 'raiz')) and text()='" + links[i].trim() + "']")));
+					btnClick = driver.findElement(By.xpath(".//a[text()='Mostruário']/parent::li/ul[contains(@class, 'dropdown-menu')]/li/a[not(contains(@class, 'raiz')) and text()='" + links[i].trim() + "']"));
+//					hover.moveToElement(btnClick).perform();
+					hover.moveToElement(btnClick).build();
+//					hover.moveToElement(btnClick);
+					Thread.sleep(3000);
+//					btnClick.click();
+					Thread.sleep(3000);
+					
+					
+				} 
+			
+					else {

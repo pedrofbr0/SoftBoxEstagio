@@ -1,0 +1,116 @@
+EDIÇÃO DE CADASTRO CLIENTE PF
+
+-TELA CONSULTA CLIENTE
+
+    CPF: cbx-cpf
+    BOTAO PESQUISAR: id="btn-pesquisar" //*[@id="btn-pesquisar"]
+    RADIO PESQUISA CLIENTE: //*[@id="1"]/td[3]/button
+
+-TELA CADASTRO CLIENTE (ABA ENDEREÇO)
+
+    EDITAR(ABA ENDEREÇO): //*[@id="1"]/td[2]/div/button
+    BOTAO PESQUISAR ENDEREÇO: btn-pesquisa-endereco
+    SITUAÇÃO RESIDÊNCIA: "//*[@id=\"infoEndereco\"]/div[4]/div"
+    BOTÃO OK (SALVAR ENDEREÇO): "btn-salvar-endereco"
+
+-TELA CADASTRO CLIENTE
+
+    ABA INDENTIFICAÇÃO/TRABALAHO: id=lnk-modal-trabalho
+
+- TELA IDENTIFICAÇÃO/TRABALHO
+
+    TIPO COMPROVANTE: cbx_tipo_comprovante_renda_chosen
+    BOTAO OK (SALVAR TRABALHO): btn-salvar-referencia-cliente
+
+- TELA CADASTRO CLIENTE
+
+    ABA REFERÊNCIAS: //*[@id="tab-cadastro-cliente"]/li[3]/a
+
+- TELA REFERENCIAS
+
+    BOTAO EDITAR: //*[@id="1"] //*[@id="1"]/td[2]/div #\31 > td:nth-child(2) > div //*[@id="1"]/td[2]/div/button
+    VINCULO: //*[@id="frm-referencia-cliente"]/fieldset/div[2]/div[2]/div
+    BOTAO OK (SALVAR REFERENCIA): btn-salvar-referencia-cliente
+
+- TELA CADASTRO CLIENTE
+
+    BOTA SALVAR: "btn-salvar-cliente"
+    
+
+And Eu clico botao editar na aba de endereco
+And Eu clico botao editar na aba de referencias
+
+
+    
+EDIÇÃO DE CADASTRO CLIENTE PJ
+
+-TELA CONSULTA CLIENTE
+
+    BOTAO TIPO PESSOA: id="ckb-tipo-pessoa"  (USAR WEBDRIVER)
+    CNPJ: id="cbx-cnpj"
+    BOTAO PESQUISAR: id="btn-pesquisar" //*[@id="btn-pesquisar"]
+    RADIO PESQUISA CLIENTE: //*[@id="1"]/td[3]/button
+
+-TELA CADASTRO CLIENTE
+
+    EDITAR(ABA ENDEREÇO): //*[@id="1"]/td[2]/div/button
+    BOTAO PESQUISAR ENDEREÇO: btn-pesquisa-endereco
+    SITUAÇÃO RESIDÊNCIA: "//*[@id=\"infoEndereco\"]/div[4]/div"
+    BOTÃO OK (SALVAR ENDEREÇO): "btn-salvar-endereco"
+
+-TELA CADASTRO CLIENTE
+
+    ABA INDENTIFICAÇÃO/TRABALAHO: id=lnk-modal-trabalho
+
+- TELA IDENTIFICAÇÃO/TRABALHO
+
+    TIPO COMPROVANTE: cbx_tipo_comprovante_renda_chosen
+    BOTAO OK (SALVAR TRABALHO): btn-salvar-referencia-cliente
+
+- TELA CADASTRO CLIENTE
+
+    ABA REFERÊNCIAS: //*[@id="tab-cadastro-cliente"]/li[3]/a
+
+- TELA REFERENCIAS
+
+    BOTAO EDITAR: //*[@id="1"] //*[@id="1"]/td[2]/div #\31 > td:nth-child(2) > div
+    VINCULO: //*[@id="frm-referencia-cliente"]/fieldset/div[2]/div[2]/div
+    BOTAO OK (SALVAR REFERENCIA): btn-salvar-referencia-cliente
+
+- TELA CADASTRO CLIENTE
+
+    ABA COMPRADOR/REPRESENTANTE: id="lnk-representante"
+
+- TELA COMPRADOR/REPRESENTANTE
+
+    BOTAO EDITAR: //*[@id="1"]/td[2]/div <div class="editButtonRepresentante ui-pg-div ui-inline-edit" data-id="1"><span class="ui-icon ui-icon-pencil green"></span></div>
+    CARGO:  //*[@id="frm-representante"]/fieldset/div[3]/input
+    BOTAO OK (SALVAR REPRESENTANTE): id="btn-salvar-representante"
+
+- TELA CADASTRO CLIENTE
+
+    ABA CREDIARIO PROPRIO: lnk-modal-cred-prop-pj
+
+- TELA DREDIÁRIO PRÓPRIO
+
+    PONTO DE REFERÊNCIA: //*[@id="frm-dados-cred-prop-pj"]/fieldset/div[2]/div[2]/div/input
+    BOTAO SALVAR CREDIARIO PROPRIO (PJ): id="btn-salvar-dados-cred-prop-pj" 
+
+- TELA CADASTRO CLIENTE
+
+    BOTA SALVAR: "btn-salvar-cliente"
+    
+
+
+!-- TELA DE LOGIN
+!-- ----------------------------------------------
+Given Eu acesso a instancia padrao
+When Eu faco login na loja 291 com usuario 7380 e senha 1
+
+!-- ----------------------------------------------
+!-- TELA CONSULTA CLIENTE
+!-- ----------------------------------------------
+And Eu clico na checkbox de Tipo de Pessoa
+And Eu informo um novo CNPJ
+And Eu clico no pesquisar da tela de consulta cliente
+

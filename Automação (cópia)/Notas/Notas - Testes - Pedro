@@ -1,0 +1,159 @@
+    RGS-01
+
+Scenario: Elaborar um pedido a vista com DEPOSITO/AGENDADA CLIENTE
+
+And Eu valido se a garantia 140358 foi adicionada para o produto 215275 - A garantia 140358 aperece na aba de serviço, e não na de garantia.Não está sendo adicionada automaticamente.
+
+-- (OK) And Eu valido se a garantia 144658 foi adicionada para o produto 21527 - A garantia 144658 não é mostrada nem em seviço nem em garantia. Deveria ser vinculada ao produto automaticamente.
+
+
+Pedido: 5018802
+
+
+Scenario: Elaborar um pedido a vista com depósito/agendada e garantia avulsa interna do pedido anterior
+
+And Eu valido se a garantia 149535 foi adicionada para o produto 187574 - A garantia 149535 (SUPORTE TV) deveria ser adicionada automaticamente ao produto. No entanto, na sua descrição no banco de dados ele se enquadra melhor num serviço.
+
+And Eu valido se o servico 104141 ja foi adicionado - O serviço 104141 (FRETE) deveria deveria ter sido adicionado automaticamente.
+
+Pediodo: 5018865
+
+
+    RGS-02
+
+Scenario: Elaborar um pedido a vista com DEPOSITO/AGENDADA CLIENTE
+
+And Eu removo a garantia 140358 do produto 187374 - A garantia 140358 não pode ser removida, pois não está sendo atribuída ao produto automaticamente.
+
+And Eu removo a garantia 144658 do produto 187374 - A garantia 140358 não pode ser adicionada pois não fica disponível para seleção.
+
+And Eu valido se a garantia 136711 foi adicionada para o produto 16376 - Não se validou a adição da garantia 136711 (PERFUME), pois a mesma não fica disponível para seleção.
+
+Pedido: 5019723 
+
+
+Scenario: Efetua o reempenho do pedido feito
+
+Pedido: 5019751
+
+And Eu valido se a garantia 140358 foi adicionada para o produto 187374 - A adição da garantia 140358 não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 187374
+
+And Eu valido se a garantia 136711 foi adicionada para o produto 187374 - A adição da garantia 136711 não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 16376
+
+
+    RGS-03
+
+Scenario: Elaborar um pedido a vista com dois produtos DEPOSITO/RETIRADA OUTRA LOJA COM RESERVA DEPOSITO
+
+And Eu removo a garantia 139524 do produto 193957 - A garantia 139524 não pode ser removida, pois não está sendo atribuída ao produto automaticamente.
+
+And Eu removo a garantia 139524 do produto 193957 - A garantia 139524 (SOLUCAO CERTA INFORMATICA) não pode ser adicionada, pois não fica disponível para seleção.
+
+And Eu removo a garantia 144745 do produto 193957 - A garantia 144745 (GARANTIA MAIOR IMPRESSORA - 2 ANOS) não pode ser removida, pois não está sendo atribuída ao produto automaticamente.
+
+And Eu informo o usuario 6699 e senha 1 para validar exclusao - Como não a garantia a ser excluída não se encontra disponível, a validação não é requerida.
+
+And Eu seleciono a garantia 139524 - A garantia não se encontra disponível para seleção. OBS.: a garantia 266560 (GARANTIA MAIOR IMPRESSORA - 4 ANOS) se encontra disponível.
+
+And Eu removo a garantia 196014 do produto 196096 - Não foi possível remover a garantia 190414 (ROUBO E FURTOS TABLET), pois a mesma não está senda adicionada ao produto automaticamente.
+
+And Eu removo a garantia 139524 do produto 196096 - Não foi possível remover a garantia, pois a mesma não está senda adicionada ao produto automaticamente.
+
+And Eu removo a garantia 144776 do produto 196096 - Não foi possível remover a garantia 144776 (GARANTIA MAIOR TABLET), pois a mesma não está senda adicionada ao produto automaticamente.
+
+And Eu seleciono a garantia 139524 - A garantia não se encontra disponível para seleção.
+
+Pedido: 5019633
+
+
+Scenario: Efetua o reempenho do pedido feito
+
+And Eu valido se a garantia 139524 foi adicionada para o produto 193957 - A adição da garantia não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 193957.
+
+And Eu valido se a garantia 139524 foi adicionada para o produto 196096 A adição da garantia não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 196096.
+
+OBS.: a garantia 144775 possui os campos FIN_TIPO_PRODUTO = NULL, IND_POSSUI_GERENCIAMENTO = NULL, IND_VENDA_EXTERNA = NULL, enquanto que a garantia 266560 possui 36, 0 e 0 respectivamente nos mesmos campos.
+
+
+    RGS-04
+
+Scenario: Elaborar um pedido a vista com LOJA/NORMAL
+
+Eu removo a garantia 143191 do produto 139550 - A garantia não pode ser removida, pois não está sendo adicionada ao produto automaticamente.
+
+And Eu informo o usuario 6699 e senha 1 para validar exclusao - Como não a garantia a ser excluída não se encontra disponível, a validação não é requerida.
+
+And Eu seleciono a garantia 143191 - A garantia 143191 (BANDA LARGA MODEN) não se encontra disponível para seleção.
+
+Pedido: 5019775
+
+
+Scenario: Efetua o reempenho do pedido feito
+
+And Eu informo a flag entrega como SIM - A flaga entrega não fica selecionável para alteração.
+
+And Eu valido se a garantia 143191 foi adicionada para o produto 139550 - A adição da garantia 143191 não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 139550.
+
+And Eu valido se a garantia 149535 foi adicionada para o produto 187574 - A adição da garantia 149535 (SUPORTE TV) não pode ser validada pois a mesma não está sendo adicionada automaticamente ao produto 139550.
+
+And Eu removo a garantia 140358 do produto 187574 - A garantia não pode ser removida, pois não está sendo adicionada ao produto automaticamente.
+
+
+PARTE 2
+
+    RGS-21
+
+Grupo de estoque 70 não se encontra na tabela MV_ESTOQUE_PRODUTO.
+
+
+    RGS-22 
+
+A garantia 192434 não pode ser removida nem adicionada pois não está sendo adicionada automaticamente.
+
+Ao se adicionar uma nova planilha o valor de certas garantias (no caso, AJUSTE DE PREÇO (LINHA MOVEIS) fica negativo, impossibilitando o fechamento total
+
+Pós segunda bateria de testes: And Eu seleciono a tabela 01 - TABELA NORMAL(01) para o produto 139756 - Não se ssabe se ainda se houve falha ao se tentar acessar o campo da tabela para seleção.
+
+
+    RGS-23
+
+A tabela 95 gera uma necessidade de liberação que não pode ser feita. Tomando como esperando o status 30 do pedido, é necessário usar outra tabela pra que o teste passe.
+
+
+    21, 24, 27 - Status do pedido 10. Deveria ser 30. Provavelmente problema com a tabela.
+
+    
+    RGS-25
+
+And Eu informo uma data e um turno disponivel - Já foi alterada a função de maneira análoga ao selecionar data.
+
+    RGS-26
+
+And Eu seleciono a opcao de entrega AGENDADA - Ainda nao se sabe o que ocorreu
+
+    RGS-28
+
+And Eu seleciono a loja disponivel 286 - "Aviso: Não foi possível encontrar estoque para produto 201197 - TV SONY 40KDL-40R485A LED FD nas Loja(s) de número 286., pois não foi encontrado nenhuma loja realizar a reserva.
+
+Altere o local de Reserva ou a Opção de Entrega e tente novamente."
+
+    RGS-29
+
+And Eu seleciono a loja disponivel 286 - "Aviso: Não foi possível encontrar estoque para produto 201197 - TV SONY 40KDL-40R485A LED FD nas Loja(s) de número 286., pois não foi encontrado nenhuma loja realizar a reserva.
+
+Altere o local de Reserva ou a Opção de Entrega e tente novamente."
+
+    RGS-35
+
+Given Eu executo o script de reset pedido_kit_com_promocao35.sql - Runtime exception: A instrução SQL a ser executada não pode ser vazia ou nula. O atributo PATH_ARQUIVO é  - CORRIGIDO. Agora funciona para qualquer sistema operacional.
+
+
+*35, 36, 37, 38, 39, 40 tiveram problema com sql
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+PROJETO VENDEDOR LINHA ESPECÍFICA (TESTES)
+
+Vendedor Linha Específica / Cadastro	Inclusao de departamentos associáveis;
+Vendedor Linha Específica / Cadastro	Exclusão de departamentos associáveis;
+Vendedor Linha Específica / Cadastro	Inclusão de associação de um vendedor ao departamento associável;
+Vendedor Linha Específica / Cadastro	Edição de associação de um vendedor ao departamento associável;
+Vendedor Linha Específica / Cadastro	Pesquisa de associação de um vendedor ao departamento associável;
+Vendedor Linha Específica / Pedido	Realizar pedido(pelo menos um produto dos departamentos configurados) com vendedor x departamento(produto) configurado, permitir o fechamento total;
+Vendedor Linha Específica / Pedido	Realizar pedido(nenhum dos produtos configurados) com vendedor x departamento(produto) não configurado, validar mensagem de bloqueio;
+
+
+FLUXO PRINCIPAL:
+
+Usuário: acessa e loga no sistema MV Lojas;
+Usuário: acessa o menu Administração -> Cadastro -> Departamentos Associáveis;
+Sistema MV_LOJAS: carrega tela de configuração de departamentos associáveis e lista as associações.
+Usuário: seleciona os departamentos; [RN01] [FA01]
+Usuário: clica no botão Salvar;
+Sistema MV_LOJAS: insere na tabela de departamentos associáveis;
+Sistema MV_LOJAS: apresenta mensagem de sucesso da configuração de departamentos associáveis. [MSG01]
+
+
+FLUXO ALTERNATIVO:
+
+Usuário: acessa e loga no sistema MV Lojas;
+Usuário: acessa o menu Administração -> Cadastro -> Departamentos Associáveis;
+Sistema MV_LOJAS: carrega tela de configuração de departamentos associáveis.
+Usuário: adiciona ou remove os departamentos associáveis; [RN01, RN02]
+Usuário: clica no botão Salvar;
+Sistema MV_LOJAS: atualiza a tabela de departamentos associáveis;
+Sistema MV_LOJAS: apresenta mensagem de sucesso da associação. [MSG01]
+
+
+Associação entre vendedor e departamento:
+Usuário: acessa e loga no sistema MV Lojas;
+Usuário: acessa o menu Administração -> Usuário -> Associar Usuário x Linha Produto;
+Sistema MV_LOJAS: carrega tela de associação de vendedores x departamento; [FA01]
+Usuário: clica no botão Nova Associação.
+Sistema MV_LOJAS: carrega o formulário de inserção de nova associação.
+Usuário: seleciona o usuário; [RN01]
+Usuário: seleciona o(s) departamento(s); [RN02]
+Usuário: clica no botão Salvar;
+Sistema MV_LOJAS: insere na tabela de associação de vendedores x departamento;
+Sistema MV_LOJAS: apresenta mensagem de sucesso da priorização; [MSG01]
+
+
+FA01 - Associação entre vendedor e departamento:
+Usuário: acessa e loga no sistema MV_Lojas;
+Usuário: acessa o menu Administração -> Usuário -> Associar Vendedor x Linha Produto;
+Sistema MV_LOJAS: carrega tela de associação de vendedores x departamento;
+Usuário: seleciona a associação  e clica no botão Alterar Associação;
+Usuário: seleciona/remove o(s) departamento(s); [RN02]
+Usuário: clica no botão Salvar;
+Sistema MV_LOJAS: atualiza a tabela de associação de vendedores x departamento;
+Sistema MV_LOJAS: apresenta mensagem de sucesso da associação. [MSG01]
+
+
+INCLUSÃO DE DEPARTAMENTOS ASSOCIÁVEIS
+
+Acessar Administração > Cadastro > Departamentos Associáveis .//*[@id='conteudoMenu']/li/a (função Eu acesso o menu $)
+
+Informar número do departamento 32 /html/body/div[2]/div/div[3]/div/p[1]/input
+
+Clicar botao salvar /html/body/div[2]/div/div[4]/div/button
+
+
+EXCLUSÃO DE DEPARTAMENTO ASSOCIÁVEIS
+
+
+
+Botão excluir /html/body/div[2]/div/div[3]/div/div/table/tbody/tr[1]/td[2]/a
+
+body > div:nth-child(2) > div > div:nth-child(3) > div > div > table > tbody > tr:nth-child(1) > td.text-right > a
+
+
+
+Inclusão de associação de um vendedor ao departamento associável
+
+INCLUSÃO DE ASSOCIAÇÃO DE UM VENDEDOR AO DEPARTAMENTO ASSOCIÁVEL
+
+Administração > Usuário > Associar Usuario X Departamento
+
+
+
+
+
